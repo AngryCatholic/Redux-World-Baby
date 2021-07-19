@@ -153,4 +153,7 @@ POLITICS_MR_K_DESC:0 "Theodore John Kaczynski is probably one of the most myster
  AMS_cathsoc:0 "American Christian People's Republic"
  AMS_cathsoc_DEF:0 "American Christian People's Republic"
  AMS_cathsoc_ADJ:0 "American"
+ AMS_national_death_state:0 "National Death State"
+ AMS_national_death_state_DEF:0 "National Death State"
+ AMS_national_death_state_ADJ:0 "Plague Doctor"
 
