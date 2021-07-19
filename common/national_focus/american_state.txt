@@ -523,6 +523,7 @@ focus_tree = {
 			    popularity = 0.05
 		    }
 			set_party_name = { ideology = fascist long_name = AMS_ChristianFascists name = AMS_ChristianFascists }
+			country_event = pence.19 #povertytim
 		}
 
 	}
@@ -532,6 +533,9 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = AMS_invited_the_radical
+		}
+		NOT = {
+			has_country_flag= AMS_catholic_soc
 		}
 		x = 13
 		y = 4
