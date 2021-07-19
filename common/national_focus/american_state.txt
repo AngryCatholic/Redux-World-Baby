@@ -2005,7 +2005,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_social_justice"
 			add_political_power = 80
-			add_popularity = { ideology = fascist popularity = 0.05 }
+			add_popularity = { ideology = revoutionary_socialist popularity = 0.05 }
 		}
 	}
 
