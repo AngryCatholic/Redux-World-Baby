@@ -38,7 +38,7 @@ AMS_kingdom_of_god_on_earth = {
     color_ui = rgb { 58 168 202 }
 }
 
-AMS_white_pelican = {
+AMS_cathsoc = {
     color = rgb { 144 18 14 }
     color_ui = rgb { 255 245 91 }
 }
@@ -46,4 +46,9 @@ AMS_white_pelican = {
 AMS_israelite = {
     color = rgb { 203 242 247 }
     color_ui = rgb { 255 245 91 }
+}
+
+AMS_National_Death_State = {
+    color = rgb { 30 30 30 }
+    color_ui = rgb { 58 168 202 }
 }
