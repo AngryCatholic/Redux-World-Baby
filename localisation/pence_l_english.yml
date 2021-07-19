@@ -150,4 +150,7 @@ POLITICS_MR_K_DESC:0 "Theodore John Kaczynski is probably one of the most myster
  AMS_israelite_fascist:0 "Yisra'el"
  AMS_israelite_fascist_DEF:0 "Bnei Yisra'el"
  AMS_israelite_fascist_ADJ:0 "Yisraelim"
+ AMS_cathsoc:0 "American Christian People's Republic"
+ AMS_cathsoc_DEF:0 "American Christian People's Republic"
+ AMS_cathsoc_ADJ:0 "American"
 
