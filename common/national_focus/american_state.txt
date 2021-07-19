@@ -1862,7 +1862,7 @@ focus_tree = {
                         log = "[GetDateText]: [Root.GetName]: Focus AMS_socialist_traditionalism"
 			add_stability= 0.05  
                         add_political_power= 50
-		    add_ideas = idea_ams_ultra_traditionalism
+		    add_ideas = idea_ams_cathbol_idealism
 		}
 	}
 
@@ -1880,7 +1880,7 @@ focus_tree = {
 		}
 		completion_reward = {
                         log = "[GetDateText]: [Root.GetName]: Focus AMS_holy_socialism"
-			add_ideas= AMS_catholic_state
+			add_ideas= AMS_holy_socialism
 			country_event = pence.12
 		}
 	}
@@ -2022,7 +2022,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus AMS_plain_catholicism"
+			log = "[GetDateText]: [Root.GetName]: Focus idea_ams_plain_catholicism"
 			add_ideas= idea_ams_preventing_sin
 			country_event = pence.9 #TEMPLEOSTEMPLEOSTEMPLEOS
 		}
@@ -2042,7 +2042,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_heaven_on_earth"
-			add_ideas= AMS_kingdom_of_god_on_earth
+			add_ideas= AMS_heaven_on_earth
 		}
 	}
 #End of focuses 
