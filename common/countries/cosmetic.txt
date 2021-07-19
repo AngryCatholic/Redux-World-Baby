@@ -48,7 +48,7 @@ AMS_israelite = {
     color_ui = rgb { 255 245 91 }
 }
 
-AMS_National_Death_State = {
+AMS_national_death_state = {
     color = rgb { 30 30 30 }
     color_ui = rgb { 58 168 202 }
 }
