@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 1000 y = 1000 }
+	continuous_focus_position = { x = 1000 y = 1800 }
 	focus = {
 		id = AMS_tear_up_the_treaty_of_columbus
 		icon = tear_treaty
