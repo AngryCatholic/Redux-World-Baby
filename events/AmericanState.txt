@@ -607,6 +607,7 @@ country_event = { # Fighting the Red Death
 		add_stability = 0.05
                 add_political_power = 100
 		set_country_flag = AMS_doctor_fauci_trap_remix
+		set_cosmetic_tag = AMS_national_death_state
 		create_country_leader = {
 	        name = "Doctor Fauci"
 		desc = "POLITICS_FAUCI_DESC"
@@ -636,7 +637,6 @@ country_event = { # We have to Flatten the curve
 
 	option = {
 		name = pence.13.a
-		set_cosmetic_tag = AMS_national_death_state
 		set_country_flag = AMS_death_state
 	}
 }
