@@ -1838,11 +1838,11 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_global_flag= pope_francis_elected
+			has_country_flag= AMS_catholic_soc
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_tradinista_revolution"
-			country_event = pence.5 #popetime
+			country_event = pence.13 #post-revolution
 		}
 	}
 
@@ -1881,7 +1881,7 @@ focus_tree = {
 		completion_reward = {
                         log = "[GetDateText]: [Root.GetName]: Focus AMS_holy_socialism"
 			add_ideas= AMS_holy_socialism
-			country_event = pence.12
+			country_event = pence.14
 		}
 	}
 
@@ -1899,7 +1899,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_franciscan_poverty"
-			country_event = pence.7 #povertytime
+			country_event = pence.15 #povertytime
 		}
 	}
 
@@ -1917,7 +1917,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_friends_in_rome"
-			country_event = pence.6 #paradiseonearthevent
+			country_event = pence.16 #Firends in tha rom
 		}
 	}
 
@@ -1958,7 +1958,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_peasant_crusade"
-			country_event = pence.8 #addoobtothisevent
+			country_event = pence.17 #addoobtothisevent
 		}
 	}
 
@@ -2024,7 +2024,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus idea_ams_plain_catholicism"
 			add_ideas= idea_ams_preventing_sin
-			country_event = pence.9 #TEMPLEOSTEMPLEOSTEMPLEOS
+			country_event = pence.18 #plain catholic
 		}
 	}
 
