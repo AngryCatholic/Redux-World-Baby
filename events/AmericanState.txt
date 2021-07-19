@@ -549,3 +549,70 @@ country_event = { # The Rebels move for the Capital
 		add_political_power = 100
 	}	
 }
+country_event = { # Reports of an Outbreak
+	id = pence.22
+	title = pence.22.t
+	desc = pence.22.d
+
+	fire_only_once = yes
+
+	trigger = {
+                has_country_flag = AMS_pope_peter_second
+	}
+
+	option = { #fuck me
+		name = pence.22.a
+		add_stability = -0.05
+                add_political_power = -100
+		hidden_effect = {
+		    country_event = { days = 4 id = pence.23 } 
+		}
+	}
+}
+
+country_event = { # Rise of Doctor Fauci
+	id = pence.23
+	title = pence.23.t
+	desc = pence.23.d
+
+	fire_only_once = yes
+
+	trigger = {
+                has_country_flag = AMS_pope_peter_second
+	}
+
+	option = { #fuck me
+		name = pence.23.a
+		add_stability = -0.05
+                add_political_power = -100
+		hidden_effect = {
+		    country_event = { days = 4 id = pence.24 } 
+		}
+	}
+}
+
+country_event = { # Fighting the Red Death
+	id = pence.24
+	title = pence.24.t
+	desc = pence.24.d
+
+	fire_only_once = yes
+
+	trigger = {
+                has_country_flag = AMS_pope_peter_second
+	}
+
+	option = { #TRUST THE EXPERTS
+		name = pence.24.a
+		add_stability = 0.05
+                add_political_power = 100
+		set_country_flag = AMS_doctor_fauci_trap_remix
+		set_cosmetic_tag = AMS_national_death_state
+	}
+		
+	option = { #It Aint Real
+		name = pence.24.b
+		add_stability = 0.05
+		add_political_power = 100
+	}	
+}
