@@ -1826,11 +1826,11 @@ focus_tree = {
 		}
 	}
 
-	#Focus for AVE PAPA
+	#Focus for Tradinista
 	focus = {
 		id = AMS_tradinista_revolution
 		icon = GFX_goal_TEX_focus_Catholic_Education
-		x = 8
+		x = 24
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
@@ -1846,15 +1846,15 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Ultra-Traditionalism
+	#Focus for SocTrads
 	focus = {
 		id = AMS_socialist_traditionalism
 		icon = GFX_goal_TEX_focus_Promote_Aristocracy
-		x = 6
+		x = 22
 		y = 9
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = AMS_ave_papa }
+		prerequisite = { focus = AMS_tradinista_revolution }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1866,15 +1866,15 @@ focus_tree = {
 		}
 	}
 
-	#Focus for The Apostolic State
+	#Focus for Holy Socialism
 	focus = {
 		id = AMS_holy_socialism
 		icon = GFX_goal_TEX_focus_Blur_the_Line
-		x = 8
+		x = 24
 		y = 9
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = AMS_ave_papa }
+		prerequisite = { focus = AMS_tradinista_revolution }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1885,15 +1885,15 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Poverty Economy
+	#Focus for Franciscan Poverty
 	focus = {
 		id = AMS_franciscan_poverty
 		icon = GFX_goal_TEX_focus_Catholic_Unions
-		x = 4
+		x = 22
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = AMS_ultratraditionalism }
+		prerequisite = { focus = AMS_socialist_traditionalism }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1903,15 +1903,15 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Paradise on Earth
+	#Focus for Pope Francis
 	focus = {
 		id = AMS_friends_in_rome
 		icon = GFX_goal_TEX_focus_Guadalupism
-		x = 8
+		x = 24
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = AMS_the_apostolic_state }
+		prerequisite = { focus = AMS_holy_socialism }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1921,19 +1921,19 @@ focus_tree = {
 		}
 	}
 
-	#Focus for To Cause the Rapture
+	#Focus foPeoples Bomb
 	focus = {
 		id = AMS_peoples_bomb
 		icon = GFX_goal_TEX_focus_Encourage_Conversions
-		x = 8
+		x = 24
 		y = 12
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = AMS_early_christian_culture 
+			focus = AMS_liberation_theology 
 		}
 		prerequisite = { 
-			focus = AMS_enforce_catholic_law 
+			focus = AMS_social_justice 
 		}
 		ai_will_do = {
 			factor = 1
@@ -1944,15 +1944,15 @@ focus_tree = {
 		}
 	}
 
-	#Focus for New Knighthoods
+	#Focus for Peasnt
 	focus = {
 		id = AMS_peasant_crusade
 		icon = GFX_goal_TEX_focus_Knights_of_Columbus
-		x = 10
+		x = 26
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = AMS_christian_militias }
+		prerequisite = { focus = AMS_plain_catholicism }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1962,19 +1962,19 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Early Christian Culture
+	#Focus for Liberatione
 	focus = {
 		id = AMS_liberation_theology
 		icon = GFX_goal_TEX_focus_Common_Man_Integralism
-		x = 5
+		x = 23
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = AMS_paradise_on_earth 
+			focus = AMS_friends_in_rome 
 		}
 		prerequisite = { 
-			focus = AMS_poverty_economy 
+			focus = AMS_franciscan_poverty 
 		}
 		ai_will_do = {
 			factor = 1
@@ -1985,19 +1985,19 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Enforce Catholic Law
+	#Focus for Social Justice
 	focus = {
 		id = AMS_social_justice
 		icon = GFX_goal_TEX_focus_Integral_America
-		x = 9
+		x = 25
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = AMS_paradise_on_earth 
+			focus = AMS_friends_in_rome 
 		}
 		prerequisite = { 
-			focus = AMS_new_knighthoods 
+			focus = AMS_peasant_crusade 
 		}
 		ai_will_do = {
 			factor = 1
@@ -2009,15 +2009,15 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Christian Militias
+	#Focus for Plain Ctahs
 	focus = {
 		id = AMS_plain_catholicism
 		icon = GFX_goal_TEX_focus_Cavalier_Identity
-		x = 10
+		x = 26
 		y = 9
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = AMS_ave_papa }
+		prerequisite = { focus = AMS_tradinista_revolution }
 		ai_will_do = {
 			factor = 1
 		}
@@ -2028,15 +2028,15 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Kingdom of God on Earth
+	#Focus for Oooh Baby Heaven is a Place on Earth
 	focus = {
 		id = AMS_heaven_on_earth
 		icon = GFX_goal_TEX_focus_AMERICAE_SANCTUS
-		x = 8
+		x = 24
 		y = 13
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = AMS_to_cause_the_rapture }
+		prerequisite = { focus = AMS_peoples_bomb }
 		ai_will_do = {
 			factor = 1
 		}
