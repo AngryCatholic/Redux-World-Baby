@@ -408,9 +408,9 @@ country_event = { # Holy Socialist Poverty
 }
 
 country_event = { # peasants
-	id = pence.16
-	title = pence.16.t
-	desc = pence.16.d
+	id = pence.17
+	title = pence.17.t
+	desc = pence.17.d
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -421,7 +421,7 @@ country_event = { # peasants
 	}
 
 	option = { # KOC
-		name = pence.16.a
+		name = pence.17.a
 		add_political_power = 25
 		load_oob = AMS_poor
 		add_stability = 0.15
@@ -433,9 +433,9 @@ country_event = { # peasants
 }
 
 country_event = { # TempleOS
-	id = pence.17
-	title = pence.17.t
-	desc = pence.17.d
+	id = pence.18
+	title = pence.18.t
+	desc = pence.18.d
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -446,7 +446,7 @@ country_event = { # TempleOS
 	}
 
 	option = { #Thank you Terr A. Davis?
-		name = pence.17.a
+		name = pence.18.a
 		add_stability = 0.05
                 add_political_power = 100
 	}
