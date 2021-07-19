@@ -2049,5 +2049,216 @@ focus_tree = {
 			add_ideas= AMS_heaven_on_earth
 		}
 	}
+	
+		focus = {
+		id = AMS_Trust_The_Experts
+		icon = abolish_state_atheism
+		x = 31
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_country_flag= AMS_doctor_fauci_trap_remix
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_Trust_The_Experts"
+			country_event = pence.13 #post-revolution
+			set_party_name = { ideology = fascist long_name = AMS_CDC_long name = AMS_CDC }
+		}
+
+	}
+
+	focus = {
+		id = AMS_New_Flagellants
+		icon = abolish_state_atheism
+		x = 29
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_Trust_The_Experts }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+                        log = "[GetDateText]: [Root.GetName]: Focus AMS_New_Flagellants"
+			add_stability= 0.05  
+                        add_political_power= 50
+		    add_ideas = idea_ams_new_flagellants
+		}
+	}
+
+	focus = {
+		id = AMS_National_Death_State
+		icon = abolish_state_atheism
+		x = 31
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_Trust_The_Experts }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+                        log = "[GetDateText]: [Root.GetName]: Focus AMS_National_Death_State"
+			add_ideas= AMS_National_Death_State
+			country_event = pence.14
+		}
+	}
+
+	focus = {
+		id = AMS_enfored_quarintine 
+		icon = abolish_state_atheism
+		x = 29
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_New_Flagellants }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_enfored_quarintine "
+			country_event = pence.15 #povertytime
+		}
+	}
+
+	focus = {
+		id = AMS_inviting_doctors
+		icon = abolish_state_atheism
+		x = 31
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_National_Death_State }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_inviting_doctors"
+			country_event = pence.16 #Firends in tha rom
+		}
+	}
+
+	focus = {
+		id = AMS_biological_weapons
+		icon = abolish_state_atheism
+		x = 31
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AMS_new_catholic_doctrine 
+		}
+		prerequisite = { 
+			focus = AMS_Doctor_Priests 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_biological_weapons"
+			add_nuclear_bombs = 10
+		}
+	}
+
+	focus = {
+		id = AMS_legion_of_empirics
+		icon = abolish_state_atheism
+		x = 33
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_bringing_out_the_dead }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_legion_of_empirics"
+			country_event = pence.17 #addoobtothisevent
+		}
+	}
+
+	focus = {
+		id = AMS_new_catholic_doctrine
+		icon = abolish_state_atheism
+		x = 30
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AMS_inviting_doctors 
+		}
+		prerequisite = { 
+			focus = AMS_enfored_quarintine  
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_new_catholic_doctrine"
+			add_political_power= 50
+		}
+	}
+
+	focus = {
+		id = AMS_Doctor_Priests
+		icon = abolish_state_atheism
+		x = 32
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AMS_inviting_doctors 
+		}
+		prerequisite = { 
+			focus = AMS_legion_of_empirics 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_Doctor_Priests"
+			add_political_power = 80
+			add_popularity = { ideology = fascist popularity = 0.05 }
+		}
+	}
+
+	focus = {
+		id = AMS_bringing_out_the_dead
+		icon = abolish_state_atheism
+		x = 33
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_Trust_The_Experts }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_bringing_out_the_dead"
+			add_ideas= idea_AMS_bringing_out_the_dead
+			country_event = pence.18 #plain catholic
+		}
+	}
+
+	focus = {
+		id = AMS_Hell_on_Earth
+		icon = abolish_state_atheism
+		x = 31
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_biological_weapons }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_Hell_on_Earth"
+			add_ideas= AMS_Hell_on_Earth
+		}
+	}
 #End of focuses 
  }
