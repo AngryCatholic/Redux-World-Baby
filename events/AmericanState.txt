@@ -471,3 +471,75 @@ country_event = { # TempleOS
                 add_political_power = 100
 	}
 }
+
+country_event = { # Rebels in Strom Land
+	id = pence.19
+	title = pence.19.t
+	desc = pence.19.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+                has_country_flag = invited_kevin_strom
+	}
+
+	option = { #fuck me
+		name = pence.19.a
+		add_stability = -0.05
+                add_political_power = -100
+		hidden_effect = {
+		    country_event = { days = 4 id = pence.20 } 
+		}
+	}
+}
+
+country_event = { # Followers of the White Pelican?
+	id = pence.20
+	title = pence.20.t
+	desc = pence.20.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+                has_country_flag = invited_kevin_strom
+	}
+
+	option = { #fuck me
+		name = pence.20.a
+		add_stability = -0.05
+                add_political_power = -100
+		hidden_effect = {
+		    country_event = { days = 4 id = pence.21 } 
+		}
+	}
+}
+
+country_event = { # The Rebels move for the Capital
+	id = pence.20
+	title = pence.20.t
+	desc = pence.20.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+                has_country_flag = invited_kevin_strom
+	}
+
+	option = { #rebels win
+		name = pence.20.a
+		add_stability = 0.05
+                add_political_power = 100
+		set_country_flag = AMS_catholic_soc
+		set_politics = {
+	        ruling_party = revolutionary_socialist
+	        elections_allowed = no
+	}
+	option = { #rebels loose
+		name = pence.20.a
+		add_stability = 0.05
+		add_political_power = 100
+	}	
+}
