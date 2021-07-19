@@ -64,7 +64,7 @@ country_event = {
 		set_country_flag = national_syndicalists_come_out_on_top
 		add_political_power = -50
 		ai_chance = {
-			factor = 30
+			factor = 25
 		}
 	}
 	
@@ -73,9 +73,18 @@ country_event = {
 		set_country_flag = communists_come_out_on_top
 		add_political_power = -100
 		ai_chance = {
-			factor = 10
+			factor = 5
 		}
 	}
+	
+	option = {    #Bezoist
+		name = natbolamerica.2.o4
+		set_country_flag = bezoists_come_out_on_top
+		add_political_power = -100
+		ai_chance = {
+			factor = 10
+		}
+	}	
 }
 
 #Emergency presidential election
