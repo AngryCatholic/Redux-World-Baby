@@ -2022,8 +2022,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus idea_ams_plain_catholicism"
-			add_ideas= idea_ams_preventing_sin
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_plain_catholicism"
+			add_ideas= idea_ams_plain_catholicism
 			country_event = pence.18 #plain catholic
 		}
 	}
