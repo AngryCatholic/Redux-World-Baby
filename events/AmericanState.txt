@@ -533,6 +533,7 @@ country_event = { # The Rebels move for the Capital
 		add_stability = 0.05
                 add_political_power = 100
 		set_country_flag = AMS_catholic_soc
+		set_cosmetic_tag = AMS_cathsoc
 		set_politics = {
 	        ruling_party = revolutionary_socialist
 	        elections_allowed = no
