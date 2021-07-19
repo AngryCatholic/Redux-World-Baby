@@ -676,7 +676,7 @@ ideas = {
 				army_attack_factor = 0.025
 				training_time_army_factor = -0.025
 				conscription = 0.005
-				fascist_drift = 0.02	
+				revolutionary_socialist_drift = 0.02	
 			}
 		}
 
