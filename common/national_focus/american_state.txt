@@ -2050,7 +2050,7 @@ focus_tree = {
 		}
 	}
 	
-		focus = {
+	focus = {
 		id = AMS_Trust_The_Experts
 		icon = uk_concentration_camps
 		x = 30
