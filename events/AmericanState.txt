@@ -517,9 +517,9 @@ country_event = { # Followers of the White Pelican?
 }
 
 country_event = { # The Rebels move for the Capital
-	id = pence.20
-	title = pence.20.t
-	desc = pence.20.d
+	id = pence.21
+	title = pence.21.t
+	desc = pence.21.d
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -529,7 +529,7 @@ country_event = { # The Rebels move for the Capital
 	}
 
 	option = { #rebels win
-		name = pence.20.a
+		name = pence.21.a
 		add_stability = 0.05
                 add_political_power = 100
 		set_country_flag = AMS_catholic_soc
@@ -538,7 +538,7 @@ country_event = { # The Rebels move for the Capital
 	        elections_allowed = no
 	}
 	option = { #rebels loose
-		name = pence.20.a
+		name = pence.21.a
 		add_stability = 0.05
 		add_political_power = 100
 	}	
