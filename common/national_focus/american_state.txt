@@ -1826,6 +1826,224 @@ focus_tree = {
 		}
 	}
 
+	#Focus for AVE PAPA
+	focus = {
+		id = AMS_tradinista_revolution
+		icon = GFX_goal_TEX_focus_Catholic_Education
+		x = 8
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_global_flag= pope_francis_elected
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_tradinista_revolution"
+			country_event = pence.5 #popetime
+		}
+	}
 
+	#Focus for Ultra-Traditionalism
+	focus = {
+		id = AMS_socialist_traditionalism
+		icon = GFX_goal_TEX_focus_Promote_Aristocracy
+		x = 6
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_ave_papa }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+                        log = "[GetDateText]: [Root.GetName]: Focus AMS_socialist_traditionalism"
+			add_stability= 0.05  
+                        add_political_power= 50
+		    add_ideas = idea_ams_ultra_traditionalism
+		}
+	}
+
+	#Focus for The Apostolic State
+	focus = {
+		id = AMS_holy_socialism
+		icon = GFX_goal_TEX_focus_Blur_the_Line
+		x = 8
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_ave_papa }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+                        log = "[GetDateText]: [Root.GetName]: Focus AMS_holy_socialism"
+			add_ideas= AMS_catholic_state
+			country_event = pence.12
+		}
+	}
+
+	#Focus for Poverty Economy
+	focus = {
+		id = AMS_franciscan_poverty
+		icon = GFX_goal_TEX_focus_Catholic_Unions
+		x = 4
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_ultratraditionalism }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_franciscan_poverty"
+			country_event = pence.7 #povertytime
+		}
+	}
+
+	#Focus for Paradise on Earth
+	focus = {
+		id = AMS_friends_in_rome
+		icon = GFX_goal_TEX_focus_Guadalupism
+		x = 8
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_the_apostolic_state }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_friends_in_rome"
+			country_event = pence.6 #paradiseonearthevent
+		}
+	}
+
+	#Focus for To Cause the Rapture
+	focus = {
+		id = AMS_peoples_bomb
+		icon = GFX_goal_TEX_focus_Encourage_Conversions
+		x = 8
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AMS_early_christian_culture 
+		}
+		prerequisite = { 
+			focus = AMS_enforce_catholic_law 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_peoples_bomb"
+			add_nuclear_bombs = 10
+		}
+	}
+
+	#Focus for New Knighthoods
+	focus = {
+		id = AMS_peasant_crusade
+		icon = GFX_goal_TEX_focus_Knights_of_Columbus
+		x = 10
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_christian_militias }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_peasant_crusade"
+			country_event = pence.8 #addoobtothisevent
+		}
+	}
+
+	#Focus for Early Christian Culture
+	focus = {
+		id = AMS_liberation_theology
+		icon = GFX_goal_TEX_focus_Common_Man_Integralism
+		x = 5
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AMS_paradise_on_earth 
+		}
+		prerequisite = { 
+			focus = AMS_poverty_economy 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_liberation_theology"
+			add_political_power= 50
+		}
+	}
+
+	#Focus for Enforce Catholic Law
+	focus = {
+		id = AMS_social_justice
+		icon = GFX_goal_TEX_focus_Integral_America
+		x = 9
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AMS_paradise_on_earth 
+		}
+		prerequisite = { 
+			focus = AMS_new_knighthoods 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_social_justice"
+			add_political_power = 80
+			add_popularity = { ideology = fascist popularity = 0.05 }
+		}
+	}
+
+	#Focus for Christian Militias
+	focus = {
+		id = AMS_plain_catholicism
+		icon = GFX_goal_TEX_focus_Cavalier_Identity
+		x = 10
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_ave_papa }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_plain_catholicism"
+			add_ideas= idea_ams_preventing_sin
+			country_event = pence.9 #TEMPLEOSTEMPLEOSTEMPLEOS
+		}
+	}
+
+	#Focus for Kingdom of God on Earth
+	focus = {
+		id = AMS_heaven_on_earth
+		icon = GFX_goal_TEX_focus_AMERICAE_SANCTUS
+		x = 8
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_to_cause_the_rapture }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_heaven_on_earth"
+			add_ideas= AMS_kingdom_of_god_on_earth
+		}
+	}
 #End of focuses 
  }
