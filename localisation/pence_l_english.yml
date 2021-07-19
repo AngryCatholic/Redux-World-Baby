@@ -94,7 +94,7 @@ POLITICS_MR_K_DESC:0 "Theodore John Kaczynski is probably one of the most myster
  AMS_National_Death_State:0 "National Death State"
  AMS_National_Death_State_desc:0 ""
  AMS_enfored_quarintine:0 "Enforcing the Quarintine"
- AMS_enfored_quarintine _desc:0 ""
+ AMS_enfored_quarintine_desc:0 ""
  AMS_inviting_doctors:0 "Inviting Doctors"
  AMS_inviting_doctors_desc:0 ""
  AMS_biological_weapons:0 "Biological Weapons"
