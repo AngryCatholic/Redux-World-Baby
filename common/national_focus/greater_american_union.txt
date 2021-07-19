@@ -1105,7 +1105,7 @@ focus_tree = {
 		icon = torch_industry
 		cost = 7.2
 		prerequisite = {
-			focus = GAU_military_loyalty
+			focus = GAU_paper_eagle
 		}
 		x = 28
 		y = 5
@@ -1121,7 +1121,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAU_the_dictator_rots
 		}
-		x = 31
+		x = 32
 		y = 1
 		completion_reward = {
 		    country_event = { id = natbolamerica.3 }
@@ -1141,7 +1141,7 @@ focus_tree = {
 		available = {
 		    has_country_flag = elected_general_robinson
 		}
-		x = 29
+		x = 31
 		y = 2
 		completion_reward = {
 		    set_politics = {
@@ -1169,7 +1169,7 @@ focus_tree = {
 		available = {
 		    has_country_flag = elected_pastor_phelps
 		}
-		x = 31
+		x = 30
 		y = 2
 		completion_reward = {
 		    set_politics = {
@@ -1197,7 +1197,7 @@ focus_tree = {
 		available = {
 		    has_country_flag = elected_madame_welch
 		}
-		x = 33
+		x = 32
 		y = 2
 		completion_reward = {
 		    set_politics = {
