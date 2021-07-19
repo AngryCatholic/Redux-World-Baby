@@ -1,0 +1,213 @@
+﻿create_field_marshal = {
+	name = "Peter Schoomaker"
+	picture = "Portrait_Peter_Schoomaker.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Bryan D. Brown"
+	picture = "Portrait_Bryan_D_Brown.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Eric B. Schoomaker"
+	picture = "Portrait_Eric_B_Schoomaker.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Gustave F. Perna"
+	picture = "Portrait_Gustave_F_Perna.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "James Hart"
+	picture = "Portrait_James_Hart.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "John M. Murray"
+	picture = "Portrait_John_M_Murray.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Keith Alexander"
+	picture = "Portrait_Keith_Alexander.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Robert Brooks Brown"
+	picture = "Portrait_Robert_Brooks_Brown.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Raymond A. Thomas III"
+	picture = "Portrait_Raymond_A_Thomas_III.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Michael J. Williams"
+	picture = "Portrait_Michael_J_Williams.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Michael Flynn"
+	picture = "Portrait_Michael_Flynn.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Paul LaCamera"
+	picture = "Portrait_Paul_LaCamera.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Kevin P. Byrnes"
+	picture = "Portrait_Kevin_P_Byrnes.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Robert Magnus"
+	picture = "Portrait_Robert_Magnus.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Pat Bridges"
+	picture = "Portrait_AMS_Pat_Bridges.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Henry G. Ulrich III"
+	picture = "Portrait_Henry_G_Ulrich_III.dds"
+	traits = {  }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "James G. Stavridis"
+	picture = "Portrait_James_G_Stavridis.dds"
+	traits = {  }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Karl Schultz"
+	picture = "Portrait_Karl_Schultz.dds"
+	traits = {  }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Walter Doran"
+	picture = "Portrait_Walter_Doran.dds"
+	traits = {  }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "William J. Fallon"
+	picture = "Portrait_William_J_Fallon.dds"
+	traits = {  }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "John C. Harvey Jr."
+	picture = "Portrait_John_C_Harvey_Jr.dds"
+	traits = {  }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Craig S. Faller"
+	picture = "Portrait_Craig_S_Faller.dds"
+	traits = {  }
+	skill = 2
+}
