@@ -679,6 +679,89 @@ ideas = {
 				revolutionary_socialist_drift = 0.02	
 			}
 		}
+		
+		idea_ams_new_flagellants = {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = red_catholic_alliance
+			
+			removal_cost = -1
+			
+			modifier = {
+				fascist_drift = 0.01
+				MONTHLY_POPULATION = 0.02 
+				army_morale_factor = 0.1 
+			}
+		}
+
+		AMS_National_Death_State = {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = red_cardinals
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.05
+				army_attack_factor = 0.025
+				fascist_drift = 0.06	
+			}
+		}
+		
+		idea_AMS_bringing_out_the_dead = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = revolutionary_welfare
+			
+			modifier = {
+				crypto_strength = 1
+				decryption_power = 10
+				research_speed_factor = -0.05
+
+			}
+		}
+
+		AMS_Hell_on_Earth = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = crusader_morale
+			
+			modifier = {
+				army_morale_factor = 0.05
+				army_attack_factor = 0.025
+				training_time_army_factor = -0.025
+				conscription = 0.005
+				fascist_drift = 0.02	
+			}
+		}
 
 		idea_ams_effective_foreign_policy = {
 			allowed = {
