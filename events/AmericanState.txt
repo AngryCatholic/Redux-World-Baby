@@ -363,7 +363,6 @@ country_event = { # Post-Revolution Period
 
 	option = {
 		name = pence.13.a
-		set_cosmetic_tag = AMS_CATHBOL
                 set_country_flag = AMS_cathbol_state
 	}
 }
@@ -538,8 +537,14 @@ country_event = { # The Rebels move for the Capital
 	        ruling_party = revolutionary_socialist
 	        elections_allowed = no
 	}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.35
+		}
+	}
+		
 	option = { #rebels loose
-		name = pence.21.a
+		name = pence.21.b
 		add_stability = 0.05
 		add_political_power = 100
 	}	
