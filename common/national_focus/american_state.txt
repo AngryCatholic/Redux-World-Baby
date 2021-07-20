@@ -1910,7 +1910,7 @@ focus_tree = {
 	#Focus for Pope Francis
 	focus = {
 		id = AMS_friends_in_rome
-		icon = abolish_state_atheism
+		icon = focus_pope_friend
 		x = 24
 		y = 10
 		cost = 10
