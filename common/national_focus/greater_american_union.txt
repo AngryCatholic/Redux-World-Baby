@@ -58,7 +58,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GAU_the_dictator_rots
 		}
-		x = 24
+		x = 25
 		y = 0
 		available = {
 		    has_country_flag = bernie_sanders_is_dead
@@ -834,7 +834,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAU_state_funeral_for_sanders
 		}
-		x = 24
+		x = 25
 		y = 1
 		completion_reward = {
 		    country_event = { id = natbolamerica.2 }
@@ -1121,7 +1121,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAU_the_dictator_rots
 		}
-		x = 32
+		x = 31
 		y = 1
 		completion_reward = {
 		    country_event = { id = natbolamerica.3 }
@@ -1141,7 +1141,7 @@ focus_tree = {
 		available = {
 		    has_country_flag = elected_general_robinson
 		}
-		x = 31
+		x = 32
 		y = 2
 		completion_reward = {
 		    set_politics = {
@@ -1197,7 +1197,7 @@ focus_tree = {
 		available = {
 		    has_country_flag = elected_madame_welch
 		}
-		x = 32
+		x = 34
 		y = 2
 		completion_reward = {
 		    set_politics = {
