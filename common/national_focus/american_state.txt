@@ -1892,7 +1892,7 @@ focus_tree = {
 	#Focus for Franciscan Poverty
 	focus = {
 		id = AMS_franciscan_poverty
-		icon = abolish_state_atheism
+		icon = focus_red_cardinals
 		x = 22
 		y = 10
 		cost = 10
@@ -1928,7 +1928,7 @@ focus_tree = {
 	#Focus foPeoples Bomb
 	focus = {
 		id = AMS_peoples_bomb
-		icon = abolish_state_atheism
+		icon = the_final_struggle
 		x = 24
 		y = 12
 		cost = 10
@@ -2035,7 +2035,7 @@ focus_tree = {
 	#Focus for Oooh Baby Heaven is a Place on Earth
 	focus = {
 		id = AMS_heaven_on_earth
-		icon = abolish_state_atheism
+		icon = GFX_goal_TEX_focus_Encourage_Conversions
 		x = 24
 		y = 13
 		cost = 10
