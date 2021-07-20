@@ -630,7 +630,7 @@ country_event = { # We have to Flatten the curve
 	trigger = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Doctor Fauci"
+			name = "Anthony Fauci"
 		}
 	}
 
