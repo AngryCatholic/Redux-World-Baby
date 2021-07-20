@@ -1833,7 +1833,7 @@ focus_tree = {
 	#Focus for Tradinista
 	focus = {
 		id = AMS_tradinista_revolution
-		icon = abolish_state_atheism
+		icon = focus_tradinista
 		x = 24
 		y = 8
 		cost = 10
@@ -1853,7 +1853,7 @@ focus_tree = {
 	#Focus for SocTrads
 	focus = {
 		id = AMS_socialist_traditionalism
-		icon = abolish_state_atheism
+		icon = focus_socialist_trad
 		x = 22
 		y = 9
 		cost = 10
@@ -1873,7 +1873,7 @@ focus_tree = {
 	#Focus for Holy Socialism
 	focus = {
 		id = AMS_holy_socialism
-		icon = abolish_state_atheism
+		icon = focus_holy_socialism
 		x = 24
 		y = 9
 		cost = 10
@@ -1951,7 +1951,7 @@ focus_tree = {
 	#Focus for Peasnt
 	focus = {
 		id = AMS_peasant_crusade
-		icon = abolish_state_atheism
+		icon = focus_peasant_crusade
 		x = 26
 		y = 10
 		cost = 10
@@ -1969,7 +1969,7 @@ focus_tree = {
 	#Focus for Liberatione
 	focus = {
 		id = AMS_liberation_theology
-		icon = abolish_state_atheism
+		icon = focus_liberation_theo
 		x = 23
 		y = 11
 		cost = 10
@@ -2016,7 +2016,7 @@ focus_tree = {
 	#Focus for Plain Ctahs
 	focus = {
 		id = AMS_plain_catholicism
-		icon = abolish_state_atheism
+		icon = focus_plain_cath
 		x = 26
 		y = 9
 		cost = 10
