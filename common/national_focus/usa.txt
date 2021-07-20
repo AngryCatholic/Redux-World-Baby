@@ -5795,7 +5795,14 @@ focus_tree = {
 			has_country_flag= USA_mujahideen
 		}
 		completion_reward = {
-			country_event = usa.300 
+			army_experience = 25
+			country_event = usa.300
+			set_party_name = { ideology = fascist long_name = USA_military_junta name = USA_military_junta }
+			create_country_leader = {
+	           		name = "Sulayman al-Faris"
+	            		picture = "Portrait_USA_John_Walker_Lindh.dds"
+	           		ideology = jihadist_ideology
+			}
 		}
 	}
 
