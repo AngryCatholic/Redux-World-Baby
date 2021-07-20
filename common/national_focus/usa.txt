@@ -5804,10 +5804,11 @@ focus_tree = {
 			army_experience = 25
 			country_event = usa.300
 			set_party_name = { ideology = fascist long_name = USA_american_mujahideen name = USA_american_mujahideen }
+			set_cosmetic_tag = USA_islamic_emirate			
 			create_country_leader = {
 	           		name = "Sulayman al-Faris"
 	            		picture = "Portrait_USA_John_Walker_Lindh.dds"
-	           		ideology = jihadist_ideology
+	           		ideology = fascist_ideology
 			}
 		}
 	}
@@ -5878,7 +5879,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_war_support= 5  
+			add_war_support= 0.05  
 			add_political_power= 50
 			add_popularity = { ideology = fascist popularity = 0.05 }
 		}
@@ -5943,7 +5944,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = 0.05  
-			add_war_support = 5
+			add_war_support = 0.05
 		}
 	}
 
@@ -6056,7 +6057,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_war_support = 5
+		    create_wargoal = {
+			    type = puppet_wargoal_focus
+			    target = SOV
+		    }
 		}
-	}	
+
+	}
 }
