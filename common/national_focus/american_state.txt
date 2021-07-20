@@ -2065,7 +2065,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_Trust_The_Experts"
-			country_event = pence.13 #post-revolution
+			country_event = pence.25 #post-revolution
 			set_party_name = { ideology = fascist long_name = AMS_CDC_long name = AMS_CDC }
 		}
 
@@ -2104,7 +2104,7 @@ focus_tree = {
 		completion_reward = {
                         log = "[GetDateText]: [Root.GetName]: Focus AMS_National_Death_State"
 			add_ideas= AMS_National_Death_State
-			country_event = pence.14
+			country_event = pence.27
 		}
 	}
 
@@ -2121,7 +2121,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_enfored_quarintine "
-			country_event = pence.15 #povertytime
+			country_event = pence.28 #povertytime
 		}
 	}
 
@@ -2138,7 +2138,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_inviting_doctors"
-			country_event = pence.16 #Firends in tha rom
+			country_event = pence.26 #Firends in tha rom
 		}
 	}
 
@@ -2177,7 +2177,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_legion_of_empirics"
-			country_event = pence.17 #addoobtothisevent
+			country_event = pence.29 #addoobtothisevent
 		}
 	}
 
@@ -2240,7 +2240,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_bringing_out_the_dead"
 			add_ideas= idea_AMS_bringing_out_the_dead
-			country_event = pence.18 #plain catholic
+			country_event = pence.30 #plain catholic
 		}
 	}
 
