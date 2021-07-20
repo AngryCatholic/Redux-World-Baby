@@ -2110,7 +2110,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_enfored_quarintine 
-		icon = uk_concentration_camps
+		icon = focus_enforce_quarantine
 		x = 28
 		y = 10
 		cost = 10
