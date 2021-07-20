@@ -2104,7 +2104,7 @@ focus_tree = {
 		completion_reward = {
                         log = "[GetDateText]: [Root.GetName]: Focus AMS_National_Death_State"
 			add_ideas= AMS_National_Death_State
-			country_event = pence.27
+			country_event = pence.26
 		}
 	}
 
@@ -2121,7 +2121,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_enfored_quarintine "
-			country_event = pence.28 #povertytime
+			country_event = pence.27 #povertytime
 		}
 	}
 
@@ -2138,7 +2138,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_inviting_doctors"
-			country_event = pence.26 #Firends in tha rom
+			country_event = pence.28 #Firends in tha rom
 		}
 	}
 
