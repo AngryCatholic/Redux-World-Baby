@@ -2092,7 +2092,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_National_Death_State
-		icon = uk_concentration_camps
+		icon = focus_national_death_state
 		x = 30
 		y = 9
 		cost = 10
