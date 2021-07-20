@@ -2144,7 +2144,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_biological_weapons
-		icon = increase_healthcare_coverage
+		icon = focus_bio_weapons
 		x = 30
 		y = 12
 		cost = 10
