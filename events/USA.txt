@@ -5269,8 +5269,8 @@ country_event = {
 		popularity = 0.2
 		}
 		create_country_leader = {
-	        name = "Joseph Manchin III"
-	        picture = "Portrait_USA_Joe_Manchin.dds"
+	        name = "Jim Justice"
+	        picture = "Portrait_USA_Jim_Jutice.dds"
 	        ideology = american_conservative
 		}
 		set_politics = {
