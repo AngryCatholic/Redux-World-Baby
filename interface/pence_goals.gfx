@@ -105,7 +105,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_bio_weapons"
 		texturefile = "gfx/interface/goals/focus_bio_weapons.dds"
-	}	
+	}
+	SpriteType = {
+		name = "focus_hell_on_earth"
+		texturefile = "gfx/interface/goals/focus_hell_on_earth.dds"
+	}
 	
 }	
 	
