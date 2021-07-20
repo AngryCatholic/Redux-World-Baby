@@ -5780,4 +5780,270 @@ focus_tree = {
 		}
 
 	}
+	#Focus for American Mujahideen
+	focus = {
+		id = USA_american_mujahideen
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_country_flag= USA_mujahideen
+		}
+		completion_reward = {
+			country_event = usa.300 
+		}
+	}
+
+	#Focus for Jefferson and Islam
+	focus = {
+		id = USA_jefferson_and_islam
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_american_mujahideen }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= USA_american_islam
+		}
+	}
+
+	#Focus for Islam is Anti-Communism!
+	focus = {
+		id = USA_islam_is_anticommunism
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_american_mujahideen }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05  
+			add_political_power= 150
+		}
+	}
+
+	#Focus for Honoring our Emir
+	focus = {
+		id = USA_honoring_our_emir
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_american_mujahideen }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.301
+
+		}
+	}
+
+	#Focus for Islam in the Education System
+	focus = {
+		id = USA_islam_in_the_education_system
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_islam_is_anticommunism }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support= 5  
+			add_political_power= 50
+			add_popularity = { ideology = fascist popularity = 0.05 }
+		}
+	}
+
+	#Focus for American Sharia
+	focus = {
+		id = USA_american_sharia
+		icon = GFX_goal_unknown
+		x = 7
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_islam_is_anticommunism 
+		}
+		prerequisite = { 
+			focus = USA_jefferson_and_islam 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= USA_american_sharia
+		}
+	}
+
+	#Focus for Meeting with bin Laden
+	focus = {
+		id = USA_meeting_with_bin_laden
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_jefferson_and_islam 
+		}
+		prerequisite = { 
+			focus = USA_honoring_our_emir 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.302 
+
+		}
+	}
+
+	#Focus for Funding Anti-Soviet Rebels
+	focus = {
+		id = USA_funding_antisoviet_rebels
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_honoring_our_emir }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability = 0.05  
+			add_war_support = 5
+		}
+	}
+
+	#Focus for A New Great Revival
+	focus = {
+		id = USA_a_new_great_revival
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_islam_in_the_education_system 
+		}
+		prerequisite = { 
+			focus = USA_american_sharia 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.303
+			add_ideas= USA_islamic_rising
+		}
+	}
+
+	#Focus for American Arabic
+	focus = {
+		id = USA_american_arabic
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_american_sharia 
+		}
+		prerequisite = { 
+			focus = USA_meeting_with_bin_laden 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05  
+			add_political_power = 80
+			add_popularity = { ideology = fascist popularity = 0.05 }
+		}
+	}
+
+	#Focus for A Great Jihad against Communism
+	focus = {
+		id = USA_a_great_jihad_against_communism
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_funding_antisoviet_rebels 
+		}
+		prerequisite = { 
+			focus = USA_meeting_with_bin_laden 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= USA_jihad
+		}
+	}
+
+	#Focus for God is Great!
+	focus = {
+		id = USA_god_is_great
+		icon = GFX_goal_unknown
+		x = 7
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_american_arabic 
+		}
+		prerequisite = { 
+			focus = USA_a_new_great_revival 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.304
+		}
+	}
+
+	#Focus for Against the Great Satan!
+	focus = {
+		id = USA_against_the_great_satan
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_a_great_jihad_against_communism 
+		}
+		prerequisite = { 
+			focus = USA_american_arabic 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support = 5
+		}
+	}	
 }
