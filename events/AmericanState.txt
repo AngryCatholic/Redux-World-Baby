@@ -604,15 +604,14 @@ country_event = { # Fighting the Red Death
 
 	option = { #TRUST THE EXPERTS
 		name = pence.24.a
-		add_stability = 0.05
-                add_political_power = 100
-		set_country_flag = AMS_doctor_fauci_trap_remix
-		set_cosmetic_tag = AMS_national_death_state
 		create_country_leader = {
 	        name = "Anthony Fauci"
 	        picture = "Portrait_AMS_fauci.dds"
 	        ideology = falangist
         }
+		set_country_flag = AMS_doctor_fauci_trap_remix
+		set_cosmetic_tag = AMS_national_death_state
+	}
 	
 	option = { #It Aint Real
 		name = pence.24.b
