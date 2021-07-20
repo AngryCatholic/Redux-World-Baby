@@ -93,6 +93,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_dead_needem"
 		texturefile = "gfx/interface/goals/focus_dead_needem.dds"
+	}
+	SpriteType = {
+		name = "focus_enforce_quarantine"
+		texturefile = "gfx/interface/goals/focus_enforce_quarantine.dds"
 	}	
 	
 	
