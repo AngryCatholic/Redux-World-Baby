@@ -53,7 +53,7 @@ AMS_national_death_state = {
     color_ui = rgb { 58 168 202 }
 }
 
-USA_emirate = {
+USA_islamic_emirate = {
     color = { 171  190  152 }
     color_ui = rgb { 171  190  152 }
 }
