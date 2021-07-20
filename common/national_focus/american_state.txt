@@ -2127,7 +2127,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_inviting_doctors
-		icon = uk_concentration_camps
+		icon = focus_friends_in_the_medicinal_council
 		x = 30
 		y = 10
 		cost = 10
@@ -2166,7 +2166,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_legion_of_empirics
-		icon = uk_concentration_camps
+		icon = military_salute
 		x = 32
 		y = 10
 		cost = 10
@@ -2183,7 +2183,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_new_catholic_doctrine
-		icon = uk_concentration_camps
+		icon = focus_fund_christian_charities
 		x = 29
 		y = 11
 		cost = 10
@@ -2205,7 +2205,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_Doctor_Priests
-		icon = uk_concentration_camps
+		icon = tech_sharing
 		x = 31
 		y = 11
 		cost = 10
