@@ -2052,7 +2052,7 @@ focus_tree = {
 	
 	focus = {
 		id = AMS_Trust_The_Experts
-		icon = uk_concentration_camps
+		icon = focus_experts_trusted
 		x = 30
 		y = 8
 		cost = 10
@@ -2073,7 +2073,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_New_Flagellants
-		icon = uk_concentration_camps
+		icon = focus_new_flagellants
 		x = 28
 		y = 9
 		cost = 10
@@ -2228,7 +2228,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_bringing_out_the_dead
-		icon = uk_concentration_camps
+		icon = focus_dead_needem
 		x = 32
 		y = 9
 		cost = 10
