@@ -1416,6 +1416,9 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_restore_order
 		}
+		NOT = {
+			has_country_flag= USA_mujahideen
+		}	
 		mutually_exclusive = {
 			focus = USA_a_legitimate_ruler
 		}
@@ -1548,6 +1551,9 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_restore_order
 		}
+		NOT = {
+			has_country_flag= USA_mujahideen
+		}		
 		mutually_exclusive = {
 			focus = USA_continue_military_leadership
 		}
