@@ -110,7 +110,30 @@ spriteTypes = {
 		name = "focus_hell_on_earth"
 		texturefile = "gfx/interface/goals/focus_hell_on_earth.dds"
 	}
-	
+	SpriteType = {
+		name = "focus_tradinista"
+		texturefile = "gfx/interface/goals/focus_tradinista.dds"
+	}
+	SpriteType = {
+		name = "focus_peasant_crusade"
+		texturefile = "gfx/interface/goals/focus_peasant_crusade.dds"
+	}			
+	SpriteType = {
+		name = "focus_socialist_trad"
+		texturefile = "gfx/interface/goals/focus_socialist_trad.dds"
+	}
+	SpriteType = {
+		name = "focus_liberation_theo"
+		texturefile = "gfx/interface/goals/focus_liberation_theo.dds"
+	}	
+	SpriteType = {
+		name = "focus_plain_cath"
+		texturefile = "gfx/interface/goals/focus_plain_cath.dds"
+	}	
+	SpriteType = {
+		name = "focus_holy_socialism"
+		texturefile = "gfx/interface/goals/focus_holy_socialism.dds"
+	}	
 }	
 	
 }
