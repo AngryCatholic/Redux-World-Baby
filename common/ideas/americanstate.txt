@@ -717,6 +717,9 @@ ideas = {
 				army_morale_factor = 0.05
 				army_attack_factor = 0.025
 				fascist_drift = 0.06	
+				crypto_strength = 1
+				decryption_power = 10
+				research_speed_factor = -0.05
 			}
 		}
 		
@@ -734,9 +737,7 @@ ideas = {
 			picture = revolutionary_welfare
 			
 			modifier = {
-				crypto_strength = 1
-				decryption_power = 10
-				research_speed_factor = -0.05
+				MONTHLY_POPULATION = 0.20
 
 			}
 		}
