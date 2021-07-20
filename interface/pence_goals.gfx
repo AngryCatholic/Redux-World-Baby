@@ -133,6 +133,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_holy_socialism"
 		texturefile = "gfx/interface/goals/focus_holy_socialism.dds"
+	}
+	SpriteType = {
+		name = "focus_pope_friend"
+		texturefile = "gfx/interface/goals/focus_pope_friend.dds"
 	}	
 }	
 	
