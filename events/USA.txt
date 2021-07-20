@@ -3150,6 +3150,7 @@ country_event = {
 	
 	option = {   
 		name = usa.104.o1
+		set_country_flag = USA_mil_takeover		
 		hidden_effect = {
 			every_country = {
 		        limit = {
