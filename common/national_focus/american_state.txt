@@ -2246,7 +2246,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_Hell_on_Earth
-		icon = uk_concentration_camps
+		icon = focus_hell_on_earth
 		x = 30
 		y = 13
 		cost = 10
