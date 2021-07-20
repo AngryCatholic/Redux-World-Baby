@@ -447,6 +447,72 @@ ideas = {
 				army_org_factor = -0.025
 			}
 		}
+		
+		idea_gau_strict_freedoms = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				army_morale_factor = 0.05
+				army_org_factor = 0.05
+				training_time_army_factor = -0.02
+				political_power_gain = 0.02
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.1
+			}
+		}
+		
+		idea_gau_paper_eagle = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = socialist_science_focus
+
+			modifier = {
+				MONTHLY_POPULATION = -0.02
+				army_morale_factor = -0.01
+				army_org_factor = -0.025
+			}
+		}
+		
+		idea_gau_socialism_with_american_characteristics = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = socialist_science_focus
+
+			modifier = {
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = -0.1
+				trade_opinion_factor = 0.1
+				production_speed_arms_factory_factor = 0.035
+				production_speed_industrial_complex_factor = 0.12
+				industrial_capacity_factory = 0.1
+			}
+		}
 
 		idea_gau_privatised_businesses = {
 			allowed = {
