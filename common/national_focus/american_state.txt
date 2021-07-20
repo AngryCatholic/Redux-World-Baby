@@ -2052,7 +2052,7 @@ focus_tree = {
 	
 	focus = {
 		id = AMS_Trust_The_Experts
-		icon = focus_experts_trusted
+		icon = AMS_experts_trusted
 		x = 30
 		y = 8
 		cost = 10
