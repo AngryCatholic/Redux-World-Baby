@@ -81,6 +81,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_TEX_focus_AMERICAE_SANCTUS"
 		texturefile = "gfx/interface/goals/TEX_focus_AMERICAE_SANCTUS.tga"
+	}
+	SpriteType = {
+		name = "AMS_experts_trusted"
+		texturefile = "gfx/interface/goals/AMS_experts_trusted.dds"
+	}
+	SpriteType = {
+		name = "focus_new_flagellants"
+		texturefile = "gfx/interface/goals/focus_new_flagellants.dds"
+	}			
+	SpriteType = {
+		name = "focus_dead_needem"
+		texturefile = "gfx/interface/goals/focus_dead_needem.dds"
 	}	
 	
 	
