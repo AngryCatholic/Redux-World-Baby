@@ -1415,13 +1415,13 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_restore_order
-		}
-		NOT = {
-			has_country_flag= USA_mujahideen
 		}	
 		mutually_exclusive = {
 			focus = USA_a_legitimate_ruler
 		}
+		available = {
+			has_country_flag= USA_mil_takeover
+		}		
 		x = 40
 		y = 3
 		completion_reward = {
@@ -1550,13 +1550,13 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_restore_order
-		}
-		NOT = {
-			has_country_flag= USA_mujahideen
 		}		
 		mutually_exclusive = {
 			focus = USA_continue_military_leadership
 		}
+		available = {
+			has_country_flag= USA_mil_takeover
+		}		
 		x = 45
 		y = 3
 		completion_reward = {
