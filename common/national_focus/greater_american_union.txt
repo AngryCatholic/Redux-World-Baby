@@ -83,7 +83,7 @@ focus_tree = {
 		available = {
 		    has_country_flag = bernie_sanders_is_dead
 		}
-		x = 31
+		x = 32
 		y = 0
 		completion_reward = {
 		    add_popularity = {
@@ -1049,7 +1049,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAU_bezoists
-		icon = focus_sanders_loyalists
+		icon = focus_commonwealth_communist_party_ban
 		cost = 8
 		prerequisite = {
 			focus = GAU_emergency_party_convention
@@ -1073,7 +1073,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAU_restrict_freedoms
-		icon = national_unity
+		icon = swords
 		cost = 7.2
 		prerequisite = {
 			focus = GAU_bezoists
@@ -1088,7 +1088,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAU_paper_eagle
-		icon = cavalry
+		icon = focus_overthrow_congress
 		cost = 7.2
 		prerequisite = {
 			focus = GAU_restrict_freedoms
@@ -1102,7 +1102,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAU_socialism_with_american_characteristics
-		icon = torch_industry
+		icon = bill_of_rights_socialism
 		cost = 7.2
 		prerequisite = {
 			focus = GAU_paper_eagle
@@ -1121,7 +1121,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAU_the_dictator_rots
 		}
-		x = 31
+		x = 32
 		y = 1
 		completion_reward = {
 		    country_event = { id = natbolamerica.3 }
