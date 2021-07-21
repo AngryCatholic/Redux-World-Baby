@@ -115,6 +115,9 @@ focus_tree = {
 		prerequisite = {
 			focus = AMS_president_pence_consolidates_control
 		}
+		available = {
+			has_country_flag= AMS_pence_over_fauci
+		}
 		x = 3
 		y = 3
 		completion_reward = {
@@ -129,6 +132,9 @@ focus_tree = {
 		prerequisite = {
 			focus = AMS_president_pence_consolidates_control
 		}
+		available = {
+			has_country_flag= AMS_pence_over_fauci
+		}		
 		x = 5
 		y = 3
 		completion_reward = {
@@ -143,6 +149,9 @@ focus_tree = {
 		prerequisite = {
 			focus = AMS_enforce_catholic_values
 		}
+		available = {
+			has_country_flag= AMS_pence_over_fauci
+		}		
 		x = 5
 		y = 4
 		completion_reward = {
@@ -157,6 +166,9 @@ focus_tree = {
 		prerequisite = {
 			focus = AMS_president_pence_consolidates_control
 		}
+		available = {
+			has_country_flag= AMS_pence_over_fauci
+		}		
 		x = 7
 		y = 3
 		completion_reward = {
