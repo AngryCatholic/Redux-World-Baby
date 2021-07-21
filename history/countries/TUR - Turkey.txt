@@ -2,6 +2,8 @@
 
 oob = "TUR_2000"
 
+country_event = { id = tur.2 days = 4}
+
 set_research_slots = 4
 set_convoys = 500
 set_stability = 0.6

@@ -14,7 +14,7 @@ country_event = { # Our Situation OF AMONGUS SEX TOYS
 	
 }
 
-country_event = { # Situation of parties in our country
+country_event = { # Soviet Bootlicking
 	id = tur.2
 	title = tur.2.t
 	desc = tur.2.d
@@ -24,11 +24,12 @@ country_event = { # Situation of parties in our country
 	
 	option = { 
 		name = tur.2.a
+		country_event = { id = tur.3}
 	}
 	
 }
 
-country_event = { # Soviet Delegation Crisis
+country_event = { # Government Resigns
 	id = tur.3
 	title = tur.3.t
 	desc = tur.3.d
@@ -36,22 +37,25 @@ country_event = { # Soviet Delegation Crisis
 	
 	is_triggered_only = yes
 	
-	option = { 
+	option = { #Milli - Reis
 		name = tur.3.a
 	}
-	
-}
 
-country_event = { # Soviet Delegation Crisis
-	id = tur.4
-	title = tur.4.t
-	desc = tur.4.d
-	picture = mob_rule
-	
-	is_triggered_only = yes
-	
-	option = { 
-		name = tur.4.a
+	option = { #Milli - Ülkücü
+		name = tur.3.b
 	}
+
+	option = { #Milli - Perinçek
+		name = tur.3.c
+	}
+
+	option = { #Milli - CHP
+		name = tur.3.d
+	}
+
+	option = { #Milli - Pamukoglu
+		name = tur.3.e
+	}
+
 	
 }

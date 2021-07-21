@@ -23,3 +23,13 @@
  TUR_East_Aflame_desc:0 "Even though the East can be seen as Turkish territory on the map, the Worker's Party of Kurdestan has absorbed it, continuing their rule of terror. Their leader, Abdullah Öcalan, was breached from the supposedly 'unbreakable' cell 2 years ago, re-sparking the Kurdish terror gangs. We must do something!"
  TUR_Pamukoglu_idea:0 "The Legendary Marshall"
  TUR_Pamukoglu_idea_desc:0 "Osman Pamukoğlu, a very well trained general, has became very renowned in the country with his efforts against Ocalan and his pack of rats. Pamukoğlu is known to host the Free Turkey Organization, a paramilitary organization amongst the army and the youth to break Soviet influence of Turkey. Declaring all other parties dogs and slaves, Pamukoglu has became a legend in Ankara, and a horror story Kurdish mothers tell to their children."
+ ###Events#
+ tur.2.t:0 "Boot Scandal"
+ tur.2.d:0 "The nation woke up to a shocking video on social media where government officials lick the boots of Soviet investigators and officers one by one meanwhile they laugh and make fun of the officials. This video has sparked so much unrest amongs the people that, the city of Istanbul and Ankara now face huge riots against the government, chanting 'Completely Free Turkey, no more bootlicking!'. The president Aykut Edibali has called the video a fraud but the content is there to witness and it doesn't look sketchy."
+ tur.2.a:0 "This is a bruh moment!"
+ tur.3.t:0 "The Government Falls"
+ tur.3.d:0 "The government has fell after the huge riots and looting in major cities with Edibali and his men running away to Moscow as political refugees meanwhile the ministers that are not from his party and clique are hiding in their houses, trying to not get killed by the angry crowd. With the anarchy, one power can rise.."
+ tur.3.a:0 "Erdoğan and his Islamic Agrarians are elected as emergency government!"
+ tur.3.b:0 "Bahçeli and his Greywolves are elected as emergency government!"
+ tur.3.c:0 "The People's Alliance succeds in voting!"
+ tur.3.e:0 "The Legendary Marshall occupies Ankara!"
