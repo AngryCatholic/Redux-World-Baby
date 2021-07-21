@@ -138,6 +138,10 @@ spriteTypes = {
 		name = "focus_pope_friend"
 		texturefile = "gfx/interface/goals/focus_pope_friend.dds"
 	}	
+	SpriteType = {
+		name = "GFX_goal_SRI_Futurist_Culture"
+		texturefile = "gfx/interface/goals/SRI_Futurist_Culture.dds"
+	}	
 }	
 	
 }
