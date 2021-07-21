@@ -976,6 +976,85 @@ ideas = {
 			traits = { intelligence_director }			
 		}
 	} 
+	second_in_command = {
+	    americanstate_sic_ralph_northam = {
+		
+		    allowed = {
+			    original_tag = AMS
+			}
+			
+			available = {
+			    OR = {
+					has_government = fascist
+				} 
+			}
+			
+			traits = { administrative_genius }			
+		}
+
+	}
+	
+	foreign_minister = {
+	    americanstate_fom_memhat_oz = {
+		
+		    allowed = {
+			    original_tag = AMS
+			}
+			
+			available = {
+			    OR = {
+					has_government = fascist
+				} 
+			}
+			
+			traits = { ideological_crusader }			
+		}
+	}
+	
+	industry_minister = {
+	    americanstate_ind_jill_stein = {
+		
+		    allowed = {
+			    original_tag = AMS
+			}
+			
+			available = {
+			    OR = {
+					has_government = fascist
+				} 
+			}
+			
+			traits = { administrative_genius }			
+		}
+	}
+	
+	national_security_minister = {
+	    americanstate_nsm_ben_carson = {
+		
+		    allowed = {
+			    original_tag = AMS
+			}
+			
+			available = {
+			    OR = {
+				    has_government = fascist
+				} 
+			}
+			
+			traits = { prince_of_terror }			
+		}
+	}
+	
+	intelligence_minister = {
+	    americanstate_inm_ben_carson = {
+		
+		    allowed = {
+			    original_tag = AMS
+			}
+			
+			traits = { intelligence_director }			
+		}
+	} 	
 
 
 }
