@@ -104,10 +104,7 @@ focus_tree = {
 		x = 5
 		y = 2
 		completion_reward = {
-		    add_popularity = {
-			    ideology = fascist
-			    popularity = 0.05
-		    }
+			country_event = pence.22 #paradiseonearthevent		
 		}
 
 	}
