@@ -1,0 +1,25 @@
+spriteTypes = {	
+	###### RED WORLD ######
+	
+	### Unsorted
+	spriteType = {
+		name = "GFX_idea_TUR_Soviet_Puppet"
+		texturefile = "gfx/interface/ideas/TUR_Soviet_Puppet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TUR_PKK"
+		texturefile = "gfx/interface/ideas/TUR_PKK.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TUR_Pamukoglu"
+		texturefile = "gfx/interface/ideas/TUR_Pamukoglu.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TUR_National"
+		texturefile = "gfx/interface/ideas/TUR_National.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TUR_Millet"
+		texturefile = "gfx/interface/ideas/TUR_Millet.dds"
+	}
+}
