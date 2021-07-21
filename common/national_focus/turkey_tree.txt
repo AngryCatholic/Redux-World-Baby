@@ -1,0 +1,370 @@
+focus_tree = {
+	id = turkey_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TUR
+		}
+	}
+	continuous_focus_position  = { x = 1000 y = 3000}
+
+    	focus = {
+		id = TUR_Milliler
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 8
+		y = 0
+		available = {
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+
+	focus = {
+		id = TUR_Erdogan
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 4
+		y = 1
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_Milliler
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+
+	focus = {
+		id = TUR_Political_Islam
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 5
+		y = 2
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_Erdogan
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+	focus = {
+		id = TUR_Fight_PKK
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 3
+		y = 2
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_Erdogan
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+	focus = {
+		id = TUR_Curb_Pamukoglu
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 4
+		y = 3
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_Political_Islam
+		}
+		prerequisite = {
+			focus = TUR_Fight_PKK
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+
+	focus = {
+		id = TUR_VP_Perincek
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 6
+		y = 4
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_Curb_Pamukoglu
+		}
+		mutually_exclusive = {
+			focus = TUR_Reis_Rides
+			focus = TUR_VP_Davutoglu
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+	focus = {
+		id = TUR_ErdoBOL
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 8
+		y = 5
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_VP_Perincek
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+	focus = {
+		id = TUR_Liberal_Economics
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 0
+		y = 5
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_VP_Perincek
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+	focus = {
+		id = TUR_Reis_Rides
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 4
+		y = 4
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_Curb_Pamukoglu
+		}
+		mutually_exclusive = {
+			focus = TUR_VP_Perincek
+			focus = TUR_VP_Davutoglu
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+	focus = {
+		id = TUR_VP_Davutoglu
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 2
+		y = 4
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_Curb_Pamukoglu
+		}
+		mutually_exclusive = {
+			focus = TUR_Reis_Rides
+			focus = TUR_VP_Perincek
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+
+	focus = {
+		id = TUR_imams
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 2
+		y = 5
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_Reis_Rides
+			focus = TUR_VP_Perincek
+			focus = TUR_VP_Davutoglu
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+	focus = {
+		id = TUR_conservatism
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 4
+		y = 5
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_Reis_Rides
+			focus = TUR_VP_Perincek
+			focus = TUR_VP_Davutoglu
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+
+	focus = {
+		id = TUR_against_moscowism
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 6
+		y = 5
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_Reis_Rides
+			focus = TUR_VP_Perincek
+			focus = TUR_VP_Davutoglu
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+
+	focus = {
+		id = TUR_milli_gorus
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 5
+		y = 6
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_against_moscowism
+		}
+		prerequisite = {
+			focus = TUR_conservatism
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+
+	focus = {
+		id = TUR_Destroy_Kemalists
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 3
+		y = 6
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_imams
+		}
+		prerequisite = {
+			focus = TUR_conservatism
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+	focus = {
+		id = TUR_Build_Roads
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 4
+		y = 7
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_milli_gorus
+		}
+		prerequisite = {
+			focus = TUR_Destroy_Kemalists
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+	focus = {
+		id = TUR_Reis
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 4
+		y = 8
+		available = {
+		}
+		prerequisite = {
+			focus = TUR_Build_Roads
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+
+}
