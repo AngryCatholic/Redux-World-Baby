@@ -729,7 +729,7 @@ country_event = { # Legion of Doctors
 		}
                 create_corps_commander = { #Auto-Generated
 			name = "Mehmet Öz"
-			portrait_path = "gfx/leaders/AMS/Portrait_OZ.dds"
+			portrait_path = "gfx/leaders/AMS/Portrait_AMS_Ralph_Northam.dds"
 			traits = {
 				commando
 			}
@@ -741,7 +741,7 @@ country_event = { # Legion of Doctors
 		}
                 create_corps_commander = { #Auto-Generated
 			name = "Ralph Northam"
-			portrait_path = "gfx/leaders/AMS/Portrait_AMS_Ralph_Northam.dds"
+			portrait_path = "gfx/leaders/AMS/Portrait_OZ.dds"
 			traits = {
 				commando
 			}
