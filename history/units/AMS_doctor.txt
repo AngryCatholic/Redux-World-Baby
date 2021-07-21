@@ -20,21 +20,21 @@ division_template = {
 
 units = {# Army
 	division = {
-		name = "1st Black Glove Division "God Wills it""
+		name = "1st Black Glove Division 'God Wills it'"
 		location = 6732
 		division_template = "Infantry Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Black Glove Division "Black Flames""
+		name = "2nd Black Glove Division 'Black Flames'"
 		location = 6732
 		division_template = "Infantry Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Black Glove Division "Black Feathers""
+		name = "3rd Black Glove Division 'Black Feathers'"
 		location = 6732
 		division_template = "Infantry Division"
 		start_experience_factor = 1.0
