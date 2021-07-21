@@ -598,6 +598,7 @@ country_event = { # Fighting the Red Death
 		name = pence.24.b
 		add_stability = 0.05
 		add_political_power = 100
+		set_country_flag = AMS_pence_over_fauci
 	}	
 }
 country_event = { # We have to Flatten the curve
