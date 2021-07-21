@@ -40,62 +40,6 @@ units = {# Army
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
-	division = {
-		name = "Knights Templar"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "Knights Hospitaller"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "Knights of the Holy Sepulchre"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "Order of Saint Lazarus of Jerusalem"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "Teutonic Order"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "Order of Santiago"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "Militia of the Faith of Jesus Christ"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "Hospitallers of the Holy Spirit"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
 }
 
 air_wings = {# Air Force
