@@ -716,9 +716,19 @@ country_event = { # Legion of Doctors
 		add_political_power = 25
 		load_oob = AMS_doctor
 		add_stability = 0.15
-		add_popularity = {
-			ideology = fascist
-			popularity = 0.10
+		create_corps_commander = { #Ben Carson
+				name = "Ben Carson"
+				portrait_path = "gfx/leaders/AMS/Portrait_AMS_Ben_Carson_but_Based.dds"
+				traits = {
+					commando
+				}
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 1
+				logistics_skill = 1
+				id = 4589
+			}
 		}
 	}
 }
