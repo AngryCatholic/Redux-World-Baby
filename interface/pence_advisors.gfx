@@ -26,6 +26,30 @@ spriteTypes = {
 		name = "GFX_idea_americanstate_inm_bill_barr"
 		texturefile = "gfx/interface/ideas/advisors/americanstate/americanstate_inm_bill_barr.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_americanstate_sic_ralph_northam"
+		texturefile = "gfx/interface/ideas/advisors/americanstate/americanstate_sic_ralph_northam.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_americanstate_fom_memhat_oz"
+		texturefile = "gfx/interface/ideas/advisors/americanstate/americanstate_fom_memhat_oz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_americanstate_ind_jill_stein"
+		texturefile = "gfx/interface/ideas/advisors/americanstate/americanstate_ind_jill_stein.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_americanstate_nsm_ben_carson"
+		texturefile = "gfx/interface/ideas/advisors/americanstate/americanstate_nsm_ben_carson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_americanstate_inm_ben_carson"
+		texturefile = "gfx/interface/ideas/advisors/americanstate/americanstate_inm_ben_carson.dds"
+	}
 
 
 
