@@ -1,0 +1,103 @@
+ideas = {
+
+    country = {
+		
+		TUR_Soviet_Puppet = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = TUR_Soviet_Puppet
+			
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.1
+				
+			}
+		}	
+		
+		TUR_Nationals= {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = TUR_National
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+		
+		TUR_Millets = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = TUR_Millet
+			
+			modifier = {
+				stability_factor = -0.1
+				research_speed_factor = -0.1
+			}
+		}
+		
+		TUR_East_Aflame = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = TUR_PKK
+			
+			modifier = {
+				stability_factor = -0.3
+				attrition = 0.1
+				army_morale_factor = -0.1
+				production_factory_start_efficiency_factor = -0.1
+			}
+		}
+			
+		TUR_Pamukoglu_idea = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = TUR_Pamukoglu
+			
+			modifier = {
+				
+			}
+		}	
+		}
+		
+	}	
