@@ -2205,7 +2205,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_Doctor_Priests
-		icon = GFX_goal_SRI_Futurist_Culture
+		icon = focus_gleaming_reward
 		x = 31
 		y = 11
 		cost = 10
