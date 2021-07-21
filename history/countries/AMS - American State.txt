@@ -102,9 +102,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Mike Pence"
+	name = "Father Michael Pence"
 	desc = "POLITICS_MIKE_PENCE_DESC"
-	picture = "Portrait_AMS_Mike_Pence.dds"
+	picture = "Portrait_AMS_Mike_Pence.tga"
 	ideology = falangist
 }
 
