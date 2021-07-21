@@ -698,16 +698,16 @@ country_event = { # Legion of Doctors
 		add_political_power = 25
 		load_oob = AMS_doctor
 		add_stability = 0.15
-                create_corps_commander = { #Auto-Generated
+                create_field_marshal = { #Auto-Generated
 			name = "Ben Carson"
 			portrait_path = "gfx/leaders/AMS/Portrait_AMS_Ben_Carson_but_Based.dds"
 			traits = {
 				commando
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
 			logistics_skill = 1
 		}
                 create_corps_commander = { #Auto-Generated
@@ -725,6 +725,18 @@ country_event = { # Legion of Doctors
                 create_corps_commander = { #Auto-Generated
 			name = "Mehmet Öz"
 			portrait_path = "gfx/leaders/AMS/Portrait_OZ.dds"
+			traits = {
+				commando
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+                create_corps_commander = { #Auto-Generated
+			name = "Ralph Northam"
+			portrait_path = "gfx/leaders/AMS/Portrait_AMS_Ralph_Northam.dds"
 			traits = {
 				commando
 			}
