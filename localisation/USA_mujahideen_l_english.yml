@@ -32,6 +32,11 @@ USA_american_mujahideen_long:0 "American Mujahideen"
 USA_islamic_emirate:0 "Islamic Emirate of America"
 usa.104.o2:0 "American Mujahideen takes over!"
 
+USA_american_islam:0 "American Brand of Islam"
+USA_american_sharia:0 "American Sharia Law"
+USA_islamic_rising:0 "Islamic Majority"
+USA_jihad:0 "American Jihad against Communism"
+
  usa.182.t:0 "King Douglas I Calls Snap Election"
  usa.182.d:0 "Within the past few years, the American monarchy has radically changed, morphing from hereditary despotism under Mark Milley and Paul I to a true democratic system under an elected monarch of House Hamilton, architects of a new America. Following this reformation of our monarchy into an elective, federalist system, Douglas I Hamilton has called for new snap elections, with [Root.GetLeader] expected to run again.\n\nChallenging our current PM, however, lies a candidate many expect would despise everything Hamilton stood for, small government libertarian Tucker Carlson, and representing the Independence Union's Hamiltonian wing, fiscal and social moderate Jim Justice. An economic liberal seeking to restore small government values, Carlson would like to see both the King and Congress leave social and economic freedoms to the people, while Jim Justice, emblematic of a populist and moderate conservative appeal, echoes the hard-working, immigrant values of House Hamilton.\n\nThe People's Party and National Renewal Party, of course, have continued to remain involved in politics, but neither of their candidates have appeared uniquely Hamiltonian in an era of monarchy."
  usa.182.o1:0 "Our current administration will guide us through unification!"
