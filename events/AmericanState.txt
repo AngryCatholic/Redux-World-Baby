@@ -593,10 +593,10 @@ country_event = { # Fighting the Red Death
 		set_country_flag = AMS_doctor_fauci_trap_remix
 		set_cosmetic_tag = AMS_national_death_state
 		add_ideas = americanstate_sic_ralph_northam
-			    americanstate_fom_memhat_oz
-			    americanstate_ind_jill_stein
-			    americanstate_nsm_ben_carson
-			    americanstate_inm_ben_carson
+			    	americanstate_fom_memhat_oz
+			    	americanstate_ind_jill_stein
+			    	americanstate_nsm_ben_carson
+			    	americanstate_inm_ben_carson
 	}
 	
 	option = { #It Aint Real
