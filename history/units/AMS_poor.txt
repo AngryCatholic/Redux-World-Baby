@@ -40,62 +40,6 @@ units = {# Army
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
-	division = {
-		name = "People's Crusader Guards"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "People's Crusader Guards"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "People's Crusader Guards"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "People's Crusader Guards"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "People's Crusader Guards"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "People's Crusader Guards"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "People's Crusader Guards"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "People's Crusader Guards"
-		location = 6732
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
-	}
 }
 
 air_wings = {# Air Force
