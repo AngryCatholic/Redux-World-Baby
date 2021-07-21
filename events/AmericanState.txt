@@ -557,7 +557,10 @@ country_event = { # Reports of an Outbreak
 	fire_only_once = yes
 
 	trigger = {
-                has_country_flag = AMS_pope_peter_second
+		has_country_leader = {
+			ruling_only = yes
+			name = "Mike Pence"
+		}
 	}
 
 	option = { #fuck me
@@ -578,7 +581,10 @@ country_event = { # Rise of Doctor Fauci
 	fire_only_once = yes
 
 	trigger = {
-                has_country_flag = AMS_pope_peter_second
+		has_country_leader = {
+			ruling_only = yes
+			name = "Mike Pence"
+		}
 	}
 
 	option = { #fuck me
@@ -599,7 +605,10 @@ country_event = { # Fighting the Red Death
 	fire_only_once = yes
 
 	trigger = {
-                has_country_flag = AMS_pope_peter_second
+		has_country_leader = {
+			ruling_only = yes
+			name = "Mike Pence"
+		}
 	}
 
 	option = { #TRUST THE EXPERTS
