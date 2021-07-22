@@ -1,0 +1,77 @@
+﻿add_namespace = texas
+
+#Pro-remnant terrorists strike senate
+country_event = {
+	id = texas.1
+	title = texas.1.t
+	desc = texas.1.d
+	picture = texan_senate
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TEX
+		date > 2011.3.1
+		date < 2011.3.30
+	}
+	
+	option = {
+		name = texas.1.o1
+		add_political_power = -250
+		set_global_flag = texas_senate_attack
+		USA = {
+			country_event = {id = texas.2}
+		}
+	}
+	
+	option = {
+		name = texas.1.o2
+		add_political_power = 250
+		hidden_effect = {
+		    country_event = { days = 4 id = texas.3 } 
+		}
+	}
+}
+
+#AR finds out about Senate attack
+country_event = {
+	id = texas.2
+	title = texas.2.t
+	desc = texas.2.d
+	picture = texan_senate
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = texas.2.o1
+	}
+}
+
+#Enclave makes its move!
+country_event = {
+	id = texas.3
+	title = texas.3.t
+	desc = texas.3.d
+	picture = texan_senate
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = texas.3.o1
+		add_stability = 0.05
+                add_political_power = 100
+		set_country_flag = TEXLAVE_POWER
+		set_cosmetic_tag = TEX_enclave
+		set_politics = {
+	        ruling_party = fascist
+	        elections_allowed = no
+	}
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.35
+		}
+	}
