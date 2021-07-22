@@ -22,4 +22,8 @@ country_event = {
         set_party_name = { ideology = national_conservative long_name = ARI_terryists_long name = ARI_terryists }
 		set_cosmetic_tag = ARI_temple
 	}
+		add_popularity = {
+			ideology = national_conservative
+			popularity = 0.60
+		}
 }

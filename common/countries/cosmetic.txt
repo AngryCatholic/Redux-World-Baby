@@ -57,3 +57,7 @@ USA_islamic_emirate = {
     color = { 171  190  152 }
     color_ui = rgb { 171  190  152 }
 }
+ARI_temple = {
+    color = rgb { 22 243 255 }
+    color_ui = rgb { 22 243 255 }
+}
