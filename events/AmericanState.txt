@@ -587,7 +587,7 @@ country_event = { # Fighting the Red Death
 		name = pence.24.a
 		create_country_leader = {
 	        name = "Anthony Fauci"
-	        picture = "Portrait_AMS_fauci.dds"
+	        picture = "Portrait_AMS_anthony_fauci.dds"
 	        ideology = falangist
         }
 		set_country_flag = AMS_doctor_fauci_trap_remix
@@ -700,6 +700,10 @@ country_event = { # Legion of Doctors
 
 	option = { #based and doctor
 		name = pence.29.a
+		name = "Doctor Fauci"
+	        picture = "Portrait_AMS_fauci.dds"
+	        ideology = falangist
+        }
 		add_political_power = 25
 		load_oob = AMS_doctor
 		add_stability = 0.15
