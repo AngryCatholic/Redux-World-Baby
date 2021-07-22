@@ -750,6 +750,18 @@ country_event = { # Legion of Doctors
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 1
+		}
+                create_corps_commander = { #Auto-Generated
+			name = "Christopher Duntsch"
+			portrait_path = "gfx/leaders/AMS/Portrait_AMS_Doctor_death.dds"
+			traits = {
+				commando
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
 		}		
 	}
 }
