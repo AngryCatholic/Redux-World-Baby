@@ -1,0 +1,264 @@
+focus_tree = {
+	id = texclave
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = TEX
+		}
+	}
+	#Focus for George Bush Rides Again!
+	focus = {
+		id = TEX_george_bush_rides_again
+		icon = GFX_goal_unknown
+		x = 8
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_country_flag= TEXLAVE_POWER
+		}
+		completion_reward = {
+			add_political_power= 50
+			set_party_name = { ideology = fascist long_name = TEX_ENCLAVE_long name = TEX_ENCLAVE }
+		}
+	}
+
+	#Focus for Destroying the Lone Star
+	focus = {
+		id = TEX_destroying_the_lone_star
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TEX_george_bush_rides_again }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = texas.4 
+		}
+	}
+
+	#Focus for Doctrine of True Americanism
+	focus = {
+		id = TEX_doctrine_of_true_americanism
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TEX_george_bush_rides_again }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = texas.5 
+			add_ideas= TEX_true_american
+		}
+	}
+
+	#Focus for Taking the Birthright
+	focus = {
+		id = TEX_taking_the_birthright
+		icon = GFX_goal_unknown
+		x = 10
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TEX_george_bush_rides_again }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = texas.6 
+		    enable_unification_decisions = yes
+            core_NEA = yes
+            core_ILL = yes
+            core_GRL = yes
+            core_MWA = yes
+            core_MOT = yes
+            core_LIN = yes
+            core_UTA = yes
+            core_ARI = yes
+            core_PCA = yes
+		}
+
+	}
+
+	#Focus for Enclave Radio!
+	focus = {
+		id = TEX_enclave_radio
+		icon = GFX_goal_unknown
+		x = 7
+		y = 2
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TEX_doctrine_of_true_americanism 
+		}
+		prerequisite = { 
+			focus = TEX_destroying_the_lone_star 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEX_enclave_radio  
+			country_event = texas.7 
+
+		}
+	}
+
+	#Focus for Experimental Weapons
+	focus = {
+		id = TEX_experimental_weapons
+		icon = GFX_goal_unknown
+		x = 9
+		y = 2
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TEX_taking_the_birthright 
+		}
+		prerequisite = { 
+			focus = TEX_doctrine_of_true_americanism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEX_plasma_weapons  			
+			country_event = texas.8 
+		}
+	}
+
+	#Focus for State and Capital
+	focus = {
+		id = TEX_state_and_capital
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = TEX_enclave_radio }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEX_state_and_capital
+		}
+	}
+
+	#Focus for Doping our Soldiers
+	focus = {
+		id = TEX_doping_our_soldiers
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TEX_experimental_weapons 
+		}
+		prerequisite = { 
+			focus = TEX_enclave_radio 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEX_doping
+		}
+	}
+
+	#Focus for Killing Communists
+	focus = {
+		id = TEX_killing_communists
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TEX_experimental_weapons }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05
+		}
+	}
+
+	#Focus for Down Mexico Way
+	focus = {
+		id = TEX_down_mexico_way
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TEX_doping_our_soldiers 
+		}
+		prerequisite = { 
+			focus = TEX_state_and_capital 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = texas.8 
+		}
+	}
+
+	#Focus for Day of the Rake
+	focus = {
+		id = TEX_day_of_the_rake
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TEX_killing_communists 
+		}
+		prerequisite = { 
+			focus = TEX_doping_our_soldiers 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = texas.10 
+		}
+	}
+
+	#Focus for Mission Accomplished!
+	focus = {
+		id = TEX_mission_accomplished
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 15
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TEX_down_mexico_way 
+		}
+		prerequisite = { 
+			focus = TEX_day_of_the_rake 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = texas.11 
+			add_ideas= TEX_dubya
+		}
+	}
+
+#End of focuses 
+ }
