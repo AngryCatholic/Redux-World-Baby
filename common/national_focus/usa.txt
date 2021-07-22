@@ -5808,7 +5808,7 @@ focus_tree = {
 			create_country_leader = {
 	           		name = "Sulayman al-Faris"
 	            		picture = "Portrait_USA_John_Walker_Lindh.dds"
-	           		ideology = fascist_ideology
+	           		ideology = jihadist
 			}
 		}
 	}
