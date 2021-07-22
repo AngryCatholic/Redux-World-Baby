@@ -1,0 +1,33 @@
+spriteTypes = {	
+	#### BRITAIN ####
+	
+	SpriteType = {
+	name = "esoteric_control"
+	texturefile = "gfx/interface/goals/britain/esoteric_control.dds"			
+	}
+	
+	SpriteType = {
+	name = "douglas_control"
+	texturefile = "gfx/interface/goals/britain/douglas_control.dds"			
+	}
+	
+	SpriteType = {
+	name = "bowden_control"
+	texturefile = "gfx/interface/goals/britain/bowden_control.dds"			
+	}
+
+	SpriteType = {
+	name = "evola_values"
+	texturefile = "gfx/interface/goals/britain/evola_values.dds"			
+	}
+
+	SpriteType = {
+	name = "runes_and_men"
+	texturefile = "gfx/interface/goals/britain/runes_and_men.dds"			
+	}
+
+	SpriteType = {
+	name = "strong_aristocrat"
+	texturefile = "gfx/interface/goals/britain/strong_aristocrat.dds"			
+	}
+}

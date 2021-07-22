@@ -1,0 +1,61 @@
+add_namespace = bw_britain
+###Esoteric Order Secures Power
+country_event = {
+	id = bw_britain.2
+	title = bw_britain.2.t
+	desc = bw_britain.2.d
+	picture = esoteric_order_win
+	
+	is_triggered_only = yes
+	
+	option = {  
+		name = bw_britain.2.o1
+        add_political_power = 50
+	}
+}
+country_event = {
+	id = bw_britain.3
+	title = bw_britain.3.t
+	desc = bw_britain.3.d
+	picture = esoteric_leader
+	
+	is_triggered_only = yes
+	
+	option = {   #Douglas Pearce
+		name = bw_britain.3.o1
+		create_country_leader = {
+	        name = "Douglas P."
+	        picture = "Portrait_Douglas.dds"
+	        ideology = radical_nationalist
+        }
+		create_country_leader = {
+	        name = "Jonathan Bowden"
+	        picture = "Portrait_Bowden.dds"
+	        ideology = esoteric_fascist
+        }
+		set_politics = {
+	        ruling_party = national_bolshevik
+	        elections_allowed = no
+        }
+		set_cosmetic_tag = ENG_esoteric1
+	}
+	
+	option = {   #Jonathan Bowden
+		name = bw_britain.3.o2
+		create_country_leader = {
+	        name = "Jonathan Bowden"
+	        picture = "Portrait_Bowden.dds"
+	        ideology = esoteric_fascist
+        }
+		create_country_leader = {
+	        name = "Douglas P."
+	        picture = "Portrait_Douglas.dds"
+	        ideology = radical_nationalist
+        }
+		set_politics = {
+	        ruling_party = fascist
+	        elections_allowed = no
+        }
+		set_cosmetic_tag = ENG_esoteric2
+	}
+}

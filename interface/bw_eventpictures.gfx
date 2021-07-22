@@ -1,0 +1,17 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "esoteric_leader"
+		texturefile = "gfx/event_pictures/esoteric_leader.dds"
+	}
+
+	spriteType = {
+		name = "esoteric_order_win"
+		texturefile = "gfx/event_pictures/esoteric_order_win.dds"
+	}	
+	
+	spriteType = {
+		name = "terry_davis_rules"
+		texturefile = "gfx/event_pictures/terry_davis_rules.dds"
+	}	
+}

@@ -1,0 +1,25 @@
+add_namespace = bw_arizona
+###Terry Davis
+country_event = {
+	id = bw_arizona.1
+	title = bw_arizona.1.t
+	desc = bw_arizona.1.d
+	picture = terry_davis_rules
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = bw_arizona.1.o1
+		create_country_leader = {
+	        name = "Prophet Terry"
+	        picture = "Portrait_Terry.dds"
+	        ideology =  terryrism
+        }
+		set_politics = {
+	        ruling_party = national_conservative
+	        elections_allowed = no
+        }
+        set_party_name = { ideology = national_conservative long_name = ARI_terryists_long name = ARI_terryists }
+		set_cosmetic_tag = ARI_temple
+	}
+}

@@ -1,0 +1,14 @@
+﻿l_english:
+### Misc stuff###
+ terry_rules:0 "The Church of the Third Temple is in power!"
+ ARI_terryists:0 "Third Templeists"
+ ARI_terryists_long:0 "Church of the Third Temple"
+ ARI_temple_national_conservative:0 "God's Chosen Kingdom"
+ ARI_temple_national_conservative_ADJ:0 "Arizonian"
+ 
+ ### ideas ###
+ 
+ ### events###
+ bw_arizona.1.t:0 "Church of the Third Temple Seizes Power!"
+ bw_arizona.1.d:0 "Ever since miraculously completing the construction of the Digital Third Temple of God, more commonly called ‘Temple OS’, in only a matter of years the man known as Terry A. Davis has cultivated a devoted following. Prophet Davis completed what many deemed impossible, constructing an entire operating system all by himself in only three years, however to Terry and his legion he was not alone. Aided directly by God who bestowed upon Prophet Terry his divine coding abilities, Davis has since preached that the coming apocalypse will provide salvation to all who use Temple OS. Over the past decade with the collapse of America and the rise of satanic communists, his calls for faith and worship have slowly but steadily galvanised the locals of Arizona. The path to Heave now lies in the digital realm, and Prophet Terry has promised safe passage through the digital landscape to those who truly believe. Now in the many thousands, the Church of the Third Temple has marched on the Arizona governmental house, the control of the entire state is now at the hands of the holy-techno Prophet Terry..."
+ bw_arizona.1.o1: "The 11th Commandment shall guide us to Heaven!"

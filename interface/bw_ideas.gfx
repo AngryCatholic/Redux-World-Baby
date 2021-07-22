@@ -1,0 +1,11 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_junists"
+		texturefile = "gfx/interface/ideas/junists.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bowdenists"
+		texturefile = "gfx/interface/ideas/bowdenists.dds"
+	}
+}
+

@@ -1,0 +1,24 @@
+﻿l_english:
+### Misc stuff###
+ esoteric_order_wins_election:0 "Esoteric Order is in power"
+ ENG_esoteric_order1:0 "EOB - Junists"
+ ENG_esoteric_order1_long:0 "Esoteric Order of Britannia"
+ ENG_esoteric_order2:0 "EOB - Bowdenists"
+ ENG_esoteric_order2_long:0 "Esoteric Order of Britannia"
+ ENG_esoteric1:0 "Britannia"
+ ENG_esoteric1_national_bolshevik:0 "Britannia"
+ ENG_esoteric1_national_bolshevik_ADJ:0 "British"
+ ENG_esoteric2_fascist:0 "Britannia"
+ ENG_esoteric2_fascist_ADJ:0 "British"
+ 
+ ### ideas ###
+ idea_junists_power:0 "Junists In Control"
+ idea_junists_power_desc:0 ""
+ idea_bowdenists_power:0 "Bowdenists In Control"
+ idea_bowdenists_power_desc:0 ""
+ 
+ ### events###
+ bw_britain.3.t:0 "Leadership of the Esoteric Order"
+ bw_britain.3.d:0 "WIP"
+ bw_britain.3.o1:0 "Douglas P. ascends!"
+ bw_britain.3.o2:0 "Hail Jonathan Bowden!"

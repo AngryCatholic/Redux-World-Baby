@@ -1,0 +1,4 @@
+ARI_temple = {
+    color = rgb { 22 243 255 }
+    color_ui = rgb { 22 243 255 }
+}
