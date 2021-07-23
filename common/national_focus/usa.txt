@@ -6085,7 +6085,7 @@ focus_tree = {
 			set_party_name = { ideology = fascist long_name = USA_christian_front_long name = USA_christian_front }
 			set_cosmetic_tag = USA_christian_america_republic			
 			create_country_leader = {
-	           		name = "Mel Gibson"
+	           		name = "Father Mel Gibson"
 	            		picture = "Portrait_USA_Mel_Gibson.dds"
 	           		ideology = rexist
 			}
