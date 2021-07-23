@@ -13,7 +13,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = islamic_politics
+			picture = generic_fascism_drift_bonus
 			
 			modifier = {
 				research_speed_factor = -0.1 
@@ -36,7 +36,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = sharia_law
+			picture = catholic_values
 			
 			modifier = {
 				MONTHLY_POPULATION = 0.02 
@@ -59,7 +59,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = islamic_monarch
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				fascist_drift = 0.04
@@ -80,7 +80,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = jihad
+			picture = crusader_morale
 			
 			removal_cost = -1
 			
