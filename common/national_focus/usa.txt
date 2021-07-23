@@ -6094,7 +6094,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_founders_and_christianity
-		icon = review_the_separation
+		icon = GFX_goal_COR_Founders
 		x = 8
 		y = 9
 		cost = 5
@@ -6110,7 +6110,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_public_preaching
-		icon = review_the_separation
+		icon = propaganda
 		x = 6
 		y = 9
 		cost = 5
@@ -6127,7 +6127,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_radio_priest
-		icon = review_the_separation
+		icon = focus_appease_catholics
 		x = 10
 		y = 9
 		cost = 5
@@ -6144,7 +6144,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_prayer_in_school
-		icon = review_the_separation
+		icon = focus_support_christian_values
 		x = 5
 		y = 10
 		cost = 5
@@ -6162,7 +6162,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_christian_reconstructionism
-		icon = review_the_separation
+		icon = traditional_values
 		x = 7
 		y = 10
 		cost = 5
@@ -6183,7 +6183,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Christian_free_markets
-		icon = review_the_separation
+		icon = focus_fund_christian_charities
 		x = 9
 		y = 10
 		cost = 5
@@ -6205,7 +6205,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_strategic_anti_communist_alliance
-		icon = review_the_separation
+		icon = GFX_goal_TEX_focus_Common_Man_Integralism
 		x = 11
 		y = 10
 		cost = 5
@@ -6222,7 +6222,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_fifth_great_awakening
-		icon = review_the_separation
+		icon = GFX_goal_COR_restoring_faith
 		x = 6
 		y = 11
 		cost = 5
@@ -6244,7 +6244,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_south_first
-		icon = review_the_separation
+		icon = i_wish_i_was_in_dixie
 		x = 8
 		y = 11
 		cost = 5
@@ -6268,7 +6268,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_a_great_crusade_against_communism
-		icon = review_the_separation
+		icon = focus_old_deus_vult
 		x = 10
 		y = 11
 		cost = 5
@@ -6289,7 +6289,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_god_bless_america
-		icon = review_the_separation
+		icon = GFX_goal_COR_christian_america
 		x = 7
 		y = 12
 		cost = 10
@@ -6310,7 +6310,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_fufilling_fatima
-		icon = review_the_separation
+		icon = focus_conquests_of_asia
 		x = 9
 		y = 12
 		cost = 10
