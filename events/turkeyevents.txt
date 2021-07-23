@@ -39,23 +39,80 @@ country_event = { # Government Resigns
 	
 	option = { #Milli - Reis
 		name = tur.3.a
+		set_politics = {
+		ruling_party = nationalist
+        elections_allowed = no
+        last_election = "1935.12.17"
+        election_frequency = 48
+		}
+		add_popularity = {
+    	ideology = nationalist
+    	popularity = 0.3
+		}
+		remove_ideas = TUR_Nationals
+		unlock_national_focus = TUR_Milliler
+		remove_ideas = TUR_Soviet_Puppet
 	}
 
 	option = { #Milli - Ülkücü
 		name = tur.3.b
+		set_politics = {
+		ruling_party = fascist
+        elections_allowed = no
+        last_election = "1935.12.17"
+        election_frequency = 48
+		}
+		add_popularity = {
+    	ideology = fascist
+    	popularity = 0.3
+		}
+		remove_ideas = TUR_Nationals
+		unlock_national_focus = TUR_Milliler
+		remove_ideas = TUR_Soviet_Puppet
 	}
 
 	option = { #Milli - Perinçek
 		name = tur.3.c
+		set_politics = {
+		ruling_party = national_bolshevik
+        elections_allowed = no
+        last_election = "1935.12.17"
+        election_frequency = 48
+		}
+		add_popularity = {
+    	ideology = national_bolshevik
+    	popularity = 0.3
+		}
+		remove_ideas = { TUR_Nationals 
+		TUR_Soviet_Puppet }
+		unlock_national_focus = TUR_Milliler
 	}
 
 	option = { #Milli - CHP
-		name = tur.3.d
-	}
-
-	option = { #Milli - Pamukoglu
 		name = tur.3.e
 	}
 
+	option = { #Milli - Pamukoglu
+		name = tur.3.f
+	}
+
+	
+}
+
+country_event = { # Hendek
+	id = tur.4
+	title = tur.4.t
+	desc = tur.4.d
+	picture = mob_rule
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = tur.2.a
+		remove_ideas = TUR_East_Aflame
+		manpower = -4000
+		add_political_power = -200
+		add_stability = 0.10
+	}
 	
 }

@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 20
 			tag = TUR
 		}
 	}
@@ -19,6 +19,7 @@ focus_tree = {
 		x = 8
 		y = 0
 		available = {
+			always = no
 		}
 		completion_reward = {
 		    
@@ -36,12 +37,14 @@ focus_tree = {
 		x = 4
 		y = 1
 		available = {
+			has_government = nationalist
 		}
 		prerequisite = {
 			focus = TUR_Milliler
 		}
 		completion_reward = {
-		    
+		add_stability = 0.10
+		add_political_power = 100   
 		}
 
 	}
@@ -61,7 +64,7 @@ focus_tree = {
 			focus = TUR_Erdogan
 		}
 		completion_reward = {
-		    
+		    add_ideas = TUR_Political_Islam
 		}
 
 	}
@@ -80,7 +83,7 @@ focus_tree = {
 			focus = TUR_Erdogan
 		}
 		completion_reward = {
-		    
+		    country_event = { id = tur.4 }
 		}
 
 	}

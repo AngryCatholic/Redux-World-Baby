@@ -4,7 +4,7 @@ ideas = {
 		
 		TUR_Soviet_Puppet = {
 			allowed = {
-				always = no
+				always = yes
 			}
 			
 			allowed_civil_war = {
@@ -24,7 +24,7 @@ ideas = {
 		
 		TUR_Nationals= {
 			allowed = {
-				always = no
+				always = yes
 			}
 			
 			allowed_civil_war = {
@@ -43,7 +43,7 @@ ideas = {
 		
 		TUR_Millets = {
 			allowed = {
-				always = no
+				always = yes
 			}
 			
 			allowed_civil_war = {
@@ -62,7 +62,7 @@ ideas = {
 		
 		TUR_East_Aflame = {
 			allowed = {
-				always = no
+				always = yes
 			}
 			
 			allowed_civil_war = {
@@ -80,10 +80,29 @@ ideas = {
 				production_factory_start_efficiency_factor = -0.1
 			}
 		}
+
+		TUR_Political_Islam = {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = TUR_PKK
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support = 0.15
+			}
+		}
 			
 		TUR_Pamukoglu_idea = {
 			allowed = {
-				always = no
+				always = yes
 			}
 			
 			allowed_civil_war = {

@@ -1,0 +1,43 @@
+on_actions = {
+    on_startup = {
+        effect = {
+         TUR = {
+		 set_party_name = { 
+			ideology = fascist 
+			long_name = TUR_fascist_party_custom 
+			name = TUR_fascist_party_custom 
+			}
+			set_party_name = { 
+			ideology = nationalist
+			long_name = TUR_nationalist_party_custom 
+			name = TUR_nationalist_party_custom 
+			}
+			set_party_name = { 
+			ideology = national_bolshevik
+			long_name = TUR_national_bolshevik_custom 
+			name = TUR_national_bolshevik_custom 
+			}
+			set_party_name = { 
+			ideology = new_democrat
+			long_name = TUR_new_democrat_party_custom 
+			name = TUR_new_democrat_party_custom 
+			}
+			set_party_name = { 
+			ideology = moderate_socialist
+			long_name = TUR_moderate_socialist_party_custom 
+			name = TUR_moderate_socialist_party_custom 
+			}
+			set_party_name = { 
+			ideology = revolutionary_socialist
+			long_name = TUR_revolutionary_socialist_party_custom 
+			name = TUR_revolutionary_socialist_party_custom 
+			}
+			set_party_name = { 
+			ideology = communist
+			long_name = TUR_communist_party_custom 
+			name = TUR_communist_party_custom 
+			}
+		 }
+        }
+    }
+}
