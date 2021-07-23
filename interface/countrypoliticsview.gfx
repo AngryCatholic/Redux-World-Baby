@@ -496,6 +496,16 @@ spriteTypes = {
 		name = "GFX_ideology_radical_nationalist"
 		texturefile = "gfx/interface/ideologies/radical_nationalist.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ideology_national_anarchism"
+		texturefile = "gfx/interface/ideologies/national_anarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_neoreactionary"
+		texturefile = "gfx/interface/ideologies/neoreactionary.dds"
+	}
 
 	spriteType = {
 		name = "GFX_ideology_terryrism"

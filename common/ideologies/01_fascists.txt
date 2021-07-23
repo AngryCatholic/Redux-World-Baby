@@ -21,6 +21,9 @@ ideologies = {
 			
 			esoteric_fascist = {				
 			}
+
+			neoreactionary = {				
+			}
 			
 		}
 		

@@ -28,11 +28,6 @@ country_event = {
 	        picture = "Portrait_Douglas.dds"
 	        ideology = radical_nationalist
         }
-		create_country_leader = {
-	        name = "Jonathan Bowden"
-	        picture = "Portrait_Bowden.dds"
-	        ideology = esoteric_fascist
-        }
 		set_politics = {
 	        ruling_party = national_bolshevik
 	        elections_allowed = no
@@ -47,15 +42,38 @@ country_event = {
 	        picture = "Portrait_Bowden.dds"
 	        ideology = esoteric_fascist
         }
-		create_country_leader = {
-	        name = "Douglas P."
-	        picture = "Portrait_Douglas.dds"
-	        ideology = radical_nationalist
-        }
 		set_politics = {
 	        ruling_party = fascist
 	        elections_allowed = no
         }
 		set_cosmetic_tag = ENG_esoteric2
+	}
+
+	option = {   #Troy Southgate
+		name = bw_britain.3.o3
+		create_country_leader = {
+	        name = "Troy Southgate"
+	        picture = "Portrait_Southgate.dds"
+	        ideology = national_anarchist
+        }
+		set_politics = {
+	        ruling_party = nationalist
+	        elections_allowed = no
+        }
+		set_cosmetic_tag = ENG_esoteric3
+	}
+
+	option = {   #Nick Land
+		name = bw_britain.3.o4
+		create_country_leader = {
+	        name = "Nick Land"
+	        picture = "Portrait_Nick_Land.dds"
+	        ideology = neoreactionary
+        }
+		set_politics = {
+	        ruling_party = fascist
+	        elections_allowed = no
+        }
+		set_cosmetic_tag = ENG_esoteric4
 	}
 }
