@@ -1,0 +1,437 @@
+﻿capital = 448
+
+oob = "LBA_2000"
+
+set_research_slots = 4
+set_convoys = 500
+set_stability = 0.4
+set_war_support = 0.1
+
+set_cosmetic_tag = LBA_Union
+set_country_flag = muslim_nation
+
+add_ideas = {
+	idea_lba_gaddafis_fine_line
+}
+
+set_technology = {
+	support_weapons = 1
+	infantry_weapons = 1
+	motorised_infantry = 1 
+	tech_support = 1 
+	tech_field_hospital = 1 
+	tech_engineers = 1 
+	gwtank = 1 
+	basic_light_tank = 1 
+	gw_artillery = 1 
+	interwar_antiair = 1
+	interwar_antitank = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		
+		
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+}
+set_politics = {
+	ruling_party = national_bolshevik
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+        fascist = 0
+		nationalist = 23
+		monarchist = 0
+		national_bolshevik = 35
+		national_conservative = 10
+		centrist = 0
+		liberal = 0
+		new_democrat = 5
+		moderate_socialist = 0
+		revolutionary_socialist = 6
+		communist = 21
+}
+
+create_country_leader = {
+	name = "Abu Khalid al-Madani"
+	picture = "Portrait_LBA_Abu_Khalid_Al_Madani.dds"
+	ideology = jihadist
+}
+
+create_country_leader = {
+	name = "Mahmoud Jibril"
+	picture = "Portrait_LBA_Mahmoud_Jibril.dds"
+	ideology = nationalist_ideology
+}
+
+create_country_leader = {
+	name = "Idris II"
+	picture = "Portrait_LBA_Idris_Second.dds"
+	ideology = absolute_monarchist
+}
+
+create_country_leader = {
+	name = "Muammar Gaddafi"
+	picture = "Portrait_LBA_Muammar_Gaddafi.dds"
+	ideology = third_international_theory
+}
+
+create_country_leader = {
+	name = "Ali al-Sallabi"
+	picture = "Portrait_LBA_Ali_Al_Sallabi.dds"
+	ideology = reactionary
+}
+
+create_country_leader = {
+	name = "Ali Tarhouni"
+	picture = "Portrait_LBA_Ali_Tarhouni.dds"
+	ideology = centrist_ideology
+}
+
+create_country_leader = {
+	name = "Mohammed Magariaf"
+	picture = "Portrait_LBA_Mohammed_Magariaf.dds"
+	ideology = social_liberal
+}
+
+create_country_leader = {
+	name = "Ali Zeidan"
+	picture = "Portrait_LBA_Ali_Zeidan.dds"
+	ideology = new_democrat_ideology
+}
+
+create_country_leader = {
+	name = "Mohamed Hamdi"
+	picture = "Portrait_LBA_Mohamed_Hamdi.dds"
+	ideology = democratic_socialist
+}
+
+create_country_leader = {
+	name = "Mustafa Zaidi"
+	picture = "Portrait_LBA_Mustafa_Zaidi.dds"
+	ideology = revolutionary_socialist_ideology
+}
+
+create_country_leader = {
+	name = "Hamma Hammami"
+	picture = "Portrait_LBA_Hamma_Hammami.dds"
+	ideology = stalinist
+}
+
+create_field_marshal = {
+	name = "Muammar Gaddafi"
+	picture = "Portrait_Muammar_Gaddafi.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Saif al-Islam Gaddafi"
+	picture = "Portrait_Saif_al-Islam_Gaddafi.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Khamis Gaddafi"
+	picture = "Portrait_Khamis_Gaddafi.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Abu-Bakr Yunis Jabr"
+	picture = "Portrait_Abu_Bakr_Yunis_Jabr.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill =3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mutassim Gaddafi"
+	picture = "Portrait_Mutassim_Gaddafi.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Al-Saadi Gaddafi"
+	picture = "Portrait_Al-Saadi_Gaddafi.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ahmed al-Gaddafi al-Qahsi"
+	picture = "Portrait_Ahmed_al-Gaddafi_al-Qahsi.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Abdullah Senussi"
+	picture = "Portrait_Abdullah_Senussi.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mahdi al-Arabi"
+	picture = "Portrait_Mahdi_al-Arabi.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Massoud Abdelhafid"
+	picture = "Portrait_Massoud_Abdelhafid.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Al-Mabrouk Ehnish"
+	picture = "Portrait_Al_Mabrouk_Ehnish.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ali Kanna Sulayman"
+	picture = "Portrait_Ali_Kanna_Sulayman.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Khalifa Haftar"
+	id = 50
+	picture = "Portrait_Khalifa_Haftar.dds"
+	traits = { media_personality }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Al-Mahdi Al-Barghathi"
+	id = 51
+	picture = "Portrait_Al-Mahdi_Al-Barghathi.dds"
+	traits = { inflexible_strategist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Abdulrazek al-Nadoori"
+	id = 52
+	picture = "Portrait_Abdulrazek_al-Nadoori.dds"
+	traits = { ironside }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Abdul Fatah Younis"
+	id = 60
+	picture = "Portrait_Abdul_Fatah_Younis.dds"
+	traits = { inspirational_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ahmed Oun"
+	id = 61
+	picture = "Portrait_Ahmed_Oun.dds"
+	traits = { old_guard }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Omar El-Hariri"
+	picture = "Portrait_Omar_El_Hariri.dds"
+	traits = { bearer_of_artillery }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill =3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ahmed Qetrani"
+	id = 40
+	picture = "Portrait_Ahmed_Qetrani.dds"
+	traits = { organizer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Abdel Rahman al-Taweel"
+	id = 41
+	picture = "Portrait_Abdel_Rahman_al_Taweel.dds"
+	traits = { infantry_officer infantry_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ismaïl Fathali"
+	id = 42
+	picture = "Portrait_Ismaïl_Fathali.dds"
+	traits = { trait_mountaineer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ahmed Al-Mismari"
+	id = 43
+	picture = "Portrait_Ahmed_Al_Mismari.dds"
+	traits = { trickster }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Mokhtar Milad Fernana"
+	id = 44
+	picture = "Portrait_Mokhtar_Milad_Fernana.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Khuwaildi al-Hamidi"
+	id = 30
+	picture = "Portrait_Khuwaildi_al_Hamidi.dds"
+	traits = { politically_connected inspirational_leader }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+

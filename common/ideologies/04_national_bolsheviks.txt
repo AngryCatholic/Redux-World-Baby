@@ -9,6 +9,9 @@ ideologies = {
 			
 			radical_nationalist = {
 			}
+
+			third_international_theory = {
+			}
 		}
 		
 		dynamic_faction_names = {
