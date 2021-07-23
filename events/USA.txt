@@ -6106,3 +6106,116 @@ country_event = {
 		}
 	}
 }
+
+#aftermath of Christian Front
+country_event = {
+	id = usa.307
+	title = usa.307.t
+	desc = usa.307.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.307.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
+
+#Radio Broadcast
+country_event = {
+	id = usa.308
+	title = usa.308.t
+	desc = usa.308.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.308.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
+
+#christian encomics
+country_event = {
+	id = usa.309
+	title = usa.309.t
+	desc = usa.309.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.309.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
+5th great awakening
+country_event = {
+	id = usa.310
+	title = usa.310.t
+	desc = usa.310.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.310.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
+
+#god bless america
+country_event = {
+	id = usa.311
+	title = usa.311.t
+	desc = usa.311.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.311.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
+
+#south
+country_event = {
+	id = usa.312
+	title = usa.312.t
+	desc = usa.312.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.312.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
