@@ -3184,6 +3184,24 @@ country_event = {
 		}
 	}
 	
+	option = {   
+		name = usa.104.o3
+		set_country_flag = USA_christian_front
+		hidden_effect = {
+			every_country = {
+		        limit = {
+			        NOT = {
+				        tag = USA
+				    }
+			    }
+			    news_event = {
+			        hours = 4
+			        id = news.5001
+		        }
+		    }
+		}
+	}
+	
 }
 
 #Military junta consolidates power
@@ -5790,6 +5808,12 @@ country_event = {
 				days = 30
 			}
 		}
+		hidden_effect = {
+			country_event = {
+				id = usa.305
+				days = 10
+			}
+		}		
 	}
 }
 
@@ -6031,6 +6055,51 @@ country_event = {
 	
 	option = {
 		name = usa.304.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
+
+
+#Rise of Mel Gibson
+country_event = {
+	id = usa.305
+	title = usa.305.t
+	desc = usa.305.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.305.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+		hidden_effect = {
+			country_event = {
+				id = usa.306
+				days = 16
+			}
+		}
+	}
+}
+
+#Little Rock Meeting and the Creation of the Christian Front
+country_event = {
+	id = usa.306
+	title = usa.306.t
+	desc = usa.306.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.306.o1
 		add_popularity = {
 		ideology = fascist
 		popularity = 0.01
