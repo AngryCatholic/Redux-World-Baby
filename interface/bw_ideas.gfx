@@ -1,11 +1,19 @@
 spriteTypes = {	
 	spriteType = {
 		name = "GFX_idea_junists"
-		texturefile = "gfx/interface/ideas/junists.dds"
+		texturefile = "gfx/interface/ideas/ENG/junists.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_bowdenists"
-		texturefile = "gfx/interface/ideas/bowdenists.dds"
+		texturefile = "gfx/interface/ideas/ENG/bowdenists.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_landians"
+		texturefile = "gfx/interface/ideas/ENG/landians.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_southgaters"
+		texturefile = "gfx/interface/ideas/ENG/southgaters.dds"
 	}
 }
 

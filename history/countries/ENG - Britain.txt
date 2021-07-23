@@ -167,12 +167,6 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nick Land"
-	picture = "GFX_Portrait_NickLand"
-	ideology = national_bolshevik_ideology
-}
-
-create_country_leader = {
 	name = "Owen Paterson"
 	picture = "Portrait_ENG_Owen_Paterson.dds"
 	ideology = european_conservative

@@ -23,6 +23,11 @@ country_event = {
 	
 	option = {   #Douglas Pearce
 		name = bw_britain.3.o1
+                add_ideas = idea_junists_power 
+		remove_ideas = idea_queen_elizabeth_ii 
+		remove_ideas = idea_prime_minister_owen 
+		remove_ideas = idea_bastion_of_european_democracy
+                set_party_name = { ideology = national_bolshevik long_name = ENG_esoteric_order1_long name = ENG_esoteric_order1 }
 		create_country_leader = {
 	        name = "Douglas P."
 	        picture = "Portrait_Douglas.dds"
@@ -37,6 +42,11 @@ country_event = {
 	
 	option = {   #Jonathan Bowden
 		name = bw_britain.3.o2
+                set_party_name = { ideology = fascist long_name = ENG_esoteric_order2_long name = ENG_esoteric_order2 }
+                add_ideas = idea_bowdenists_power 
+		remove_ideas = idea_queen_elizabeth_ii 
+		remove_ideas = idea_prime_minister_owen 
+		remove_ideas = idea_bastion_of_european_democracy
 		create_country_leader = {
 	        name = "Jonathan Bowden"
 	        picture = "Portrait_Bowden.dds"
@@ -51,6 +61,11 @@ country_event = {
 
 	option = {   #Troy Southgate
 		name = bw_britain.3.o3
+                set_party_name = { ideology = nationalist long_name = ENG_esoteric_order3_long name = ENG_esoteric_order3 }
+                add_ideas = idea_southgaters_power 
+		remove_ideas = idea_queen_elizabeth_ii 
+		remove_ideas = idea_prime_minister_owen 
+		remove_ideas = idea_bastion_of_european_democracy
 		create_country_leader = {
 	        name = "Troy Southgate"
 	        picture = "Portrait_Southgate.dds"
@@ -65,6 +80,11 @@ country_event = {
 
 	option = {   #Nick Land
 		name = bw_britain.3.o4
+                set_party_name = { ideology = fascist long_name = ENG_esoteric_order4_long name = ENG_esoteric_order4 }
+                add_ideas = idea_landian_power
+		remove_ideas = idea_queen_elizabeth_ii 
+		remove_ideas = idea_prime_minister_owen 
+		remove_ideas = idea_bastion_of_european_democracy
 		create_country_leader = {
 	        name = "Nick Land"
 	        picture = "Portrait_Nick_Land.dds"

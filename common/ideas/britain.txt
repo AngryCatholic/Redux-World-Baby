@@ -37,6 +37,42 @@ ideas = {
 			}
 		}
 		
+		idea_southgaters_power = {
+			allowed = {
+				always = no
+			}
+			
+			picture = southgaters
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_gain = 0.05
+			}
+		}
+		
+		idea_landian_power = {
+			allowed = {
+				always = no
+			}
+			
+			picture = landians
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_gain = 0.05
+			}
+		}
+		
 		idea_queen_elizabeth_ii = {
 			allowed = {
 				always = no

@@ -1,7 +1,7 @@
 frameAnimatedSpriteType = {
-        name = "GFX_Portrait_NickLan"
+        name = "GFX_Portrait_NickLand"
         texturefile = "gfx/leaders/ENG/Portrait_Land.dds"
-        noOfFrames = 80
+        noOfFrames = 37
 		animation_rate_fps = 10
 		looping = yes
 		play_on_show = yes

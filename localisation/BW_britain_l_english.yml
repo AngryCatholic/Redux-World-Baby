@@ -1,7 +1,7 @@
 ﻿l_english:
 ### Misc stuff###
  esoteric_order_wins_election:0 "Esoteric Order is in power"
- ENG_esoteric_order1:0 "EOB - Junists"
+ ENG_esoteric_order1:0 "EOB - Juneists"
  ENG_esoteric_order1_long:0 "Esoteric Order of Britannia"
  ENG_esoteric_order2:0 "EOB - Bowdenists"
  ENG_esoteric_order2_long:0 "Esoteric Order of Britannia"
@@ -24,10 +24,14 @@
  
  
  ### ideas ###
- idea_junists_power:0 "Junists In Control"
+ idea_junists_power:0 "Juneists in Control"
  idea_junists_power_desc:0 ""
- idea_bowdenists_power:0 "Bowdenists In Control"
+ idea_bowdenists_power:0 "Bowdenists in Control"
  idea_bowdenists_power_desc:0 ""
+ idea_southgaters_power:0 "Southgaters in Control"
+ idea_southgaters_power_desc:0 ""
+ idea_landian_power:0 "Landians in Control"
+ idea_landian_power_desc:0 ""
  
  ### events###
  bw_britain.3.t:0 "Leadership of the Esoteric Order"
