@@ -1,0 +1,200 @@
+ideas = {
+
+    country = {
+		
+		USA_american_christianity= {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				research_speed_factor = -0.1 
+				army_morale_factor = 0.05
+				drift_defence_factor = 0.2
+				political_power_gain = 0.1
+				
+				
+			}
+		}
+
+		USA_christian_reconstructionism= {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = catholic_values
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.02 
+				stability_factor = 0.035
+				fascist_drift = 0.02
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = -0.02
+				
+				
+			}
+		}
+		USA_america_the_faithful= {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				fascist_drift = 0.04
+				national_conservative_drift = 0.01 
+				centrist_drift = 0.01
+				stability_factor = 0.025 
+				war_support_factor = 0.01 
+				army_attack_factor = 0.05
+				
+			}
+		}
+		USA_crusaders= {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = crusader_morale
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.05
+				army_attack_factor = 0.025
+				training_time_army_factor = -0.025
+				conscription = 0.005
+				fascist_drift = 0.02	
+			}
+		}
+		USA_european_heritage= {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				research_speed_factor = -0.1 
+				army_morale_factor = 0.05
+				drift_defence_factor = 0.2
+				political_power_gain = 0.1
+				
+				
+			}
+		}
+
+		USA_juche= {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = catholic_values
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.02 
+				stability_factor = 0.035
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = -0.02
+				
+				
+			}
+		}
+		USA_jim_jones= {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				stability_factor = 0.025 
+				
+			}
+		}
+		USA_hitler= {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = crusader_morale
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.05
+				army_attack_factor = 0.025
+				training_time_army_factor = -0.025
+				conscription = 0.005
+				national_bolshevik_drift = 0.02	
+			}
+		}
+		USA_pol_pot= {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				stability_factor = 0.025 
+				war_support_factor = 0.01 
+				army_attack_factor = 0.05
+				
+			}
+		}
+	}
+}
