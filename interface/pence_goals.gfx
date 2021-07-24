@@ -154,6 +154,10 @@ spriteTypes = {
 		name = "GFX_goal_COR_Founders"
 		texturefile = "gfx/interface/goals/COR_Founders.dds"
 	}	
+	SpriteType = {
+		name = "GFX_goal_dubya"
+		texturefile = "gfx/interface/goals/GFX_goal_dubya.tga"
+	}	
 }	
 	
 }
