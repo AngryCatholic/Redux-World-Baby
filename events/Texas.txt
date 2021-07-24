@@ -64,6 +64,7 @@ country_event = {
 		name = texas.3.o1
 		create_country_leader = {
 	        name = "George W. Bush"
+		desc = "POLITICS_DUBYA_DESC"
 	        picture = "Portrait_TEX_DUBYA.dds"
 	        ideology = fascist_ideology 
         }
