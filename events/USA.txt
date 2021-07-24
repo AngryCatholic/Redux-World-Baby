@@ -3183,25 +3183,6 @@ country_event = {
 		    }
 		}
 	}
-	
-	option = {   
-		name = usa.104.o3
-		set_country_flag = USA_christian_front_power
-		hidden_effect = {
-			every_country = {
-		        limit = {
-			        NOT = {
-				        tag = USA
-				    }
-			    }
-			    news_event = {
-			        hours = 4
-			        id = news.5001
-		        }
-		    }
-		}
-	}
-	
 }
 
 #Military junta consolidates power
