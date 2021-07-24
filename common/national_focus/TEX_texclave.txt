@@ -10,7 +10,7 @@ focus_tree = {
 	#Focus for George Bush Rides Again!
 	focus = {
 		id = TEX_george_bush_rides_again
-		icon = GFX_goal_unknown
+		icon = GFX_goal_dubya
 		x = 8
 		y = 0
 		cost = 1
