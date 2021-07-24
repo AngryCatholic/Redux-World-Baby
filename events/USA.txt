@@ -6200,3 +6200,115 @@ country_event = {
 		}
 	}
 }
+
+country_event = { # Assassination Attempt on Duke
+	id = usa.313
+	title = usa.313.t
+	desc = usa.313.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_leader = {
+			ruling_only = yes
+			name = "David Duke"
+		}
+	}
+
+	option = { #he lives
+		name = usa.313.o1
+                set_country_flag = USA_duke_lives
+	}
+	
+	option = { #he dies
+		name = usa.313.o2
+                set_country_flag = USA_duke_dies
+		}
+		hidden_effect = {
+			country_event = {
+				id = usa.314
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = usa.314
+	title = usa.314.t
+	desc = usa.314.d
+	
+	is_triggered_only = yes
+	
+	option = {   #John Cupp
+		name = usa.314.o1 
+		remove_ideas = idea_america_neutrality 
+		remove_ideas = idea_usa_international_stigma 
+		remove_ideas = idea_usa_flight_of_the_executives
+                set_party_name = { ideology = national_bolshevik long_name = USA_nr_confed_long name = USA_nr_confed }
+		create_country_leader = {
+	        name = "John Paul Cupp"
+	        picture = "Portrait_USA_john_paul_cupp.dds"
+	        ideology = radical_nationalist
+        }
+		set_politics = {
+	        ruling_party = national_bolshevik
+	        elections_allowed = no
+        }
+		set_cosmetic_tag = USA_confedbol
+	}
+	
+	option = {   #Mel Gibson
+		name = usa.314.o2
+                set_party_name = { ideology = fascist long_name = USA_christian_front_long name = USA_christian_front }
+		remove_ideas = idea_america_neutrality 
+		remove_ideas = idea_usa_international_stigma 
+		remove_ideas = idea_usa_flight_of_the_executives
+		create_country_leader = {
+	        name = "Father Mel Gibson"
+	        picture = "Portrait_USA_Mel_Gibson.dds"
+	        ideology = rexist
+        }
+		set_politics = {
+	        ruling_party = fascist
+	        elections_allowed = no
+        }
+		set_cosmetic_tag = USA_christian_america_republic
+	}
+
+	option = {   #Michael Hill
+		name = usa.314.o3
+                set_party_name = { ideology = nationalist long_name = USA_nr_league_long name = USA_nr_league } 
+		remove_ideas = idea_america_neutrality 
+		remove_ideas = idea_usa_international_stigma 
+		remove_ideas = idea_usa_flight_of_the_executives
+		create_country_leader = {
+	        name = "Michael Hill"
+	        picture = "Portrait_USA_Michael_Hill.dds"
+	        ideology = paleoconservative
+        }
+		set_politics = {
+	        ruling_party = nationalist
+	        elections_allowed = no
+        }
+		set_cosmetic_tag = CSA
+	}
+
+	option = {   #Pastor Anderson
+		name = usa.314.o4
+                set_party_name = { ideology = fascist long_name = USA_nr_anderson_long name = USA_nr_anderson }
+		remove_ideas = idea_america_neutrality 
+		remove_ideas = idea_usa_international_stigma 
+		remove_ideas = idea_usa_flight_of_the_executives
+		create_country_leader = {
+	        name = "Steven Anderson"
+	        picture = "Portrait_USA_pastor_anderson.dds"
+	        ideology = fascist_ideology
+        }
+		set_politics = {
+	        ruling_party = fascist
+	        elections_allowed = no
+        }
+		set_cosmetic_tag = USA_fundementalists
+	}
+}
