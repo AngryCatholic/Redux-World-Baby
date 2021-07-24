@@ -2503,7 +2503,7 @@ focus_tree = {
 		completion_reward = {
 		    create_country_leader = {
 	            name = "Frank Ancona"
-	            picture = "Portrait_USA_Frank_Ancona.dds"
+	            picture = "Portrait_USA_KKK_Frank_Ancona.dds"
 	            ideology = fascist_ideology
             }
 			hidden_effect = {
