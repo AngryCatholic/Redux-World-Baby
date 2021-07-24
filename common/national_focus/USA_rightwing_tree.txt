@@ -1,0 +1,549 @@
+
+focus_tree = {
+	id = USA_rightwing_tree
+	country = {
+		factor = 0
+	}
+
+	default = no
+	continuous_focus_position = { x = 0 y = 1600 }
+
+	#Focus for American Mujahideen
+	focus = {
+		id = USA_american_mujahideen
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_country_flag= USA_mujahideen
+		}
+		completion_reward = {
+			army_experience = 25
+			country_event = usa.300
+			set_party_name = { ideology = fascist long_name = USA_american_mujahideen name = USA_american_mujahideen }
+			set_cosmetic_tag = USA_islamic_emirate			
+			create_country_leader = {
+	           		name = "Sulayman al-Faris"
+	            		picture = "Portrait_USA_John_Walker_Lindh.dds"
+	           		ideology = jihadist
+			}
+		}
+	}
+
+	#Focus for Jefferson and Islam
+	focus = {
+		id = USA_jefferson_and_islam
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_american_mujahideen }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= USA_american_islam
+		}
+	}
+
+	#Focus for Islam is Anti-Communism!
+	focus = {
+		id = USA_islam_is_anticommunism
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_american_mujahideen }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05  
+			add_political_power= 150
+		}
+	}
+
+	#Focus for Honoring our Emir
+	focus = {
+		id = USA_honoring_our_emir
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_american_mujahideen }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.301
+
+		}
+	}
+
+	#Focus for Islam in the Education System
+	focus = {
+		id = USA_islam_in_the_education_system
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_islam_is_anticommunism }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support= 0.05  
+			add_political_power= 50
+			add_popularity = { ideology = fascist popularity = 0.05 }
+		}
+	}
+
+	#Focus for American Sharia
+	focus = {
+		id = USA_american_sharia
+		icon = GFX_goal_unknown
+		x = 7
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_islam_is_anticommunism 
+		}
+		prerequisite = { 
+			focus = USA_jefferson_and_islam 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= USA_american_sharia
+		}
+	}
+
+	#Focus for Meeting with bin Laden
+	focus = {
+		id = USA_meeting_with_bin_laden
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_jefferson_and_islam 
+		}
+		prerequisite = { 
+			focus = USA_honoring_our_emir 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.302 
+
+		}
+	}
+
+	#Focus for Funding Anti-Soviet Rebels
+	focus = {
+		id = USA_funding_antisoviet_rebels
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_honoring_our_emir }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability = 0.05  
+			add_war_support = 0.05
+		}
+	}
+
+	#Focus for A New Great Revival
+	focus = {
+		id = USA_a_new_great_revival
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_islam_in_the_education_system 
+		}
+		prerequisite = { 
+			focus = USA_american_sharia 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.303
+			add_ideas= USA_islamic_rising
+		}
+	}
+
+	#Focus for American Arabic
+	focus = {
+		id = USA_american_arabic
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_american_sharia 
+		}
+		prerequisite = { 
+			focus = USA_meeting_with_bin_laden 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05  
+			add_political_power = 80
+			add_popularity = { ideology = fascist popularity = 0.05 }
+		}
+	}
+
+	#Focus for A Great Jihad against Communism
+	focus = {
+		id = USA_a_great_jihad_against_communism
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_funding_antisoviet_rebels 
+		}
+		prerequisite = { 
+			focus = USA_meeting_with_bin_laden 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= USA_jihad
+		}
+	}
+
+	#Focus for God is Great!
+	focus = {
+		id = USA_god_is_great
+		icon = GFX_goal_unknown
+		x = 7
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_american_arabic 
+		}
+		prerequisite = { 
+			focus = USA_a_new_great_revival 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.304
+		}
+	}
+
+	#Focus for Against the Great Satan!
+	focus = {
+		id = USA_against_the_great_satan
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_a_great_jihad_against_communism 
+		}
+		prerequisite = { 
+			focus = USA_american_arabic 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		    create_wargoal = {
+			    type = puppet_wargoal_focus
+			    target = SOV
+		    }
+		}
+
+	}
+
+	focus = {
+		id = USA_christian_front_in_power
+		icon = review_the_separation
+		x = 15
+		y = 3
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_country_flag= USA_christian_front_power
+		}
+		completion_reward = {
+			army_experience = 25
+			country_event = usa.307
+		}
+	}
+
+	focus = {
+		id = USA_founders_and_christianity
+		icon = GFX_goal_COR_Founders
+		x = 15
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_christian_front_in_power }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= USA_american_christianity
+		}
+	}
+
+	focus = {
+		id = USA_public_preaching
+		icon = propaganda
+		x = 13
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_christian_front_in_power }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05  
+			add_political_power= 150
+		}
+	}
+
+	focus = {
+		id = USA_radio_priest
+		icon = focus_appease_catholics
+		x = 17
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_christian_front_in_power }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.301
+
+		}
+	}
+
+	focus = {
+		id = USA_prayer_in_school
+		icon = focus_support_christian_values
+		x = 12
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_public_preaching }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support= 0.05  
+			add_political_power= 50
+			add_popularity = { ideology = fascist popularity = 0.05 }
+		}
+	}
+
+	focus = {
+		id = USA_christian_reconstructionism
+		icon = traditional_values
+		x = 14
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_public_preaching 
+		}
+		prerequisite = { 
+			focus = USA_founders_and_christianity 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= USA_christian_reconstructionism
+		}
+	}
+
+	focus = {
+		id = USA_Christian_free_markets
+		icon = focus_fund_christian_charities
+		x = 16
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_founders_and_christianity 
+		}
+		prerequisite = { 
+			focus = USA_radio_priest 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.309 
+
+		}
+	}
+
+	focus = {
+		id = USA_strategic_anti_communist_alliance
+		icon = GFX_goal_TEX_focus_Common_Man_Integralism
+		x = 18
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_radio_priest }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability = 0.05  
+			add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = USA_fifth_great_awakening
+		icon = GFX_goal_COR_restoring_faith
+		x = 13
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_prayer_in_school 
+		}
+		prerequisite = { 
+			focus = USA_christian_reconstructionism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.310
+			add_ideas= USA_america_the_faithful
+		}
+	}
+
+	focus = {
+		id = USA_south_first
+		icon = i_wish_i_was_in_dixie
+		x = 15
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_christian_reconstructionism 
+		}
+		prerequisite = { 
+			focus = USA_Christian_free_markets 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05  
+			add_political_power = 80
+			add_popularity = { ideology = fascist popularity = 0.05 }
+			country_event = usa.312
+		}
+	}
+
+	focus = {
+		id = USA_a_great_crusade_against_communism
+		icon = focus_old_deus_vult
+		x = 17
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_strategic_anti_communist_alliance 
+		}
+		prerequisite = { 
+			focus = USA_Christian_free_markets 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= USA_crusaders
+		}
+	}
+
+	focus = {
+		id = USA_god_bless_america
+		icon = GFX_goal_COR_christian_america
+		x = 14
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_south_first 
+		}
+		prerequisite = { 
+			focus = USA_fifth_great_awakening 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.311
+		}
+	}
+
+	focus = {
+		id = USA_fufilling_fatima
+		icon = focus_conquests_of_asia
+		x = 16
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_a_great_crusade_against_communism 
+		}
+		prerequisite = { 
+			focus = USA_south_first 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		    create_wargoal = {
+			    type = puppet_wargoal_focus
+			    target = SOV
+		    }
+		}
+
+	}
+}
