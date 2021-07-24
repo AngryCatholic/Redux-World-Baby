@@ -28,6 +28,529 @@ focus_tree = {
 	}
 
 	focus = {
+		id = TUR_Perincek
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 16
+		y = 1
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Milliler
+		}
+		completion_reward = {
+		    add_stability = 0.10
+		add_political_power = 100
+		}
+
+	}
+
+	focus = {
+		id = TUR_The_Party
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 17
+		y = 2
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Perincek
+		}
+		completion_reward = {
+		    add_political_power = 200
+			add_war_support = 0.10
+		}
+
+	}
+
+	focus = {
+		id = TUR_Ally_The_Ulusal
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 15
+		y = 2
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Perincek
+		}
+		completion_reward = {
+		    remove_ideas = TUR_Millets
+		}
+
+	}
+
+	focus = {
+		id = TUR_Marxism
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 16
+		y = 3
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_The_Party
+		}
+		prerequisite = {
+			focus = TUR_Ally_The_Ulusal
+		}
+		completion_reward = {
+		add_ideas = TUR_Perincek_System
+		}
+
+	}
+
+	focus = {
+		id = TUR_Learn_Korea
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 16
+		y = 4
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Marxism
+		}
+		completion_reward = {
+		    add_ideas = TUR_Ecoonomic_Plan
+		}
+
+	}
+
+	focus = {
+		id = TUR_Ban_Religion
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 19
+		y = 4
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Marxism
+		}
+		completion_reward = {
+		    add_ideas = TUR_BanGod
+		}
+
+	}
+
+	focus = {
+		id = TUR_Force_Kemalism
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 19
+		y = 5
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Ban_Religion
+		}
+		completion_reward = {
+		    swap_ideas = {
+			remove = TUR_BanGod
+			add = TUR_BanGod2	
+			}
+		}
+
+	}
+
+	focus = {
+		id = TUR_The_Cultural_Revolution
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 18
+		y = 6
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Force_Kemalism
+		}
+		completion_reward = {
+		    add_timed_idea = {
+			days = 120
+			idea = TUR_CulturRev
+			}
+		}
+
+	}
+
+	focus = {
+		id = TUR_Turkish_Stasi
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 20
+		y = 6
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Force_Kemalism
+		}
+		completion_reward = {
+		    add_timed_idea = {
+			days = 120
+			idea = TUR_Stasi
+			}
+		}
+
+	}
+	focus = {
+		id = TUR_Kemalist_Army
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 19
+		y = 7
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Turkish_Stasi
+		}
+		prerequisite = {
+			focus = TUR_The_Cultural_Revolution
+		}
+		completion_reward = {
+		    swap_ideas = {
+			remove = TUR_BanGod2
+			add = TUR_BanGod3
+			}
+		}
+
+	}
+	focus = {
+		id = TUR_Heavily_Regulate
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 17
+		y = 5
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Learn_Korea
+		}
+		completion_reward = {
+		    swap_ideas = {
+		remove = TUR_Ecoonomic_Plan
+		add = TUR_Ecoonomic_Plan2	
+		}
+		}
+
+	}
+	focus = {
+		id = TUR_End_Consumerism
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 15
+		y = 5
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Learn_Korea
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+	focus = {
+		id = TUR_Expand_Halk
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 16
+		y = 6
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Heavily_Regulate
+		}
+		prerequisite = {
+			focus = TUR_End_Consumerism
+		}
+		completion_reward = {
+		    swap_ideas = {
+		remove = TUR_Ecoonomic_Plan2
+		add = TUR_Ecoonomic_Plan3	
+		}
+		}
+
+	}
+	focus = {
+		id = TUR_Eurasian_Markets
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 16
+		y = 7
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Expand_Halk
+		}
+		completion_reward = {
+		    swap_ideas = {
+		remove = TUR_Ecoonomic_Plan3
+		add = TUR_Ecoonomic_PlanDeng
+		}
+		}
+
+	}
+
+	focus = {
+		id = TUR_New_Turkey
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 17
+		y = 8
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Kemalist_Army
+		}
+		prerequisite = {
+			focus = TUR_Eurasian_Markets
+		}
+		available = {
+			NOT = {
+			has_idea = TUR_CulturRev
+			has_idea = TUR_Stasi	
+			}
+		}
+		completion_reward = {
+		    swap_ideas = {
+			remove = TUR_BanGod3
+			add = TUR_BanGod4
+			}
+		}
+
+	}
+
+	focus = {
+		id = TUR_A_Revolution_Moscow
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 15
+		y = 8
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Import_Slavs
+		}
+		prerequisite = {
+			focus = TUR_Eurasian_Markets
+		}
+		completion_reward = {
+		    swap_ideas = {
+		remove = TUR_Idea_Eurasia3
+		add = TUR_Idea_Eurasia4
+		}
+		}
+
+	}
+
+	focus = {
+		id = TUR_Like_Heroes
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 16
+		y = 9
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_New_Turkey
+		}
+		prerequisite = {
+			focus = TUR_A_Revolution_Moscow
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+
+	focus = {
+		id = TUR_Eurasia
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 14
+		y = 4
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Marxism
+		}
+		completion_reward = {
+		    add_ideas = TUR_Idea_Eurasia
+		}
+
+	}
+
+	focus = {
+		id = TUR_NeoTuranism
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 13
+		y = 5
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Eurasia
+		}
+		completion_reward = {
+		swap_ideas = {
+		remove = TUR_Idea_Eurasia
+		add = TUR_Idea_Eurasia2	
+		}
+		}
+
+	}
+
+	focus = {
+		id = TUR_Crush_PKK
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 12
+		y = 6
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_NeoTuranism
+		}
+		completion_reward = {
+		    
+		}
+
+	}
+
+	focus = {
+		id = TUR_Import_Slavs
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 13
+		y = 7
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Soviets_Revisionist
+		}
+		prerequisite = {
+			focus = TUR_Crush_PKK
+		}
+		completion_reward = {
+		country_event = { id = tur.5 days = 1 }
+		}
+
+	}
+
+
+	focus = {
+		id = TUR_Soviets_Revisionist
+		icon = texan_question
+		cost = 4
+		ai_will_do = {
+			base = 100
+		}
+		x = 14
+		y = 6
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = TUR_Eurasia
+		}
+		prerequisite = {
+			focus = TUR_NeoTuranism
+		}
+		completion_reward = {
+		swap_ideas = {
+		remove = TUR_Idea_Eurasia2
+		add = TUR_Idea_Eurasia3
+		}
+		}
+
+	}
+
+	focus = {
 		id = TUR_Erdogan
 		icon = texan_question
 		cost = 4

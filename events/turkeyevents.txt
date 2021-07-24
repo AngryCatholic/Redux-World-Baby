@@ -116,3 +116,32 @@ country_event = { # Hendek
 	}
 	
 }
+
+country_event = { # Hendek
+	id = tur.5
+	title = tur.5.t
+	desc = tur.5.d
+	picture = mob_rule
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = tur.2.a
+		remove_ideas = TUR_East_Aflame
+		manpower = -40000
+		add_political_power = -200
+		add_stability = 0.10
+		release = KUR
+		load_oob = KUR_2000
+		declare_war_on = {
+    	target = KUR
+    	type = annex_everything
+		}
+		TUR = {
+		add_state_core = 352
+		add_state_core = 350	
+		}
+
+	}
+	
+}
