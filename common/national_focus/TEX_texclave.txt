@@ -30,7 +30,7 @@ focus_tree = {
 	#Focus for Destroying the Lone Star
 	focus = {
 		id = TEX_destroying_the_lone_star
-		icon = GFX_goal_unknown
+		icon = attack_allies
 		x = 6
 		y = 1
 		cost = 5
@@ -47,7 +47,7 @@ focus_tree = {
 	#Focus for Doctrine of True Americanism
 	focus = {
 		id = TEX_doctrine_of_true_americanism
-		icon = GFX_goal_unknown
+		icon = a_new_constitution
 		x = 8
 		y = 1
 		cost = 5
@@ -65,7 +65,7 @@ focus_tree = {
 	#Focus for Taking the Birthright
 	focus = {
 		id = TEX_taking_the_birthright
-		icon = GFX_goal_unknown
+		icon = return_of_the_americans
 		x = 10
 		y = 1
 		cost = 5
@@ -86,6 +86,7 @@ focus_tree = {
             core_UTA = yes
             core_ARI = yes
             core_PCA = yes
+            core_USA = yes	    
 		}
 
 	}
@@ -93,7 +94,7 @@ focus_tree = {
 	#Focus for Enclave Radio!
 	focus = {
 		id = TEX_enclave_radio
-		icon = GFX_goal_unknown
+		icon = focus_undermine_local_media
 		x = 7
 		y = 2
 		cost = 8
@@ -117,7 +118,7 @@ focus_tree = {
 	#Focus for Experimental Weapons
 	focus = {
 		id = TEX_experimental_weapons
-		icon = GFX_goal_unknown
+		icon = secret_weapon
 		x = 9
 		y = 2
 		cost = 8
@@ -140,10 +141,10 @@ focus_tree = {
 	#Focus for State and Capital
 	focus = {
 		id = TEX_state_and_capital
-		icon = GFX_goal_unknown
+		icon = corporatism
 		x = 6
 		y = 3
-		cost = 8
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = TEX_enclave_radio }
 		ai_will_do = {
