@@ -2148,7 +2148,18 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_enfored_quarintine "
 			country_event = pence.27 #povertytime
+		    enable_unification_decisions = yes
+            core_NEA = yes
+            core_ILL = yes
+            core_GRL = yes
+            core_MWA = yes
+            core_MOT = yes
+            core_LIN = yes
+            core_UTA = yes
+            core_ARI = yes
+            core_PCA = yes
 		}
+
 	}
 
 	focus = {
