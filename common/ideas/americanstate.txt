@@ -689,7 +689,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = red_catholic_alliance
+			picture = neutrality_idea
 			
 			removal_cost = -1
 			
@@ -709,7 +709,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = red_cardinals
+			picture = crusader_morale
 			
 			removal_cost = -1
 			
@@ -734,7 +734,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = revolutionary_welfare
+			picture = generic_fascism_drift_bonus
 			
 			modifier = {
 				MONTHLY_POPULATION = -0.20
