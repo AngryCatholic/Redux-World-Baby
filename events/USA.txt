@@ -6260,8 +6260,8 @@ country_event = {
 		remove_ideas = idea_usa_international_stigma 
 		remove_ideas = idea_usa_flight_of_the_executives
 		create_country_leader = {
-	        name = "Michael Hill"
-	        picture = "Portrait_USA_Michael_Hill.dds"
+	        name = "Robert C. Byrd"
+	        picture = "Portrait_Stonewall_byrd.dds"
 	        ideology = paleoconservative
         }
 		set_politics = {
