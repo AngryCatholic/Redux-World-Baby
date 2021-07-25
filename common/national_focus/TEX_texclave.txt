@@ -158,7 +158,7 @@ focus_tree = {
 	#Focus for Doping our Soldiers
 	focus = {
 		id = TEX_doping_our_soldiers
-		icon = GFX_goal_unknown
+		icon = focus_drug_honeypot
 		x = 8
 		y = 3
 		cost = 10
@@ -180,7 +180,7 @@ focus_tree = {
 	#Focus for Killing Communists
 	focus = {
 		id = TEX_killing_communists
-		icon = GFX_goal_unknown
+		icon = broken_star
 		x = 10
 		y = 3
 		cost = 10
@@ -197,7 +197,7 @@ focus_tree = {
 	#Focus for Down Mexico Way
 	focus = {
 		id = TEX_down_mexico_way
-		icon = GFX_goal_unknown
+		icon = mexico_attack
 		x = 7
 		y = 4
 		cost = 10
@@ -219,7 +219,7 @@ focus_tree = {
 	#Focus for Day of the Rake
 	focus = {
 		id = TEX_day_of_the_rake
-		icon = GFX_goal_unknown
+		icon = canada_attack
 		x = 9
 		y = 4
 		cost = 10
