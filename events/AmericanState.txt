@@ -726,11 +726,11 @@ country_event = { # Enforcing the Quarintine
 		}
         create_wargoal = {
 		    type = annex_everything
-		    target = AMC
+		    target = USA
 		}
         create_wargoal = {
 		    type = annex_everything
-		    target = AMS
+		    target = TEX
 		}
         create_wargoal = {
 		    type = annex_everything
