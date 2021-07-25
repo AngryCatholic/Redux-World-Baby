@@ -3165,24 +3165,6 @@ country_event = {
 		    }
 		}
 	}
-
-	option = {   
-		name = usa.104.o2
-		set_country_flag = USA_mujahideen
-		hidden_effect = {
-			every_country = {
-		        limit = {
-			        NOT = {
-				        tag = USA
-				    }
-			    }
-			    news_event = {
-			        hours = 4
-			        id = news.5000
-		        }
-		    }
-		}
-	}
 }
 
 #Military junta consolidates power
