@@ -653,7 +653,7 @@ country_event = { # Creation of the Death State
 	is_triggered_only = yes
 
 	option = { # that aint very american
-		name = pence.14.a
+		name = pence.27.a
 		add_stability = 0.05
                 add_political_power = 100
 	}
@@ -673,7 +673,7 @@ country_event = { # Enforcing the Quarintine
 	}
 
 	option = { # that aint very american
-		name = pence.15.a
+		name = pence.28.a
         create_wargoal = {
 		    type = annex_everything
 		    target = MWA
@@ -816,7 +816,7 @@ country_event = { # Bringing out the Dead
 	}
 
 	option = { #Thank you Terr A. Davis?
-		name = pence.18.a
+		name = pence.30.a
 		add_stability = 0.05
                 add_political_power = 100
 	}
