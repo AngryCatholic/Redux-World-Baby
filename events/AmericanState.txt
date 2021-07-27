@@ -633,7 +633,7 @@ country_event = { # Arrival of Foriegn Doctors
 		create_country_leader = {
 		name = "Doctor Fauci"
 	        picture = "Portrait_AMS_fauci.dds"
-	        ideology = falangist
+	        ideology = faucism
 	}
 		set_cosmetic_tag = AMS_national_death_state
 		add_ideas = americanstate_sic_ralph_northam
