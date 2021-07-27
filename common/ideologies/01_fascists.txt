@@ -25,6 +25,9 @@ ideologies = {
 			neoreactionary = {				
 			}
 			
+			faucism = {				
+			}			
+			
 		}
 		
 		dynamic_faction_names = {
