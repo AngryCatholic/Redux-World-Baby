@@ -1059,5 +1059,264 @@ focus_tree = {
 		    }
 		}
 
+	focus = {
+		id = USA_fundie_america
+		icon = GFX_goal_COR_christian_america
+		x = 15
+		y = 3
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_country_flag= USA_anderson_in_power
+		}
+		completion_reward = {
+			army_experience = 25
+			country_event = usa.326
+		}
+	}
+
+	focus = {
+		id = USA_puritanical_laws
+		icon = GFX_goal_COR_christian_america
+		x = 15
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_fundie_america }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= USA_puritan_laws
+		}
+	}
+
+	focus = {
+		id = USA_mandatory_church
+		icon = GFX_goal_COR_christian_america
+		x = 13
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_fundie_america }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05  
+			add_political_power= 150
+			add_ideas= USA_church_strict
+		}
+	}
+
+	focus = {
+		id = USA_new_king_david
+		icon = GFX_goal_COR_christian_america
+		x = 17
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_fundie_america }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.327
+
+		}
+	}
+
+	focus = {
+		id = USA_public_stoning
+		icon = GFX_goal_COR_christian_america
+		x = 12
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_mandatory_church }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support= 0.05  
+			add_political_power= 50
+			add_popularity = { ideology = fascist popularity = 0.05 }
+			add_ideas= USA_stoning
+		}
+	}
+
+	focus = {
+		id = USA_witch_trials
+		icon = GFX_goal_COR_christian_america
+		x = 14
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_mandatory_church 
+		}
+		prerequisite = { 
+			focus = USA_puritanical_laws 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.328 
+		}
+	}
+
+	focus = {
+		id = USA_drug_trade
+		icon = GFX_goal_COR_christian_america
+		x = 16
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_puritanical_laws 
+		}
+		prerequisite = { 
+			focus = USA_new_king_david 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.329
+		}
+	}
+
+	focus = {
+		id = USA_new_band_of_men
+		icon = GFX_goal_COR_christian_america
+		x = 18
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_new_king_david }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= USA_david_and_goliath
+		}
+	}
+
+	focus = {
+		id = USA_new_temple
+		icon = GFX_goal_COR_christian_america
+		x = 13
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_public_stoning 
+		}
+		prerequisite = { 
+			focus = USA_witch_trials 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.330
+			add_ideas= USA_new_temple
+		}
+	}
+
+	focus = {
+		id = USA_only_fundie
+		icon = GFX_goal_COR_christian_america
+		x = 15
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_witch_trials 
+		}
+		prerequisite = { 
+			focus = USA_drug_trade 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05  
+			add_political_power = 80
+			add_popularity = { ideology = fascist popularity = 0.05 }
+			country_event = usa.331
+		}
+	}
+
+	focus = {
+		id = USA_david_and_goliath
+		icon = GFX_goal_COR_christian_america
+		x = 17
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_new_band_of_men 
+		}
+		prerequisite = { 
+			focus = USA_drug_trade 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability = 0.05  
+			add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = USA_god_bless_the_faithful
+		icon = GFX_goal_COR_christian_america
+		x = 14
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_only_fundie 
+		}
+		prerequisite = { 
+			focus = USA_new_temple 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = usa.332
+		}
+	}
+
+	focus = {
+		id = USA_against_sodom
+		icon = GFX_goal_COR_christian_america
+		x = 16
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_david_and_goliath 
+		}
+		prerequisite = { 
+			focus = USA_only_fundie 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		    create_wargoal = {
+			    type = puppet_wargoal_focus
+			    target = SOV
+		    }
+		}
+
 	}
 }
