@@ -196,5 +196,109 @@ ideas = {
 				
 			}
 		}
+		
+		USA_puritan_laws= {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				research_speed_factor = -0.4 
+				drift_defence_factor = 0.2
+				political_power_gain = 0.1
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = -0.02				
+				
+				
+			}
+		}
+		USA_church_strict= {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = crusader_morale
+			
+			removal_cost = -1
+			
+			modifier = {
+				training_time_army_factor = -0.025
+				conscription = 0.005
+				stability_factor = 0.025 				
+				fascist_drift = 0.02	
+			}
+		}
+		USA_stoning= {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = crusader_morale
+			
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.2
+				political_power_gain = 0.1
+				fascist_drift = 0.02	
+			}
+		}
+		USA_new_temple= {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = crusader_morale
+			
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.6
+				political_power_gain = 0.4
+				fascist_drift = 0.06	
+				army_attack_factor = 0.05				
+			}
+		}
+		USA_david_and_goliath= {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = crusader_morale
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.05
+				army_attack_factor = 0.025
+				training_time_army_factor = -0.025
+				conscription = 0.005
+				fascist_drift = 0.02	
+			}
+		}		
 	}
 }
