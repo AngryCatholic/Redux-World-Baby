@@ -966,7 +966,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = usa.323
-			add_ideas= USA_america_the_faithful
+			add_ideas= USA_america_the_biblicial
 		}
 	}
 
