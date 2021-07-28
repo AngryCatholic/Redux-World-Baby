@@ -821,7 +821,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_anglo_celtic_america
-		icon = i_wish_i_was_in_dixie
+		icon = appease_scotland
 		x = 21
 		y = 4
 		cost = 5
@@ -950,7 +950,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_biblical_america
-		icon = i_wish_i_was_in_dixie
+		icon = focus_support_christian_values
 		x = 21
 		y = 6
 		cost = 5
@@ -972,7 +972,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_renouce_america
-		icon = i_wish_i_was_in_dixie
+		icon = draft_a_confederate_constitution
 		x = 23
 		y = 6
 		cost = 5
@@ -996,7 +996,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_against_the_atheists
-		icon = i_wish_i_was_in_dixie
+		icon = operation_blue_dawn
 		x = 25
 		y = 6
 		cost = 5
@@ -1038,7 +1038,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_against_satan
-		icon = i_wish_i_was_in_dixie
+		icon = soviet_attack
 		x = 24
 		y = 7
 		cost = 10
