@@ -802,7 +802,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_league_of_the_south
-		icon = i_wish_i_was_in_dixie
+		icon = focus_league_of_the_south
 		x = 23
 		y = 3
 		cost = 1
@@ -837,7 +837,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_southron_rallies
-		icon = i_wish_i_was_in_dixie
+		icon = focus_southron_rallies
 		x = 23
 		y = 4
 		cost = 5
@@ -854,7 +854,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_keeping_the_republic_strong
-		icon = i_wish_i_was_in_dixie
+		icon = focus_honoring_stonewall
 		x = 25
 		y = 4
 		cost = 5
@@ -871,7 +871,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_southron_culture
-		icon = i_wish_i_was_in_dixie
+		icon = focus_south_culture
 		x = 20
 		y = 5
 		cost = 5
@@ -890,7 +890,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_plantation_system
-		icon = i_wish_i_was_in_dixie
+		icon = focus_plantation
 		x = 22
 		y = 5
 		cost = 5
@@ -912,7 +912,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_agrarianism
-		icon = i_wish_i_was_in_dixie
+		icon = focus_cotton_picking
 		x = 24
 		y = 5
 		cost = 5
@@ -933,7 +933,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_slow_way_of_life
-		icon = i_wish_i_was_in_dixie
+		icon = focus_slow_life
 		x = 26
 		y = 5
 		cost = 5
