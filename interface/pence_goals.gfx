@@ -157,6 +157,34 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_dubya"
 		texturefile = "gfx/interface/goals/GFX_goal_dubya.tga"
+	}
+	SpriteType = {
+		name = "focus_league_of_the_south"
+		texturefile = "gfx/interface/goals/focus_league_of_the_south.dds"
+	}
+	SpriteType = {
+		name = "focus_southron_rallies"
+		texturefile = "gfx/interface/goals/focus_southron_rallies.dds"
+	}	
+	SpriteType = {
+		name = "focus_honoring_stonewall"
+		texturefile = "gfx/interface/goals/focus_honoring_stonewall.dds"
+	}
+	SpriteType = {
+		name = "focus_south_culture"
+		texturefile = "gfx/interface/goals/focus_south_culture.dds"
+	}
+	SpriteType = {
+		name = "focus_plantation"
+		texturefile = "gfx/interface/goals/focus_plantation.dds"
+	}	
+	SpriteType = {
+		name = "focus_cotton_picking"
+		texturefile = "gfx/interface/goals/focus_cotton_picking.dds"
+	}
+	SpriteType = {
+		name = "focus_slow_life"
+		texturefile = "gfx/interface/goals/focus_slow_life.dds"
 	}	
 }	
 	
