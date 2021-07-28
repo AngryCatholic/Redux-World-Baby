@@ -299,6 +299,108 @@ ideas = {
 				conscription = 0.005
 				fascist_drift = 0.02	
 			}
+		}
+		USA_american_race= {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				army_morale_factor = 0.05
+				drift_defence_factor = 0.2
+				political_power_gain = 0.1
+				
+				
+			}
+		}
+
+		USA_south_culture= {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = catholic_values
+			
+			modifier = {
+				stability_factor = 0.035
+				nationalist_drift = 0.02
+				consumer_goods_factor = -0.05
+				
+				
+			}
+		}
+		USA_plantation_system= {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				fascist_drift = 0.01
+				national_conservative_drift = 0.01 
+				nationalist_drift = 0.04
+				consumer_goods_factor = -0.05				
+				
+			}
+		}
+		USA_agrarian_econ= {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = crusader_morale
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.05
+				industrial_capacity_factory = -0.02
+			}
+		}	
+		USA_america_the_biblicial= {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = crusader_morale
+			
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.6
+				political_power_gain = 0.4
+				nationalist_drift = 0.06	
+				army_attack_factor = 0.05				
+			}
 		}		
 	}
 }
