@@ -6270,7 +6270,7 @@ country_event = {
 	        ruling_party = nationalist
 	        elections_allowed = no
         }
-		set_cosmetic_tag = CSA_fascist
+		set_cosmetic_tag = USA_Southron
 	}
 
 	option = {   #Pastor Anderson
