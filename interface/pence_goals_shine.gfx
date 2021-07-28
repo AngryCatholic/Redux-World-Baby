@@ -608,7 +608,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "AMS_experts_trusted"
+		name = "AMS_experts_trusted_shine"
 		texturefile = "gfx/interface/goals/AMS_experts_trusted.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -640,7 +640,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "focus_new_flagellants"
+		name = "focus_new_flagellants_shine"
 		texturefile = "gfx/interface/goals/focus_new_flagellants.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -672,7 +672,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "focus_dead_needem"
+		name = "focus_dead_needem_shine"
 		texturefile = "gfx/interface/goals/focus_dead_needem.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -704,7 +704,7 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "focus_enforce_quarantine"
+		name = "focus_enforce_quarantine_shine"
 		texturefile = "gfx/interface/goals/focus_enforce_quarantine.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -735,7 +735,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "focus_national_death_state"
+		name = "focus_national_death_state_shine"
 		texturefile = "gfx/interface/goals/focus_national_death_state.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -767,7 +767,7 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "focus_bio_weapons"
+		name = "focus_bio_weapons_shine"
 		texturefile = "gfx/interface/goals/focus_bio_weapons.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -799,7 +799,7 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "focus_hell_on_earth"
+		name = "focus_hell_on_earth_shine"
 		texturefile = "gfx/interface/goals/focus_hell_on_earth.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -831,7 +831,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "focus_tradinista"
+		name = "focus_tradinista_shine"
 		texturefile = "gfx/interface/goals/focus_tradinista.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -863,7 +863,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "focus_peasant_crusade"
+		name = "focus_peasant_crusade_shine"
 		texturefile = "gfx/interface/goals/focus_peasant_crusade.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -895,7 +895,7 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "focus_socialist_trad"
+		name = "focus_socialist_trad_shine"
 		texturefile = "gfx/interface/goals/focus_socialist_trad.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -926,7 +926,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "focus_liberation_theo"
+		name = "focus_liberation_theo_shine"
 		texturefile = "gfx/interface/goals/focus_liberation_theo.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -958,7 +958,7 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "focus_plain_cath"
+		name = "focus_plain_cath_shine"
 		texturefile = "gfx/interface/goals/focus_plain_cath.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -990,7 +990,7 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "focus_holy_socialism"
+		name = "focus_holy_socialism_shine"
 		texturefile = "gfx/interface/goals/focus_holy_socialism.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -1021,7 +1021,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}	
 	SpriteType = {
-		name = "focus_pope_friend"
+		name = "focus_pope_friend_shine"
 		texturefile = "gfx/interface/goals/focus_pope_friend.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -1174,7 +1174,7 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
-		name = "GFX_goal_dubya"
+		name = "GFX_goal_dubya_shine"
 		texturefile = "gfx/interface/goals/GFX_goal_dubya.tga"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
