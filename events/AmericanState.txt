@@ -479,10 +479,6 @@ country_event = { # Rebels in Strom Land
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	trigger = {
-                has_country_flag = invited_kevin_strom
-	}
-
 	option = { #fuck me
 		name = pence.19.a
 		add_stability = -0.05
@@ -499,6 +495,7 @@ country_event = { # Followers of the White Pelican?
 	desc = pence.20.d
 
 	fire_only_once = yes
+	is_triggered_only = yes	
 	
 	option = { #fuck me
 		name = pence.20.a
@@ -516,6 +513,7 @@ country_event = { # The Rebels move for the Capital
 	desc = pence.21.d
 
 	fire_only_once = yes
+	is_triggered_only = yes	
 
 	option = { #rebels win
 		name = pence.21.a
