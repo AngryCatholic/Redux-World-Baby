@@ -605,7 +605,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = usa.301
+			country_event = usa.308
 
 		}
 	}
