@@ -6126,6 +6126,7 @@ country_event = {
 		}
 	}
 }
+
 5th great awakening
 country_event = {
 	id = usa.310
@@ -6349,6 +6350,7 @@ country_event = {
 		}
 	}
 }
+
 5th great awakening
 country_event = {
 	id = usa.323
