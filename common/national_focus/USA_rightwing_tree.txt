@@ -1193,7 +1193,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_new_band_of_men
-		icon = COR_christian_service_brigade
+		icon = GFX_goal_TEX_focus_Common_Man_Integralism
 		x = 34
 		y = 5
 		cost = 5
@@ -1203,7 +1203,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas= USA_david_and_goliath
+			add_ideas= USA_david_and_goliath_idea
 		}
 	}
 
