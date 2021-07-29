@@ -130,11 +130,64 @@ country_event = {
 	
 	option = {
 		name = texas.6.o1
-		add_popularity = {
-		ideology = fascist
-		popularity = 0.01
+        create_wargoal = {
+		    type = annex_everything
+		    target = MWA
 		}
+		create_wargoal = {
+		    type = annex_everything
+		    target = ILL
+		}
+		create_wargoal = {
+		    type = annex_everything
+		    target = UTA
+		}
+		create_wargoal = {
+		    type = annex_everything
+		    target = ARI
+		}
+        create_wargoal = {
+		    type = annex_everything
+		    target = GRL
+		}
+		create_wargoal = {
+		    type = annex_everything
+		    target = MOT
+		}
+		create_wargoal = {
+		    type = annex_everything
+		    target = LIN
+		}
+        create_wargoal = {
+		    type = annex_everything
+		    target = PCA
+		}
+        create_wargoal = {
+		    type = annex_everything
+		    target = CSD
+		}
+        create_wargoal = {
+		    type = annex_everything
+		    target = NEA
+		}
+        create_wargoal = {
+		    type = annex_everything
+		    target = AMC
+		}
+        create_wargoal = {
+		    type = annex_everything
+		    target = AMS
+		}
+        create_wargoal = {
+		    type = annex_everything
+		    target = GAU
+		}
+        create_wargoal = {
+		    type = annex_everything
+		    target = USA
+		}		
 	}
+	
 }
 
 country_event = {
@@ -184,11 +237,12 @@ country_event = {
 	
 	option = {
 		name = texas.9.o1
-		add_popularity = {
-		ideology = fascist
-		popularity = 0.01
-		}
+        create_wargoal = {
+		    type = annex_everything
+		    target = MEX
+		}		
 	}
+	
 }
 
 country_event = {
@@ -202,11 +256,12 @@ country_event = {
 	
 	option = {
 		name = texas.10.o1
-		add_popularity = {
-		ideology = fascist
-		popularity = 0.01
-		}
+        create_wargoal = {
+		    type = annex_everything
+		    target = CAN
+		}		
 	}
+	
 }
 
 country_event = {
