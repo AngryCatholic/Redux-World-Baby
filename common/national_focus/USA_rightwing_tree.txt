@@ -1081,7 +1081,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_puritanical_laws
-		icon = GFX_goal_COR_christian_america
+		icon = focus_USA_puritan_laws
 		x = 29
 		y = 4
 		cost = 5
@@ -1132,7 +1132,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_public_stoning
-		icon = GFX_goal_COR_christian_america
+		icon = focus_USA_stoning
 		x = 28
 		y = 5
 		cost = 5
@@ -1151,7 +1151,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_witch_trials
-		icon = GFX_goal_COR_christian_america
+		icon = focus_USA_witch_trials
 		x = 30
 		y = 5
 		cost = 5
