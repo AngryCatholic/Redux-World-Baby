@@ -61,3 +61,7 @@ ARI_temple = {
     color = rgb { 22 243 255 }
     color_ui = rgb { 22 243 255 }
 }
+USA_fundementalists = {
+    color = rgb { 30 30 30 }
+    color_ui = rgb { 58 168 202 }
+}
