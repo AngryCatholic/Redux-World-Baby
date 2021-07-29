@@ -285,14 +285,14 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {   #Peter III
+	option = {   #Leo XIV
 		name = pence.11.a
 		create_country_leader = {
-	        name = "Pope Peter III"
+	        name = "Pope Leo XIV"
 	        picture = "Portrait_AMS_Chad_Ripperger.dds"
 	        ideology = falangist
         }
-		set_country_flag = peteriii_elected
+		set_country_flag = leoxiv_elected
 	}
 	
 	option = {   #Michael I
@@ -305,15 +305,14 @@ country_event = {
 		set_country_flag = michael_elected
 	}
 
-	option = {   #Ahărōn II
+	option = {   #Peter III
 		name = pence.11.c
 		create_country_leader = {
-	        name = "Ahărōn II"
-	        picture = "Portrait_AMS_Andre_Marie.dds"
+	        name = "Peter III"
+	        picture = "Portrait_AMS_williamson.dds"
 	        ideology = falangist
         }
-		set_country_flag = jesoshua_elected
-		set_cosmetic_tag = AMS_israelite
+		set_country_flag = peteriii_elected
 	}
 }
 
