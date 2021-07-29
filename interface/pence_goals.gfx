@@ -185,6 +185,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_slow_life"
 		texturefile = "gfx/interface/goals/focus_slow_life.dds"
+	}
+	SpriteType = {
+		name = "focus_USA_stoning"
+		texturefile = "gfx/interface/goals/focus_USA_stoning.dds"
+	}	
+	SpriteType = {
+		name = "focus_USA_witch_trials"
+		texturefile = "gfx/interface/goals/focus_USA_witch_trials.dds"
+	}
+	SpriteType = {
+		name = "focus_USA_puritan_laws"
+		texturefile = "gfx/interface/goals/focus_USA_puritan_laws.dds"
 	}	
 }	
 	
