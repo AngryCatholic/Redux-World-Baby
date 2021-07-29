@@ -197,6 +197,22 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_USA_puritan_laws"
 		texturefile = "gfx/interface/goals/focus_USA_puritan_laws.dds"
+	}
+	SpriteType = {
+		name = "focus_USA_third_temple"
+		texturefile = "gfx/interface/goals/focus_USA_third_temple.dds"
+	}
+	SpriteType = {
+		name = "focus_USA_drug_trade"
+		texturefile = "gfx/interface/goals/focus_USA_drug_trade.dds"
+	}	
+	SpriteType = {
+		name = "focus_USA_king_david"
+		texturefile = "gfx/interface/goals/focus_USA_king_david.dds"
+	}
+	SpriteType = {
+		name = "focus_USA_fundie_power"
+		texturefile = "gfx/interface/goals/focus_USA_fundie_power.dds"
 	}	
 }	
 	
