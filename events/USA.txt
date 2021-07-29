@@ -3880,8 +3880,12 @@ country_event = {
 		    type = annex_everything
 		    target = GAU
 		}
+		hidden_effect = {
+		    USA = {
+		        country_event = { days = 109 id = usa.313 } 
+		    }
+		}
 	}
-	
 }
 
 #2011 tornado outbreak
