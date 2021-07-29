@@ -1062,7 +1062,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_fundie_america
-		icon = GFX_goal_COR_christian_america
+		icon = focus_USA_fundie_power
 		x = 31
 		y = 3
 		cost = 1
@@ -1115,7 +1115,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_new_king_david
-		icon = GFX_goal_COR_christian_america
+		icon = focus_USA_king_david
 		x = 33
 		y = 4
 		cost = 5
@@ -1172,7 +1172,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_drug_trade
-		icon = GFX_goal_COR_christian_america
+		icon = focus_USA_drug_trade
 		x = 32
 		y = 5
 		cost = 5
@@ -1209,7 +1209,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_new_temple
-		icon = GFX_goal_COR_christian_america
+		icon = focus_USA_third_temple
 		x = 29
 		y = 6
 		cost = 5
