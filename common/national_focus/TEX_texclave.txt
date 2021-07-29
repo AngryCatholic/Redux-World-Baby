@@ -212,7 +212,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = texas.8 
+			country_event = texas.9 
 		}
 	}
 
