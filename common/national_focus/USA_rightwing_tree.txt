@@ -1097,7 +1097,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_mandatory_church
-		icon = GFX_goal_COR_christian_america
+		icon = GFX_goal_COR_church_economy
 		x = 31
 		y = 4
 		cost = 5
@@ -1193,7 +1193,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_new_band_of_men
-		icon = GFX_goal_COR_christian_america
+		icon = COR_christian_service_brigade
 		x = 34
 		y = 5
 		cost = 5
@@ -1231,7 +1231,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_only_fundie
-		icon = GFX_goal_COR_christian_america
+		icon = GFX_goal_COR_old_covenant
 		x = 31
 		y = 6
 		cost = 5
@@ -1255,7 +1255,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_david_and_goliath
-		icon = GFX_goal_COR_christian_america
+		icon = GFX_goal_COR_warriors_of_elijah
 		x = 33
 		y = 6
 		cost = 5
@@ -1277,7 +1277,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_god_bless_the_faithful
-		icon = GFX_goal_COR_christian_america
+		icon = GFX_goal_COR_christian_identity
 		x = 30
 		y = 7
 		cost = 10
@@ -1298,7 +1298,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_against_sodom
-		icon = GFX_goal_COR_christian_america
+		icon = GFX_goal_COR_denounce_the_world
 		x = 32
 		y = 7
 		cost = 10
