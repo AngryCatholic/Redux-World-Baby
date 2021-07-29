@@ -1525,7 +1525,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "focus_USA_third_temple_shine"
-		texturefile = "gfx/interface/goals/focus_slow_life.dds"
+		texturefile = "gfx/interface/goals/focus_USA_third_temple.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/focus_USA_third_temple.dds"
@@ -1556,7 +1556,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "focus_USA_drug_trade_shine"
-		texturefile = "gfx/interface/goals/focus_USA_stoning.dds"
+		texturefile = "gfx/interface/goals/focus_USA_drug_trade.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/focus_USA_drug_trade.dds"
@@ -1620,7 +1620,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "focus_USA_king_david_shine"
-		texturefile = "gfx/interface/goals/focus_USA_puritan_laws.dds"
+		texturefile = "gfx/interface/goals/focus_USA_king_david.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/focus_USA_king_david.dds"
