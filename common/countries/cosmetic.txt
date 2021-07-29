@@ -43,9 +43,9 @@ AMS_cathsoc = {
     color_ui = rgb { 255 245 91 }
 }
 
-AMS_israelite = {
-    color = rgb { 203 242 247 }
-    color_ui = rgb { 255 245 91 }
+AMS_NHRE = {
+    color = rgb { 30 30 30 }
+    color_ui = rgb { 58 168 202 }
 }
 
 AMS_national_death_state = {
