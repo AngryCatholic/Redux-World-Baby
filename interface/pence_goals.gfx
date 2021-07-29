@@ -214,6 +214,30 @@ spriteTypes = {
 		name = "focus_USA_fundie_power"
 		texturefile = "gfx/interface/goals/focus_USA_fundie_power.dds"
 	}	
+	SpriteType = {
+		name = "GFX_goal_COR_christian_identity"
+		texturefile = "gfx/interface/goals/COR_christian_identity.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_COR_christian_service_brigade"
+		texturefile = "gfx/interface/goals/COR_christian_service_brigade.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_COR_church_economy"
+		texturefile = "gfx/interface/goals/COR_church_economy.png"
+	}	
+	SpriteType = {
+		name = "GFX_goal_COR_denounce_the_world"
+		texturefile = "gfx/interface/goals/COR_denounce_the_world.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_COR_old_covenant"
+		texturefile = "gfx/interface/goals/COR_old_covenant.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_COR_warriors_of_elijah"
+		texturefile = "gfx/interface/goals/COR_warriors_of_elijah.png"
+	}	
 }	
 	
 }
