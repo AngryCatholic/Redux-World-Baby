@@ -298,8 +298,8 @@ country_event = {
 	
 	trigger = {
 		tag = AMS
-		date > 2014.11.1
-		date < 2014.11.30
+		date > 2012.5.1
+		date < 2012.5.30
 		has_country_flag = AMS_pope_peter_second
 	}
 
