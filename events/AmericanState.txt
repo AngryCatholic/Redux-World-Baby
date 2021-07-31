@@ -862,3 +862,108 @@ country_event = { # Bringing out the Dead
                 add_political_power = 100
 	}
 }
+
+country_event = { # post Conclave
+	id = pence.31
+	title = pence.31.t
+	desc = pence.31.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_leader = {
+			ruling_only = yes
+			name = "Peter III"
+		}
+	}
+
+	option = {
+		name = pence.13.a
+		set_country_flag = AMS_nhre
+	}
+}
+
+country_event = { # My New Empire
+	id = pence.32
+	title = pence.32.t
+	desc = pence.32.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # NHRE
+		name = pence.32.a
+		add_stability = 0.05
+                add_political_power = 100
+	}
+}
+
+country_event = { # Are You Hiding Heritics
+	id = pence.33
+	title = pence.33.t
+	desc = pence.33.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # gulp
+		name = pence.33.a
+		add_political_power = 25
+		load_oob = AMS_ss
+		add_stability = 0.15
+	}
+}
+
+country_event = { # Enforcing the Quarintine
+	id = pence.34
+	title = pence.34.t
+	desc = pence.34.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #Charles VIII
+		name = pence.34.a
+		create_country_leader = {
+	        name = "Charles VIII"
+	        picture = "Portrait_AMS_charles_viii.dds"
+	        ideology = falangist
+        }
+		set_country_flag = AMS_charles_in_power
+	}
+	
+	option = { #Williamson
+		name = pence.34.b
+		add_stability = 0.05
+		add_political_power = 100
+	}	
+}
+
+country_event = { # Falvour
+	id = pence.35
+	title = pence.35.t
+	desc = pence.35.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #based and doctor
+		name = pence.35.a
+		add_political_power = 25		
+	}
+}
+
+country_event = { # new people 
+	id = pence.36
+	title = pence.36.t
+	desc = pence.36.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #Thank you Terr A. Davis?
+		name = pence.36.a
+		add_stability = 0.05
+                add_political_power = 100
+	}
+}
