@@ -1291,12 +1291,13 @@ focus_tree = {
 		x = 6
 		y = 6
 		completion_reward = {
+		    enable_unification_decisions = yes
 		    set_party_name = { ideology = fascist long_name = AMS_Gods_Will_long name = AMS_Gods_Will }
 			add_popularity = {
 			    ideology = fascist
 			    popularity = 0.07
 		    }
-			add_ideas = idea_ams_solid_government
+			add_ideas = idea_ams_solid_government		
 		}
 
 	}
@@ -1711,17 +1712,6 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_paradise_on_earth"
 			country_event = pence.6 #paradiseonearthevent
-		    enable_unification_decisions = yes
-            core_USA = yes
-            core_ILL = yes
-            core_GRL = yes
-            core_MWA = yes
-            core_MOT = yes
-            core_LIN = yes
-            core_UTA = yes
-            core_ARI = yes
-            core_PCA = yes
-	    core_TEX = yes
 		}
 
 	}
