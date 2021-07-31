@@ -979,6 +979,7 @@ ideas = {
 				army_org_factor = 0.10				
 			}
 		}
+	}
 		
 	second_in_command = {
 	    americanstate_sic_chad_ripperger = {
