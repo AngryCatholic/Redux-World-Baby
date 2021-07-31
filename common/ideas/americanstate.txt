@@ -895,8 +895,91 @@ ideas = {
 				
 			}
 		}
-	}
+	
+		idea_ams_new_inquisition = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = vittoria_mutilata
+			
+			modifier = {
+				conscription_factor = 0.10
+				army_attack_factor = 0.10
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
+				army_org_factor = 0.05
+			}
+		}
+		
+		idea_ams_new_empire = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = vittoria_mutilata
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				political_power_gain = 0.10
+			}
+		}
+		
+		idea_ams_new_people = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = vittoria_mutilata
+			
+			modifier = {
+				political_power_gain = 0.15
+				stability_factor = 0.05
+				MONTHLY_POPULATION = 0.02 				
+			}
+		}	
 
+		idea_ams_the_west = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = vittoria_mutilata
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = 0.15
+				production_speed_buildings_factor = 0.10
+				defence = 0.10
+				army_attack_factor = 0.15
+				army_org_factor = 0.10				
+			}
+		}
+		
 	second_in_command = {
 	    americanstate_sic_chad_ripperger = {
 		
