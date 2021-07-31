@@ -11,7 +11,7 @@ focus_tree = {
 	#Focus for American Mujahideen
 	focus = {
 		id = USA_american_mujahideen
-		icon = GFX_goal_unknown
+		icon = focus_rural_peoples_party
 		x = 7
 		y = 3
 		cost = 1
@@ -48,7 +48,7 @@ focus_tree = {
 	#Focus for Islam is Anti-Communism!
 	focus = {
 		id = USA_islam_is_anticommunism
-		icon = GFX_goal_unknown
+		icon = focus_learn_jones
 		x = 5
 		y = 4
 		cost = 5
@@ -66,7 +66,7 @@ focus_tree = {
 	#Focus for Honoring our Emir
 	focus = {
 		id = USA_honoring_our_emir
-		icon = GFX_goal_unknown
+		icon = focus_hail_supreme_leader
 		x = 9
 		y = 4
 		cost = 5
@@ -103,7 +103,7 @@ focus_tree = {
 	#Focus for American Sharia
 	focus = {
 		id = USA_american_sharia
-		icon = GFX_goal_unknown
+		icon = focus_juche_christ
 		x = 6
 		y = 5
 		cost = 5
@@ -126,7 +126,7 @@ focus_tree = {
 	#Focus for Meeting with bin Laden
 	focus = {
 		id = USA_meeting_with_bin_laden
-		icon = GFX_goal_unknown
+		icon = focus_juche_econ
 		x = 8
 		y = 5
 		cost = 5
@@ -149,7 +149,7 @@ focus_tree = {
 	#Focus for Funding Anti-Soviet Rebels
 	focus = {
 		id = USA_funding_antisoviet_rebels
-		icon = GFX_goal_unknown
+		icon = focus_meeting_gaddaffi
 		x = 10
 		y = 5
 		cost = 5
@@ -166,7 +166,7 @@ focus_tree = {
 	#Focus for A New Great Revival
 	focus = {
 		id = USA_a_new_great_revival
-		icon = GFX_goal_unknown
+		icon = focus_like_jones
 		x = 5
 		y = 6
 		cost = 5
@@ -189,7 +189,7 @@ focus_tree = {
 	#Focus for American Arabic
 	focus = {
 		id = USA_american_arabic
-		icon = GFX_goal_unknown
+		icon = focus_like_hitler
 		x = 7
 		y = 6
 		cost = 5
@@ -214,7 +214,7 @@ focus_tree = {
 	#Focus for A Great Jihad against Communism
 	focus = {
 		id = USA_a_great_jihad_against_communism
-		icon = GFX_goal_unknown
+		icon = focus_like_pol_pot
 		x = 9
 		y = 6
 		cost = 5
