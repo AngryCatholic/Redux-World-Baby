@@ -2344,5 +2344,301 @@ focus_tree = {
 			add_ideas= AMS_Hell_on_Earth
 		}
 	}
+	
+	focus = {
+		id = AMS_AVE_PETRUS_III
+		icon = focus_support_christian_values
+		x = 36
+		y = 8
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_country_flag= peteriii_elected
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_AVE_PETRUS_III"
+			country_event = pence.31 #post-conclave
+		}
+
+	}
+
+	focus = {
+		id = AMS_New_Inquisition
+		icon = focus_support_christian_values
+		x = 34
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_AVE_PETRUS_III }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+                        log = "[GetDateText]: [Root.GetName]: Focus AMS_New_Inquisition"
+			add_stability= 0.05  
+                        add_political_power= 50
+		    add_ideas = idea_ams_new_inquisition
+		}
+	}
+
+	focus = {
+		id = AMS_New_Empire
+		icon = focus_support_christian_values
+		x = 36
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_AVE_PETRUS_III }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+                        log = "[GetDateText]: [Root.GetName]: Focus AMS_New_Empire"
+			add_ideas= AMS_New_Empire
+			country_event = pence.32 #MyNewEmpire
+		}
+
+	}
+
+	focus = {
+		id = AMS_catholic_ss
+		icon = focus_support_christian_values
+		x = 34
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_New_Inquisition }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_catholic_ss"
+			country_event = pence.33 #AreYouHidingHeritics?addoobtothisevent
+		}
+
+	}
+
+	focus = {
+		id = AMS_crowning_charles_viii
+		icon = focus_support_christian_values
+		x = 36
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_New_Empire }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_crowning_charles_viii"
+			country_event = pence.34 #The Crowning
+		}
+
+	}
+
+	focus = {
+		id = AMS_tenth_crusade
+		icon = focus_support_christian_values
+		x = 36
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AMS_new_feudalism 
+		}
+		prerequisite = { 
+			focus = AMS_unification_of_the_west 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_tenth_crusade"
+			add_nuclear_bombs = 10
+		}
+	}
+
+	focus = {
+		id = AMS_one_people_one_church_one_empire 
+		icon = focus_support_christian_values
+		x = 38
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_New_People }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_one_people_one_church_one_empire "
+			country_event = pence.35 #flavour event
+		}
+
+	}
+
+	focus = {
+		id = AMS_new_feudalism
+		icon = focus_support_christian_values
+		x = 35
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AMS_crowning_charles_viii 
+		}
+		prerequisite = { 
+			focus = AMS_catholic_ss  
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_new_feudalism"
+			add_political_power= 50
+		}
+	}
+
+	focus = {
+		id = AMS_unification_of_the_west
+		icon = focus_support_christian_values
+		x = 37
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = AMS_crowning_charles_viii 
+		}
+		prerequisite = { 
+			focus = AMS_one_people_one_church_one_empire 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_unification_of_the_west"
+		    every_state = {
+			    limit = {
+				    is_core_of = FRA
+				}
+				add_claim_by = AMS
+			}
+			every_state = {
+			    limit = {
+				    is_core_of = BEL
+				}
+				add_claim_by = AMS
+			}
+			every_state = {
+			    limit = {
+				    is_core_of = SWI
+				}
+				add_claim_by = AMS
+			}
+		   	every_state = {
+			    limit = {
+				    is_core_of = GER
+				}
+				add_claim_by = AMS
+			}
+			every_state = {
+			    limit = {
+				    is_core_of = HOL
+				}
+				add_claim_by = AMS
+			}
+		    	every_state = {
+			    limit = {
+				    is_core_of = ICE
+				}
+				add_claim_by = AMS
+			}
+		    	every_state = {
+			    limit = {
+				    is_core_of = IRE
+				}
+				add_claim_by = AMS
+			}
+			every_state = {
+			    limit = {
+				    is_core_of = ULS
+				}
+				add_claim_by = AMS
+			}
+		    	every_state = {
+			    limit = {
+				    is_core_of = SPR
+				}
+				add_claim_by = AMS
+			}
+			every_state = {
+			    limit = {
+				    is_core_of = POR
+				}
+				add_claim_by = AMS
+			}
+		    	every_state = {
+			    limit = {
+				    is_core_of = ENG
+				}
+				add_claim_by = AMS
+			}
+		   	every_state = {
+			    limit = {
+				    is_core_of = ROM
+				}
+				add_claim_by = AMS
+			}
+		    	every_state = {
+			    limit = {
+				    is_core_of = LUX
+				}
+				add_claim_by = AMS
+			}
+			every_state = {
+			    limit = {
+				    is_core_of = ITA
+				}
+				add_claim_by = AMS
+			}
+		}
+	}
+
+	focus = {
+		id = AMS_New_People
+		icon = focus_support_christian_values
+		x = 38
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_AVE_PETRUS_III }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_New_People"
+			add_ideas= idea_AMS_New_People
+			country_event = pence.36 #Flavour Event
+		}
+	}
+
+	focus = {
+		id = AMS_THE_WEST
+		icon = focus_support_christian_values
+		x = 36
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = AMS_tenth_crusade }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AMS_THE_WEST"
+			add_ideas= AMS_THE_WEST
+		}
+	}
 #End of focuses 
  }
