@@ -2397,7 +2397,7 @@ focus_tree = {
 		}
 		completion_reward = {
                         log = "[GetDateText]: [Root.GetName]: Focus AMS_New_Empire"
-			add_ideas= AMS_New_Empire
+			add_ideas= idea_ams_new_empire
 			country_event = pence.32 #MyNewEmpire
 		}
 
@@ -2619,7 +2619,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_New_People"
-			add_ideas= idea_AMS_New_People
+			add_ideas= idea_ams_new_people
 			country_event = pence.36 #Flavour Event
 		}
 	}
@@ -2637,7 +2637,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_THE_WEST"
-			add_ideas= AMS_THE_WEST
+			add_ideas= idea_ams_the_west
 		}
 	}
 #End of focuses 
