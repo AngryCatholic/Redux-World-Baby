@@ -237,6 +237,42 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_COR_warriors_of_elijah"
 		texturefile = "gfx/interface/goals/COR_warriors_of_elijah.png"
+	}
+	SpriteType = {
+		name = "focus_rural_peoples_party"
+		texturefile = "gfx/interface/goals/focus_rural_peoples_party.png"
+	}
+	SpriteType = {
+		name = "focus_hail_supreme_leader"
+		texturefile = "gfx/interface/goals/focus_hail_supreme_leader.png"
+	}
+	SpriteType = {
+		name = "focus_like_jones"
+		texturefile = "gfx/interface/goals/focus_like_jones.png"
+	}
+	SpriteType = {
+		name = "focus_like_hitler"
+		texturefile = "gfx/interface/goals/focus_like_hitler.png"
+	}
+	SpriteType = {
+		name = "focus_like_pol_pot"
+		texturefile = "gfx/interface/goals/focus_like_pol_pot.png"
+	}
+	SpriteType = {
+		name = "focus_meeting_gaddaffi"
+		texturefile = "gfx/interface/goals/focus_hail_supreme_leader.png"
+	}
+	SpriteType = {
+		name = "focus_juche_christ"
+		texturefile = "gfx/interface/goals/focus_juche_christ.png"
+	}
+	SpriteType = {
+		name = "focus_juche_econ"
+		texturefile = "gfx/interface/goals/focus_juche_econ.png"
+	}
+	SpriteType = {
+		name = "focus_learn_jones"
+		texturefile = "gfx/interface/goals/focus_learn_jones.png"
 	}	
 }	
 	
