@@ -1711,7 +1711,19 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AMS_paradise_on_earth"
 			country_event = pence.6 #paradiseonearthevent
+		    enable_unification_decisions = yes
+            core_USA = yes
+            core_ILL = yes
+            core_GRL = yes
+            core_MWA = yes
+            core_MOT = yes
+            core_LIN = yes
+            core_UTA = yes
+            core_ARI = yes
+            core_PCA = yes
+	    core_TEX = yes
 		}
+
 	}
 
 	#Focus for To Cause the Rapture
