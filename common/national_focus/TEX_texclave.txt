@@ -47,7 +47,7 @@ focus_tree = {
 	#Focus for Doctrine of True Americanism
 	focus = {
 		id = TEX_doctrine_of_true_americanism
-		icon = a_new_constitution
+		icon = focus_americanism
 		x = 8
 		y = 1
 		cost = 5
