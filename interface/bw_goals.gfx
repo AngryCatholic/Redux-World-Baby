@@ -2,32 +2,57 @@ spriteTypes = {
 	#### BRITAIN ####
 	
 	SpriteType = {
-	name = "esoteric_control"
+	name = "GFX_esoteric_control"
 	texturefile = "gfx/interface/goals/britain/esoteric_control.dds"			
 	}
 	
 	SpriteType = {
-	name = "douglas_control"
+	name = "GFX_douglas_control"
 	texturefile = "gfx/interface/goals/britain/douglas_control.dds"			
 	}
 	
 	SpriteType = {
-	name = "bowden_control"
+	name = "GFX_bowden_control"
 	texturefile = "gfx/interface/goals/britain/bowden_control.dds"			
 	}
 
 	SpriteType = {
-	name = "evola_values"
+	name = "GFX_evola_values"
 	texturefile = "gfx/interface/goals/britain/evola_values.dds"			
 	}
 
 	SpriteType = {
-	name = "runes_and_men"
+	name = "GFX_runes_and_men"
 	texturefile = "gfx/interface/goals/britain/runes_and_men.dds"			
 	}
 
 	SpriteType = {
-	name = "strong_aristocrat"
+	name = "GFX_strong_aristocrat"
 	texturefile = "gfx/interface/goals/britain/strong_aristocrat.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_out_of_shadow"
+	texturefile = "gfx/interface/goals/britain/out_of_shadow.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_esoteric_fascism"
+	texturefile = "gfx/interface/goals/britain/esoteric_fascism.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_national_anarchism"
+	texturefile = "gfx/interface/goals/britain/national_anarchism.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_neoreationary"
+	texturefile = "gfx/interface/goals/britain/neoreactionary.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_strasser"
+	texturefile = "gfx/interface/goals/britain/strasser.dds"			
 	}
 }
