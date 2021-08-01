@@ -987,9 +987,6 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_stability= 0.05  
-			add_political_power = 80
-			add_popularity = { ideology = nationalist popularity = 0.05 }
 			country_event = usa.324
 		}
 	}
@@ -1011,7 +1008,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas= USA_southron_spirit
+			add_stability= 0.05  
+			add_political_power = 80
+			add_popularity = { ideology = nationalist popularity = 0.05 }
 		}
 	}
 
