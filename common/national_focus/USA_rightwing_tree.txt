@@ -20,7 +20,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_flag= USA_mujahideen
+			has_country_flag= USA_confedbols_in_power
 		}
 		completion_reward = {
 			army_experience = 25
