@@ -277,6 +277,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_americanism"
 		texturefile = "gfx/interface/goals/focus_americanism.png"
+	}
+	SpriteType = {
+		name = "focus_we_did_it"
+		texturefile = "gfx/interface/goals/focus_we_did_it.dds"
 	}	
 }	
 	
