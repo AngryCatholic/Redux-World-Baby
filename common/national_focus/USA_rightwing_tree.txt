@@ -31,7 +31,7 @@ focus_tree = {
 	#Focus for Jefferson and Islam
 	focus = {
 		id = USA_jefferson_and_islam
-		icon = GFX_goal_unknown
+		icon = reclaim_normandy
 		x = 7
 		y = 4
 		cost = 5
@@ -84,7 +84,7 @@ focus_tree = {
 	#Focus for Islam in the Education System
 	focus = {
 		id = USA_islam_in_the_education_system
-		icon = GFX_goal_unknown
+		icon = generic_marching
 		x = 4
 		y = 5
 		cost = 5
@@ -236,7 +236,7 @@ focus_tree = {
 	#Focus for God is Great!
 	focus = {
 		id = USA_god_is_great
-		icon = GFX_goal_unknown
+		icon = liberty_attack
 		x = 6
 		y = 7
 		cost = 10
@@ -258,7 +258,7 @@ focus_tree = {
 	#Focus for Against the Great Satan!
 	focus = {
 		id = USA_against_the_great_satan
-		icon = GFX_goal_unknown
+		icon = focus_conquests_of_asia
 		x = 8
 		y = 7
 		cost = 10
