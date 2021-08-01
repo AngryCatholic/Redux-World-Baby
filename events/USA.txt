@@ -5881,56 +5881,6 @@ country_event = {
 		ideology = fascist
 		popularity = 0.03
 		}
-		hidden_effect = {
-			country_event = {
-				id = usa.199
-				days = 5
-			}
-		}
-	}
-}
-
-#Inviting Anti-Communist Fights
-country_event = {
-	id = usa.199
-	title = usa.199.t
-	desc = usa.199.d
-	
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = usa.199.o1
-		add_popularity = {
-		ideology = fascist
-		popularity = 0.01
-		}
-		hidden_effect = {
-			country_event = {
-				id = usa.200
-				days = 2
-			}
-		}
-	}
-}
-
-#oops all Muslim
-country_event = {
-	id = usa.200
-	title = usa.200.t
-	desc = usa.200.d
-	
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = usa.200.o1
-		add_popularity = {
-		ideology = fascist
-		popularity = 0.01
-		}
 	}
 }
 
@@ -6434,4 +6384,136 @@ country_event = {
 	        ideology = paleoconservative
         }
 }
+ 
+#aftermath of fundie coup
+country_event = {
+	id = usa.326
+	title = usa.326.t
+	desc = usa.326.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.326.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
 
+#ego jerking anderson
+country_event = {
+	id = usa.327
+	title = usa.327.t
+	desc = usa.327.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.327.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
+
+#witch trials
+country_event = {
+	id = usa.328
+	title = usa.328.t
+	desc = usa.328.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.328.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
+
+drug trade
+country_event = {
+	id = usa.329
+	title = usa.329.t
+	desc = usa.329.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.329.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
+
+#new temple
+country_event = {
+	id = usa.330
+	title = usa.330.t
+	desc = usa.330.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.330.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
+
+#only fundie
+country_event = {
+	id = usa.331
+	title = usa.331.t
+	desc = usa.331.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.331.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
+
+country_event = {
+	id = usa.332
+	title = usa.332.t
+	desc = usa.332.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.332.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
+	}
+}
+ 
