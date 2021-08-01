@@ -241,7 +241,7 @@ focus_tree = {
 	#Focus for Mission Accomplished!
 	focus = {
 		id = TEX_mission_accomplished
-		icon = GFX_goal_unknown
+		icon = focus_we_did_it
 		x = 8
 		y = 5
 		cost = 15
