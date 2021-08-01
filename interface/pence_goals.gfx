@@ -260,7 +260,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "focus_meeting_gaddaffi"
-		texturefile = "gfx/interface/goals/focus_hail_supreme_leader.png"
+		texturefile = "gfx/interface/goals/focus_meeting_gaddaffi.png"
 	}
 	SpriteType = {
 		name = "focus_juche_christ"
