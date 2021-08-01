@@ -925,8 +925,8 @@ country_event = { # Enforcing the Quarintine
 	option = { #Charles VIII
 		name = pence.34.a
 		create_country_leader = {
-	        name = "Charles VIII"
-	        picture = "Portrait_AMS_charles_viii.dds"
+	        name = "Charlemagne II"
+	        picture = "Portrait_AMS_charlemagne.dds"
 	        ideology = falangist
         }
 		set_country_flag = AMS_charles_in_power
