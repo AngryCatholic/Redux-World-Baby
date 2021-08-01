@@ -6361,29 +6361,6 @@ country_event = {
 		}
 	}
 }
-
-#Death of Byrd
-country_event = {
-	id = usa.3251
-	title = usa.3251.t
-	desc = usa.3251.d
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = USA
-		date > 2015.1.1
-		date < 2015.1.20
-	}
-	
-	option = {
-		name = usa.3251.o1
-		create_country_leader = {
-	        name = "Joe Biden"
-	        picture = "Portrait_USA_Joe_Biden.dds"
-	        ideology = paleoconservative
-        }
-}
  
 #aftermath of fundie coup
 country_event = {
