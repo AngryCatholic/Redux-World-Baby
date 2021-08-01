@@ -6237,7 +6237,7 @@ country_event = {
                 set_country_flag = USA_anderson_in_power
 		create_country_leader = {
 	        name = "Steven Anderson"
-	        picture = "Portrait_USA_pastor_anderson.dds"
+	        picture = "Portrait_USA_High_Priest_Anderson.dds"
 	        ideology = fascist_ideology
         }
 		set_politics = {
@@ -6380,7 +6380,7 @@ country_event = {
 		name = usa.3251.o1
 		create_country_leader = {
 	        name = "Joe Biden"
-	        picture = "Portrait_confederate_biden.dds"
+	        picture = "Portrait_USA_Joe_Biden.dds"
 	        ideology = paleoconservative
         }
 }
