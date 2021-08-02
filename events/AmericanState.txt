@@ -356,7 +356,6 @@ country_event = {
 	        ideology = falangist
         }
 		set_country_flag = peteriii_elected
-		set_cosmetic_tag = AMS_NHRE
 	}
 }
 
@@ -893,8 +892,7 @@ country_event = { # My New Empire
 
 	option = { # NHRE
 		name = pence.32.a
-		add_stability = 0.05
-                add_political_power = 100
+		set_cosmetic_tag = AMS_NHRE
 	}
 }
 
