@@ -1,0 +1,83 @@
+division_template = {
+	name = "Infantry Division"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {# Army
+	division = {
+		name = "1st Supreme Inquisition Division 'Charles Martel'"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2st Supreme Inquisition Division 'The Empire'"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Supreme Inquisition Division 'Walloon'"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}
+
+air_wings = {# Air Force
+
+	395 = {
+		tac_bomber_equipment_0 = {
+			owner = AMS
+			amount = 200
+		}
+	}
+	395 = {
+		tac_bomber_equipment_0 = {
+			owner = AMS
+			amount = 200
+		}
+	}
+	360 = {
+		fighter_equipment_0 = {
+			owner = AMS
+			amount = 200
+		}
+	}
+	360 = {
+		fighter_equipment_0 = {
+			owner = AMS
+			amount = 200
+		}
+	}
+	359 = {
+		cas_equipment_1 = {
+			owner = AMS
+			amount = 200
+		}
+	}
+	359 = {
+		cas_equipment_1 = {
+			owner = AMS
+			amount = 200
+		}
+	}
+}
