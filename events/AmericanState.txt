@@ -911,10 +911,70 @@ country_event = { # Are You Hiding Heritics
 		add_political_power = 25
 		load_oob = AMS_ss
 		add_stability = 0.15
+                create_field_marshal = { #Auto-Generated
+			name = "E. Michael Jones"
+			portrait_path = "gfx/leaders/AMS/Portrait_AMS_e_michael_jones.dds"
+			traits = {
+				commando
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+                create_corps_commander = { #Auto-Generated
+			name = "Michael Voris"
+			portrait_path = "gfx/leaders/AMS/Portrait_AMS_michael_voris.dds"
+			traits = {
+				commando
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+                create_corps_commander = { #Auto-Generated
+			name = "Taylor Marshall"
+			portrait_path = "gfx/leaders/AMS/Portrait_AMS_taylor_marshall.dds"
+			traits = {
+				commando
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+                create_corps_commander = { #Auto-Generated
+			name = "Timothy J. Gordon"
+			portrait_path = "gfx/leaders/AMS/Portrait_AMS_tim_gordon.dds"
+			traits = {
+				commando
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+                create_corps_commander = { #Auto-Generated
+			name = "Milo Yiannopoulos"
+			portrait_path = "gfx/leaders/AMS/Portrait_AMS_milo_yiannopoulos.dds"
+			traits = {
+				commando
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}		
 	}
 }
 
-country_event = { # Enforcing the Quarintine
+country_event = { # crowning a emperor
 	id = pence.34
 	title = pence.34.t
 	desc = pence.34.d
