@@ -2378,7 +2378,7 @@ focus_tree = {
 		}
 		completion_reward = {
                         log = "[GetDateText]: [Root.GetName]: Focus AMS_New_Inquisition"
-			country_event = pence.37 #Inqusisition Creation Event
+			country_event = pence.32 #NEW CHURCH
 		   	add_ideas = idea_ams_new_inquisition
 		}
 	}
@@ -2397,7 +2397,7 @@ focus_tree = {
 		completion_reward = {
                         log = "[GetDateText]: [Root.GetName]: Focus AMS_New_Empire"
 			add_ideas= idea_ams_new_empire
-			country_event = pence.32 #MyNewEmpire
+			country_event = pence.37 #MyNewEmpire
 		}
 
 	}
