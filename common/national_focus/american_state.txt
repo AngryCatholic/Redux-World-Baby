@@ -2378,9 +2378,8 @@ focus_tree = {
 		}
 		completion_reward = {
                         log = "[GetDateText]: [Root.GetName]: Focus AMS_New_Inquisition"
-			add_stability= 0.05  
-                        add_political_power= 50
-		    add_ideas = idea_ams_new_inquisition
+			country_event = pence.37 #Inqusisition Creation Event
+		   	add_ideas = idea_ams_new_inquisition
 		}
 	}
 
