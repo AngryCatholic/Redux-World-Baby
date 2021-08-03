@@ -955,7 +955,30 @@ ideas = {
 				stability_factor = 0.05
 				MONTHLY_POPULATION = 0.02 				
 			}
-		}	
+		}
+		
+		idea_ams_neo_fedualism = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = vittoria_mutilata
+			
+			modifier = {
+				political_power_gain = 0.10
+				stability_factor = 0.03
+				consumer_goods_factor = -0.04
+				local_factories = 0.05
+				production_speed_buildings_factor = 0.02
+				industrial_capacity_factory = 0.04				
+			}
+		}
 
 		idea_ams_the_west = {
 			allowed = {
