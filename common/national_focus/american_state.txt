@@ -2404,7 +2404,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_catholic_ss
-		icon = focus_support_christian_values
+		icon = focus_ams_catholic_ss
 		x = 38
 		y = 10
 		cost = 10
@@ -2462,7 +2462,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_one_people_one_church_one_empire 
-		icon = focus_support_christian_values
+		icon = focus_ams_blood_and_soil
 		x = 34
 		y = 10
 		cost = 10
