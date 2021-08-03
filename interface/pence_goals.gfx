@@ -298,6 +298,10 @@ spriteTypes = {
 		name = "focus_ams_catholic_ss"
 		texturefile = "gfx/interface/goals/focus_ams_catholic_ss.png"
 	}	
+	SpriteType = {
+		name = "focus_ams_new_people"
+		texturefile = "gfx/interface/goals/focus_ams_new_people.png"
+	}	
 }	
 	
 }
