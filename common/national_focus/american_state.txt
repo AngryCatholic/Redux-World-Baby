@@ -2406,11 +2406,11 @@ focus_tree = {
 	focus = {
 		id = AMS_catholic_ss
 		icon = focus_support_christian_values
-		x = 34
+		x = 38
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = AMS_New_People }
+		prerequisite = { focus = AMS_New_Inquisition }
 		ai_will_do = {
 			factor = 1
 		}
@@ -2464,7 +2464,7 @@ focus_tree = {
 	focus = {
 		id = AMS_one_people_one_church_one_empire 
 		icon = focus_support_christian_values
-		x = 38
+		x = 36
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
