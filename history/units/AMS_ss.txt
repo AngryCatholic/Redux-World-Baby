@@ -34,12 +34,33 @@ units = {# Army
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Supreme Inquisition Division 'Walloon'"
+		name = "3rd Supreme Inquisition Division 'Peter's Own'"
 		location = 6732
 		division_template = "Infantry Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
+	division = {
+		name = "4th Supreme Inquisition Division 'Blood of the Saxons'"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Supreme Inquisition Division 'Roland's Sword'"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6th Supreme Inquisition Division 'Pater Europae'"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}	
 }
 
 air_wings = {# Air Force
