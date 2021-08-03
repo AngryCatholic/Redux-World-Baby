@@ -40,6 +40,27 @@ units = {# Army
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
+	division = {
+		name = "4th Supreme Inquisition Division 'Blood of the Saxons'"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Supreme Inquisition Division ''"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6th Supreme Inquisition Division ''"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}	
 }
 
 air_wings = {# Air Force
