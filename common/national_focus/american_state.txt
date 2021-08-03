@@ -2423,7 +2423,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_crowning_charles_viii
-		icon = focus_support_christian_values
+		icon = focus_ams_charlemagne
 		x = 36
 		y = 10
 		cost = 10
