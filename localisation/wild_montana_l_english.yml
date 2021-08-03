@@ -1,0 +1,32 @@
+﻿l_english:
+### Misc stuff###
+ WMN_ecofascistm:0 "Wilderness Resistance"
+ WMN_ecofascistm_long:0 "the Wilderness Resistance"
+ WMN_fascist:0 "Wild Montana Resistance Front"
+ WMN_fascist_ADJ:0 "Montanan"
+ 
+ ### ideas ###
+ idea_gorillas:0 "Guerrilla Warfare"
+ idea_gorillas_desc:0 "Hidden amongst the sprawling wilderness of the Rocky Mountains, Ted’s guerrilla forces have been learning to live and fight in inhospitable environments. Now they are ready to launch the fight against modern civilization from the wild..."
+ idea_neolud:0 "Neo-Luddite Nationalism"
+ idea_neolud_desc:0 "Despite previously referring to nationalists and fascists as ‘kooks’, Ted has come to rely on the strength and numbers that his following of former Covington fascists turned neo-luddite freedom fighters have provided him..."
+ 
+ ### events###
+ montana.3.t:0 "Rise of the Montana Wilderness Resistance Front..."
+ montana.3.d:0 "Despite the vast majority of true aryan patriots supporting our rightful government, there are those who would rather tarnish this great nation with their traitorous beliefs. It is no secret that following Covington’s death our enemies within have attempted to use this tragedy to their event and the Wilderness Resistance Front is no different. Preaching the birth of a new society through total destruction of modern society, these wack job degenerates have been dancing around in the woods hugging trees and getting high. Surely they pose no threat..."
+ montana.3.o1: "Find and execute these traitors!"
+ montana.3.o2: "Let them be..."
+
+ 
+ montana.4.t:0 "Firefight in the Rockies…"
+ montana.4.d:0 "In response to the potential threat posed by the Wild Resistance Front, we have deployed aryan militias loyal to the government across the mountain range. At first locating the terrorists was difficult due to their use of camouflaged clothing. This combined with their tactical knowledge on the environment caused us to suffer a number of casualties. Mainly terrorist ambushes. Yet eventually they were beaten back. After pursuing the fleeing terrorists for some time one heroic militaman managed to fire a round directly into the head  of ‘Theodore Kaczyski’. We believe this man to be the leader of the Resistance Front and so with his death the destruction of this short lived insurgency is over..."
+ montana.4.o1: "Another victory for the aryan nation!"
+ 
+ montana.5.t:0 "Wild Resistance Front Grow in Strength"
+ montana.5.d:0 "Whilst we have been attending to more pressing matters it seems the group of radicals hiding up in the mountains are building their strength. Local reports detail smoke from bonfires and the sounds of gunfire all across the Rockies. Meanwhile we are also aware of a growing number of dissatisfied White Freedom Alliance members leaving in protest of our government. We could send in militias to investigate these reports however our forces are far too stretched thing..."
+ montana.5.o1: "This is probably nothing, right?"
+ 
+ montana.6.t:0 "Wild Resistance Front Launch Attacks On Us!"
+ montana.6.d:0 "In the early hours of the morning the drums of war began, a flood of fury is now sweeping across West Montana as militants are setting a blaze everything in their way! Previous reports of the Resistance Front increasing in size and strength were severely underestimated and it is now clear that the teachings of the Wild Warbringer, Theodore Kaczynski, have truly struck at the hearts of our people.\nWill we sit by and watch everything we built turn to ash? Or will we take the fight back to these devils and secure the existence of our people?"
+ montana.6.o1: "§RRally our troops in defence of our glorious ethnostate!§!"
+ montana.6.o2: "§GIt is time brothers to hurl our flag over the industrial oppressor!§!"

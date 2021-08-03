@@ -1,11 +1,11 @@
 spriteTypes = {	
 
 	SpriteType = {
-		name = "esoteric_control_shine"
-		texturefile = "gfx/interface/goals/britain/esoteric_control.dds"				
+		name = "out_of_shadow_shine"
+		texturefile = "gfx/interface/goals/britain/out_of_shadow.dds"				
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/britain/esoteric_control.dds"				
+			animationmaskfile = "gfx/interface/goals/britain/out_of_shadow.dds"				
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
 			animationrotation = -90.0		
 			animationlooping = no			
@@ -18,7 +18,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/britain/esoteric_control.dds"				
+			animationmaskfile = "gfx/interface/goals/britain/out_of_shadow.dds"				
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
 			animationrotation = 90.0		
 			animationlooping = no			
@@ -179,6 +179,198 @@ spriteTypes = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/britain/strong_aristocrat.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "esoteric_control_shine"
+		texturefile = "gfx/interface/goals/britain/esoteric_control.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/britain/esoteric_control.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"       
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/britain/esoteric_control.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "white_grain_shine"
+		texturefile = "gfx/interface/goals/britain/white_grain.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/britain/white_grain.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"       
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/britain/white_grain.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "strasser_shine"
+		texturefile = "gfx/interface/goals/britain/strasser.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/britain/strasser.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"       
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/britain/strasser.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "neoreactionary_shine"
+		texturefile = "gfx/interface/goals/britain/neoreactionary.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/britain/neoreactionary.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"       
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/britain/neoreactionary.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "national_anarchism_shine"
+		texturefile = "gfx/interface/goals/britain/national_anarchism.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/britain/national_anarchism.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"       
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/britain/national_anarchism.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "esoteric_fascism_shine"
+		texturefile = "gfx/interface/goals/britain/esoteric_fascism.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/britain/esoteric_fascism.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"       
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/britain/esoteric_fascism.dds"				
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
 			animationrotation = 90.0		
 			animationlooping = no			

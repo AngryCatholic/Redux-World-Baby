@@ -14,4 +14,9 @@ spriteTypes = {
 		name = "terry_davis_rules"
 		texturefile = "gfx/event_pictures/terry_davis_rules.dds"
 	}	
+	
+	spriteType = {
+		name = "ted_rises_up"
+		texturefile = "gfx/event_pictures/ted_rises_up.dds"
+	}	
 }

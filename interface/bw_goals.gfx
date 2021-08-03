@@ -55,4 +55,9 @@ spriteTypes = {
 	name = "GFX_strasser"
 	texturefile = "gfx/interface/goals/britain/strasser.dds"			
 	}
+
+	SpriteType = {
+	name = "GFX_white_grain"
+	texturefile = "gfx/interface/goals/britain/white_grain.dds"			
+	}
 }

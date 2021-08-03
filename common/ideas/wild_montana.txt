@@ -1,0 +1,41 @@
+ideas = {
+
+    country = {
+		idea_gorillas = {
+			allowed = {
+				always = no
+			}
+			
+			picture = gorillas
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			targeted_modifier = {
+			tag = MOT attack_bonus_against = 0.10 	
+			}
+		}
+		
+		idea_neolud = {
+			allowed = {
+				always = no
+			}
+			
+			picture = neolud
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_gain = 0.05
+                war_support_factor = 0.20
+			}
+		}
+	}
+}

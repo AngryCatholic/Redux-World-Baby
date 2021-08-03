@@ -1,0 +1,117 @@
+﻿capital = 6742
+
+oob = "WMN_luddites"
+
+set_research_slots = 0
+set_convoys = 0
+set_stability = 0.25
+set_war_support = 0.8
+
+add_ideas = {
+    idea_gorillas
+	idea_neolud
+}
+
+set_technology = {
+	support_weapons = 1
+	infantry_weapons = 1
+	motorised_infantry = 1 
+	tech_support = 0
+	tech_field_hospital = 1 
+	tech_engineers = 10
+	gwtank = 1 
+	basic_light_tank = 1 
+	gw_artillery = 1 
+	tech_mountaineers = 1
+	early_fighter = 0 
+	early_bomber = 0 
+	paratroopers = 0 
+	marines = 0
+	basic_heavy_tank = 0 
+	atomic_research = 0
+	interwar_antiair = 0
+	interwar_antitank = 0
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 0
+		basic_submarine = 0
+		early_destroyer = 0
+		early_light_cruiser = 0
+		basic_light_cruiser = 0
+		early_heavy_cruiser = 0
+		
+		
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+}
+set_politics = {
+	ruling_party = fascist
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+        fascist = 100
+		nationalist = 0
+		monarchist = 0
+		national_bolshevik = 0
+		national_conservative = 0
+		centrist = 0
+		liberal = 0
+		new_democrat = 0
+		moderate_socialist = 0
+		revolutionary_socialist = 0
+		communist = 0
+}
+
+create_country_leader = {
+	name = "Ted Kaczynski"
+	desc = ""
+	picture = "Portrait_Ted.dds"
+	ideology = ecofascism
+}
+
+create_field_marshal = {
+	name = "Ted Kaczynski"
+	picture = "Portrait_Ted.dds"
+	traits = { }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}

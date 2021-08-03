@@ -15,5 +15,13 @@ spriteTypes = {
 		name = "GFX_idea_southgaters"
 		texturefile = "gfx/interface/ideas/ENG/southgaters.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_gorillas"
+		texturefile = "gfx/interface/ideas/WMN/gorillas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_neolud"
+		texturefile = "gfx/interface/ideas/WMN/neolud.dds"
+	}
 }
 
