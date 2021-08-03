@@ -289,7 +289,15 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_ams_peter_iii"
 		texturefile = "gfx/interface/goals/focus_ams_peter_iii.png"
-	}		
+	}	
+	SpriteType = {
+		name = "focus_ams_blood_and_soil"
+		texturefile = "gfx/interface/goals/focus_ams_blood_and_soil.png"
+	}	
+	SpriteType = {
+		name = "focus_ams_catholic_ss"
+		texturefile = "gfx/interface/goals/focus_ams_catholic_ss.png"
+	}	
 }	
 	
 }
