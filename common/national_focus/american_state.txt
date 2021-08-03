@@ -2347,7 +2347,7 @@ focus_tree = {
 	
 	focus = {
 		id = AMS_AVE_PETRUS_III
-		icon = focus_support_christian_values
+		icon = focus_ams_peter_iii
 		x = 36
 		y = 8
 		cost = 1
