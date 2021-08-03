@@ -286,6 +286,10 @@ spriteTypes = {
 		name = "focus_ams_charlemagne"
 		texturefile = "gfx/interface/goals/focus_ams_charlemagne.png"
 	}	
+	SpriteType = {
+		name = "focus_ams_peter_iii"
+		texturefile = "gfx/interface/goals/focus_ams_peter_iii.png"
+	}		
 }	
 	
 }
