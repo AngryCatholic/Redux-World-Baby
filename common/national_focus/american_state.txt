@@ -2367,7 +2367,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_New_Inquisition
-		icon = focus_support_christian_values
+		icon = focus_ams_new_empire
 		x = 38
 		y = 9
 		cost = 10
