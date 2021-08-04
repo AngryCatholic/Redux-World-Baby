@@ -2440,7 +2440,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_tenth_crusade
-		icon = focus_support_christian_values
+		icon = focus_ams_tenth_crusade
 		x = 36
 		y = 12
 		cost = 10
@@ -2503,7 +2503,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_unification_of_the_west
-		icon = focus_support_christian_values
+		icon = focus_ams_unite_the_west
 		x = 37
 		y = 11
 		cost = 10
@@ -2734,7 +2734,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_THE_WEST
-		icon = focus_support_christian_values
+		icon = focus_ams_the_west
 		x = 36
 		y = 13
 		cost = 10
