@@ -65,4 +65,14 @@ spriteTypes = {
 	name = "GFX_rome_douglas"
 	texturefile = "gfx/interface/goals/britain/rome_douglas.dds"			
 	}
+
+	SpriteType = {
+	name = "GFX_lucifer_london"
+	texturefile = "gfx/interface/goals/britain/lucifer_london.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_pulp_fascism"
+	texturefile = "gfx/interface/goals/britain/pulp_fascism.dds"			
+	}
 }
