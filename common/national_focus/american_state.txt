@@ -2385,7 +2385,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_New_Empire
-		icon = focus_support_christian_values
+		icon = focus_ams_new_church
 		x = 36
 		y = 9
 		cost = 10
@@ -2480,7 +2480,7 @@ focus_tree = {
 
 	focus = {
 		id = AMS_new_feudalism
-		icon = focus_support_christian_values
+		icon = focus_ams_new_feudalism
 		x = 35
 		y = 11
 		cost = 10
