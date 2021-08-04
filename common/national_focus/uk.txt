@@ -4074,7 +4074,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_douglas
-		icon = GFX_strasser
+		icon = GFX_rome_douglas
 		cost = 10.00
 		prerequisite = {
 			focus = ENG_into_light
