@@ -313,6 +313,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_ams_new_empire"
 		texturefile = "gfx/interface/goals/focus_ams_new_empire.png"
+	}	
+	SpriteType = {
+		name = "focus_ams_tenth_crusade"
+		texturefile = "gfx/interface/goals/focus_ams_tenth_crusade.png"
+	}	
+	SpriteType = {
+		name = "focus_ams_unite_the_west"
+		texturefile = "gfx/interface/goals/focus_ams_unite_the_west.png"
+	}	
+	SpriteType = {
+		name = "focus_ams_the_west"
+		texturefile = "gfx/interface/goals/focus_ams_the_west.png"
 	}		
 }	
 	
