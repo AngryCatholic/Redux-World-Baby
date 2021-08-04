@@ -310,6 +310,10 @@ spriteTypes = {
 		name = "focus_ams_new_church"
 		texturefile = "gfx/interface/goals/focus_ams_new_church.png"
 	}	
+	SpriteType = {
+		name = "focus_ams_new_empire"
+		texturefile = "gfx/interface/goals/focus_ams_new_empire.png"
+	}		
 }	
 	
 }
