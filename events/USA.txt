@@ -3798,8 +3798,10 @@ country_event = {
 	
 	option = {   
 		name = usa.142.o1
+		hidden_effect = {
+		    country_event = { days = 130 id = usa.313 } 
+		}
 	}
-	
 }
 
 #Remaining communists purged
@@ -3879,11 +3881,6 @@ country_event = {
         create_wargoal = {
 		    type = annex_everything
 		    target = GAU
-		}
-		hidden_effect = {
-		    USA = {
-		        country_event = { days = 109 id = usa.313 } 
-		    }
 		}
 	}
 }
@@ -6161,6 +6158,7 @@ country_event = { # Assassination Attempt on Duke
 		name = usa.313.o2
 		load_focus_tree = USA_rightwing_tree
                 set_country_flag = USA_duke_dies
+		country_event = { days = 3 id = usa.314 }
 	}
 }
 
