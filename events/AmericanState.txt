@@ -1055,26 +1055,22 @@ country_event = { # new people
 	}
 }
 
-country_event = { # Peter III Canonizes Degrelle
-	id = pence.37
-	title = pence.37.t
-	desc = pence.37.d
+country_event = { # new church
+	id = pence.36
+	title = pence.36.t
+	desc = pence.36.d
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
-	trigger = {
-		has_government = fascist
-                has_country_flag = AMS_nhre
-	}
-	
-	option = { #based and ubertradpilled
-		name = pence.37.a
+	option = { #Thank you Terr A. Davis?
+		name = pence.36.a
 		add_stability = 0.05
                 add_political_power = 100
 	}
 }
 
-country_event = { # How tf does this nation run
+country_event = { # Peter III Canonizes Degrelle
 	id = pence.38
 	title = pence.38.t
 	desc = pence.38.d
@@ -1086,8 +1082,27 @@ country_event = { # How tf does this nation run
                 has_country_flag = AMS_nhre
 	}
 	
-	option = { #fuck Voltiare 
+	option = { #based and ubertradpilled
 		name = pence.38.a
+		add_stability = 0.05
+                add_political_power = 100
+	}
+}
+
+country_event = { # How tf does this nation run
+	id = pence.39
+	title = pence.39.t
+	desc = pence.39.d
+
+	fire_only_once = yes
+
+	trigger = {
+		has_government = fascist
+                has_country_flag = AMS_nhre
+	}
+	
+	option = { #fuck Voltiare 
+		name = pence.39.a
 		add_stability = 0.05
                 add_political_power = 100
 	}
