@@ -1,0 +1,34 @@
+on_actions = {
+    on_startup = {
+        effect = {
+         AST = {
+		 set_party_name = { 
+			ideology = nationalist
+			long_name = AST_nationalist_party_custom 
+			name = AST_nationalist_party_custom 
+			}
+			set_party_name = { 
+			ideology = liberal
+			long_name = AST_liberal_party_custom 
+			name = AST_liberal_party_custom 
+			}
+			set_party_name = { 
+			ideology = new_democrat
+			long_name = AST_new_democrat_party_custom 
+			name = AST_new_democrat_party_custom 
+			}
+			set_party_name = { 
+			ideology = centrist
+			long_name = AST_centrist_party_custom 
+			name = AST_centrist_party_custom 
+			}
+			set_party_name = { 
+			ideology = national_conservative
+			long_name = AST_national_conservative_party_custom 
+			name = AST_national_conservative_party_custom
+			
+			}
+		 }
+        }
+    }
+}
