@@ -387,6 +387,10 @@ country_event = {
 		893 = { set_state_name = "Naphatali" }
 		902 = { set_state_name = "Ephraim" }
 	}
+	
+	option = {
+		name = pence.12.b
+	}
 }
 
 country_event = { # Post-Revolution Period
