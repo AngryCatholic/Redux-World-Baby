@@ -907,7 +907,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = vittoria_mutilata
+			picture = crusader_morale
 			
 			modifier = {
 				conscription_factor = 0.10
@@ -991,7 +991,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = vittoria_mutilata
+			picture = crusader_morale
 			
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.10
