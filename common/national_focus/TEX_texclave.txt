@@ -30,7 +30,7 @@ focus_tree = {
 	#Focus for Destroying the Lone Star
 	focus = {
 		id = TEX_destroying_the_lone_star
-		icon = attack_allies
+		icon = focus_tex_destroy_texas
 		x = 6
 		y = 1
 		cost = 5
@@ -65,7 +65,7 @@ focus_tree = {
 	#Focus for Taking the Birthright
 	focus = {
 		id = TEX_taking_the_birthright
-		icon = return_of_the_americans
+		icon = focus_tex_birthright
 		x = 10
 		y = 1
 		cost = 5
@@ -94,7 +94,7 @@ focus_tree = {
 	#Focus for Enclave Radio!
 	focus = {
 		id = TEX_enclave_radio
-		icon = focus_undermine_local_media
+		icon = focus_tex_enclave_radio
 		x = 7
 		y = 2
 		cost = 8
@@ -118,7 +118,7 @@ focus_tree = {
 	#Focus for Experimental Weapons
 	focus = {
 		id = TEX_experimental_weapons
-		icon = secret_weapon
+		icon = focus_tex_based_weapons
 		x = 9
 		y = 2
 		cost = 8
@@ -180,7 +180,7 @@ focus_tree = {
 	#Focus for Killing Communists
 	focus = {
 		id = TEX_killing_communists
-		icon = broken_star
+		icon = focus_tex_kill_commies
 		x = 10
 		y = 3
 		cost = 10
