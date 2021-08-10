@@ -15,6 +15,13 @@ set_convoys = 500
 set_stability = 0.7
 set_war_support = 0.1
 
+add_ideas = {
+AST_Faulty_Republic
+AST_Lawless_Outback
+AST_Communist_Influence
+AST_Oceanic_Bulwark
+AST_Political_Maelstrom
+}
 set_country_flag = was_in_british_empire
 
 create_faction = Oceanic_Defense_Initative
@@ -94,15 +101,15 @@ set_politics = {
 
 set_popularities = {
         fascist = 0
-		nationalist = 40
-		monarchist = 0
+		nationalist = 30
+		monarchist = 8
 		national_bolshevik = 0
-		national_conservative = 42
-		centrist = 6
-		liberal = 0
-		new_democrat = 6
-		moderate_socialist = 0
-		revolutionary_socialist = 2
+		national_conservative = 12
+		centrist = 13
+		liberal = 10
+		new_democrat = 14
+		moderate_socialist = 5
+		revolutionary_socialist = 4
 		communist = 4
 }
 
@@ -156,6 +163,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Mark Latham"
+	desc = "POLITICS_MARK_LATHAM_DESC"
 	picture = "Portrait_AST_Mark_Latham.dds"
 	ideology = nationalist_ideology
 }
