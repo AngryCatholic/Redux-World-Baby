@@ -325,7 +325,27 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_ams_the_west"
 		texturefile = "gfx/interface/goals/focus_ams_the_west.png"
-	}		
+	}
+	SpriteType = {
+		name = "focus_tex_destroy_texas"
+		texturefile = "gfx/interface/goals/focus_tex_destroy_texas.png"
+	}	
+	SpriteType = {
+		name = "focus_tex_birthright"
+		texturefile = "gfx/interface/goals/focus_tex_birthright.png"
+	}	
+	SpriteType = {
+		name = "focus_tex_enclave_radio"
+		texturefile = "gfx/interface/goals/focus_tex_enclave_radio.png"
+	}	
+	SpriteType = {
+		name = "focus_tex_based_weapons"
+		texturefile = "gfx/interface/goals/focus_tex_based_weapons.png"
+	}	
+	SpriteType = {
+		name = "focus_tex_kill_commies"
+		texturefile = "gfx/interface/goals/focus_tex_kill_commies.png"
+	}
 }	
 	
 }
