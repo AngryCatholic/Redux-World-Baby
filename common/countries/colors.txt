@@ -1628,3 +1628,8 @@ WMN = {
 	color = { 13  66  13 }
 	color_ui = { 13 66 13 }
 }
+
+VIR = {
+    color = rgb { 149 56 56 }
+    color_ui = rgb { 149 56 56 }
+}
