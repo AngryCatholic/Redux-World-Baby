@@ -4960,7 +4960,6 @@ country_event = {
 	id = commonwealth.300
 	title = commonwealth.300.t
 	desc = commonwealth.300.d
-	picture = american_communist_party
 	
 	fire_only_once = yes
 	
