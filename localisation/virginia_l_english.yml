@@ -1,7 +1,9 @@
 ﻿l_english:
 ### Misc stuff###
  VIR_fascist_party:0 "Virginia Company"
- VIR_fascist_party_long:0 "Virginia Company - Cavalier Faction"
+ VIR_fascist_party_long:0 "Virginia Company - Tobaccoist Faction"
+ VIR_nationalist_party:0 "Virginia Company"
+ VIR_nationalist_party_long:0 "Virginia Company - Black Bear Faction"
  VIR_fascist:0 "State of Virginia"
  VIR_fascist_DEF:0 "State of Virginia"
  VIR_fascist_ADJ:0 "Virginian"
