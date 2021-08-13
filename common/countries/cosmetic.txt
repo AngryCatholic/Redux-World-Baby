@@ -65,3 +65,8 @@ USA_fundementalists = {
     color = rgb { 30 30 30 }
     color_ui = rgb { 58 168 202 }
 }
+
+VIR = {
+    color = rgb { 149 56 56 }
+    color_ui = rgb { 149 56 56 }
+}
