@@ -81,8 +81,8 @@ set_politics = {
 }
 
 set_popularities = {
-        fascist = 78
-		nationalist = 4
+        fascist = 48
+		nationalist = 34
 		monarchist = 0
 		national_bolshevik = 5
 		national_conservative = 0
@@ -95,9 +95,16 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Proprietary Governor Gary Pesh"
+	name = "Gary Pesh"
 	desc = "POLITICS_GARY_PESH_DESC"
 	picture = "Portrait_VIR_Gary_Pesh.dds"
 	ideology = neoreactionary
+}
+
+create_country_leader = {
+	name = "Don Blankenship"
+	desc = "POLITICS_Don_DESC"
+	picture = "Portrait_VIR_don_blankenship.dds"
+	ideology = ultranationalist
 }
 
