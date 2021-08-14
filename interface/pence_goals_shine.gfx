@@ -2683,11 +2683,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}	
 	spriteType = {
-		name = "GFX_goal_COR_legacy_of_the_know_nothings_shine"
-		texturefile = "gfx/interface/goals/COR_legacy_of_the_know_nothings.png"
+		name = "FSA_lee_cult_shine"
+		texturefile = "gfx/interface/goals/FSA_lee_cult.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/COR_legacy_of_the_know_nothings.png"
+			animationmaskfile = "gfx/interface/goals/FSA_lee_cult.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
 			animationrotation = -90.0		
 			animationlooping = no			
@@ -2699,7 +2699,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/COR_legacy_of_the_know_nothings.png"
+			animationmaskfile = "gfx/interface/goals/FSA_lee_cult.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
 			animationrotation = 90.0		
 			animationlooping = no			
