@@ -48,7 +48,7 @@ units = {# Army
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Black Bear Miltia 'Cavalier'"
+		name = "3rd Black Bear Miltia 'Mountaineer'"
 		location = 873
 		division_template = "Infantry Division"
 		start_experience_factor = 1.0
