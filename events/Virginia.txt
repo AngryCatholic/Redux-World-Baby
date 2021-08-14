@@ -27,6 +27,10 @@ country_event = {
 	
 	option = {
 		name = virginia.2.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
 	}
 }
 
@@ -41,6 +45,10 @@ country_event = {
 	
 	option = {
 		name = virginia.3.o1
+		add_popularity = {
+		ideology = fascist
+		popularity = 0.01
+		}
 	}
 }
 
