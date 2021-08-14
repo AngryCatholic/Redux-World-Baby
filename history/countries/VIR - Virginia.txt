@@ -95,9 +95,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Gary Pesh"
+	name = "Rush Limbaugh"
 	desc = "POLITICS_GARY_PESH_DESC"
-	picture = "Portrait_VIR_Gary_Pesh.dds"
+	picture = "Portrait_VIR_Rush_Limbaugh.dds"
 	ideology = neoreactionary
 }
 
@@ -108,3 +108,46 @@ create_country_leader = {
 	ideology = ultranationalist
 }
 
+create_field_marshal = {
+	name = "Timothy P. Williams"
+	picture = "Portrait_VIR_Timothy_Williams.png"
+	traits = { thorough_planner }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Joseph DiNonno"
+	picture = "Portrait_VIR_Joseph_DiNonno.png"
+	traits = { panzer_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "John M. Rhodes"
+	picture = "Portrait_VIR_John_Rhodes.png"
+	traits = { trickster }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Justin P. Carlitti"
+	picture = "Portrait_VIR_Justin_Carlitti.png"
+	traits = { trickster }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
