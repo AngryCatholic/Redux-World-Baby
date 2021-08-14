@@ -26,6 +26,15 @@ units = {# Army
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
+	
+	division = {
+		name = "Lexington Defence Force"
+		location = 6696
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
 	division = {
 		name = "4th Black Bear Miltia 'Cumberland Gap'"
 		location = 7547
@@ -33,6 +42,7 @@ units = {# Army
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
+	
 	division = {
 		name = "5th Black Bear Miltia 'Daniel Boone'"
 		location = 7547
@@ -40,6 +50,7 @@ units = {# Army
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
+	
 	division = {
 		name = "6th Black Bear Miltia 'Cherokee'"
 		location = 7547
