@@ -366,6 +366,22 @@ spriteTypes = {
 		name = "GFX_goal_COR_convict_leasing"
 		texturefile = "gfx/interface/goals/COR_convict_leasing.png"
 	}	
+	SpriteType = {
+		name = "GFX_thesoutherncastesystem"
+		texturefile = "gfx/interface/goals/GFX_thesoutherncastesystem.png"
+	}
+	SpriteType = {
+		name = "GFX_thenegrolaboract"
+		texturefile = "gfx/interface/goals/GFX_thenegrolaboract.png"
+	}	
+	SpriteType = {
+		name = "FSA_lynching"
+		texturefile = "gfx/interface/goals/FSA_lynching.png"
+	}	
+	SpriteType = {
+		name = "FSA_mason_dixon_line"
+		texturefile = "gfx/interface/goals/FSA_mason_dixon_line.png"
+	}	
 }	
 	
 }
