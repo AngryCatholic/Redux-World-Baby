@@ -62,7 +62,8 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = virginia.4.o1		
+		name = virginia.4.o1
+		set_cosmetic_tag = VIR_tobacco		
         }
 }
 
