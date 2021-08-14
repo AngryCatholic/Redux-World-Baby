@@ -21,7 +21,7 @@ division_template = {
 units = {# Army
 	division = {
 		name = "Richmond Defence Force"
-		location = 3821
+		location = 873
 		division_template = "Infantry Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
@@ -49,14 +49,14 @@ units = {# Army
 	}
 	division = {
 		name = "3rd Black Bear Miltia 'Cavalier'"
-		location = 1736
+		location = 873
 		division_template = "Infantry Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "1st Convict Legion 'John Smith'"
-		location = 1736
+		location = 873
 		division_template = "Infantry Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
