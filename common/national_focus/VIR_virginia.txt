@@ -446,7 +446,7 @@ focus_tree = {
 	#Focus for A New Drug for the Chinese
 	focus = {
 		id = VIR_a_new_drug_for_the_chinese
-		icon = GFX_goal_unknown
+		icon = GFX_LEC_Cigarettes
 		x = 11
 		y = 10
 		cost = 10
