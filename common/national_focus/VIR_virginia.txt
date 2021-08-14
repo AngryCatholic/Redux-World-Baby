@@ -7,6 +7,8 @@ focus_tree = {
 			tag = VIR
 		}
 	}
+	continuous_focus_position = { x = 50 y = 2000 }
+	
 	#Focus for Sic Semper Tyrannis!
 	focus = {
 		id = VIR_sic_semper_tyrannis
