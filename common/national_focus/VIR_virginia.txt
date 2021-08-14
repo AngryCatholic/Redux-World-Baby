@@ -390,7 +390,7 @@ focus_tree = {
 	#Focus for Exporting the Corporate Revolution
 	focus = {
 		id = VIR_exporting_the_corporate_revolution
-		icon = GFX_goal_unknown
+		icon = focus_VIR_corporate_rev
 		x = 9
 		y = 9
 		cost = 15
