@@ -1,0 +1,462 @@
+focus_tree = {
+	id = virginia
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = VIR
+		}
+	}
+	#Focus for Sic Semper Tyrannis!
+	focus = {
+		id = VIR_sic_semper_tyrannis
+		icon = GFX_goal_unknown
+		x = 9
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 100
+		}
+	}
+
+	#Focus for Ally with the Black Bears
+	focus = {
+		id = VIR_ally_with_the_black_bears
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_sic_semper_tyrannis }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.2 
+		}
+	}
+
+	#Focus for Playing them both Off
+	focus = {
+		id = VIR_playing_them_both_off
+		icon = GFX_goal_unknown
+		x = 10
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_sic_semper_tyrannis }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.3 
+		}
+	}
+
+	#Focus for Securing the State
+	focus = {
+		id = VIR_securing_the_state
+		icon = GFX_goal_unknown
+		x = 9
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_ally_with_the_black_bears 
+		}
+		prerequisite = { 
+			focus = VIR_playing_them_both_off 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= VIR_tobacco_1
+		}
+	}
+
+	#Focus for Rise of the Tobacco State
+	focus = {
+		id = VIR_rise_of_the_tobacco_state
+		icon = GFX_goal_unknown
+		x = 9
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_securing_the_state }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas= VIR_tobacco_1  
+			add_ideas= VIR_tobacco_2  			
+			country_event = virginia.4 
+		}
+	}
+
+	#Focus for Greater Virginia Scheme
+	focus = {
+		id = VIR_greater_virginia_scheme
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_rise_of_the_tobacco_state }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.5 
+		}
+	}
+
+	#Focus for The Kentucky Gambit
+	focus = {
+		id = VIR_the_kentucky_gambit
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_greater_virginia_scheme }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.6 
+		}
+	}
+
+	#Focus for Virginian Interests in the Caribbean
+	focus = {
+		id = VIR_virginian_interests_in_the_caribbean
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_the_kentucky_gambit }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.7 
+		}
+	}
+
+	#Focus for Great Fields of Tobacco
+	focus = {
+		id = VIR_great_fields_of_tobacco
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_rise_of_the_tobacco_state }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.8 
+		}
+	}
+
+	#Focus for The American Singapore
+	focus = {
+		id = VIR_the_american_singapore
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_great_fields_of_tobacco }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas= VIR_tobacco_2  
+			add_ideas= VIR_tobacco_3
+		}
+	}
+
+	#Focus for Joint Stock Virginia
+	focus = {
+		id = VIR_joint_stock_virginia
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_the_american_singapore }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas= VIR_tobacco_3  
+			add_ideas= VIR_tobacco_4
+		}
+	}
+
+	#Focus for The Dark Enlightenment...
+	focus = {
+		id = VIR_the_dark_enlightenment
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_the_american_singapore }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.9 
+		}
+	}
+
+	#Focus for Great Work Force
+	focus = {
+		id = VIR_great_work_force
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_rise_of_the_tobacco_state }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= VIR_slave_labor_1
+		}
+	}
+
+	#Focus for Convict Leasing
+	focus = {
+		id = VIR_convict_leasing
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_great_work_force }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas= VIR_slave_labor_1  
+			add_ideas= VIR_slave_labor_2
+		}
+	}
+
+	#Focus for Beating them till the Work!
+	focus = {
+		id = VIR_beating_them_till_the_work
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_convict_leasing }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas= VIR_slave_labor_2  
+			add_ideas= VIR_slave_labor_3
+		}
+	}
+
+	#Focus for Monopolizing the Cigar Trade
+	focus = {
+		id = VIR_monopolizing_the_cigar_trade
+		icon = GFX_goal_unknown
+		x = 7
+		y = 7
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_virginian_interests_in_the_caribbean 
+		}
+		prerequisite = { 
+			focus = VIR_joint_stock_virginia 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.10
+		}
+	}
+
+	#Focus for Strict Laws and Harsh Punishments
+	focus = {
+		id = VIR_strict_laws_and_harsh_punishments
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_joint_stock_virginia 
+		}
+		prerequisite = { 
+			focus = VIR_the_dark_enlightenment 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas= VIR_tobacco_4  
+			add_ideas= VIR_tobacco_5
+		}
+	}
+
+	#Focus for Neo-Plantations
+	focus = {
+		id = VIR_neoplantations
+		icon = GFX_goal_unknown
+		x = 11
+		y = 7
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_the_dark_enlightenment 
+		}
+		prerequisite = { 
+			focus = VIR_beating_them_till_the_work 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas= VIR_slave_labor_3  
+			add_ideas= VIR_slave_labor_4
+		}
+	}
+
+	#Focus for Cavalier Business Culture
+	focus = {
+		id = VIR_cavalier_business_culture
+		icon = GFX_goal_unknown
+		x = 8
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_monopolizing_the_cigar_trade 
+		}
+		prerequisite = { 
+			focus = VIR_strict_laws_and_harsh_punishments 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= VIR_cavalier  			
+			country_event = virginia.11 
+		}
+	}
+
+	#Focus for Virginian Traditionalism
+	focus = {
+		id = VIR_virginian_traditionalism
+		icon = GFX_goal_unknown
+		x = 10
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_strict_laws_and_harsh_punishments 
+		}
+		prerequisite = { 
+			focus = VIR_neoplantations 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.12 
+		}
+	}
+
+	#Focus for Exporting the Corporate Revolution
+	focus = {
+		id = VIR_exporting_the_corporate_revolution
+		icon = GFX_goal_unknown
+		x = 9
+		y = 9
+		cost = 15
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_cavalier_business_culture 
+		}
+		prerequisite = { 
+			focus = VIR_virginian_traditionalism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.13 
+		}
+	}
+
+	#Focus for British Fags
+	focus = {
+		id = VIR_british_fags
+		icon = GFX_goal_unknown
+		x = 7
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_exporting_the_corporate_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.14 
+		}
+	}
+
+	#Focus for Hit of the Hookah
+	focus = {
+		id = VIR_hit_of_the_hookah
+		icon = GFX_goal_unknown
+		x = 9
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_exporting_the_corporate_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.15 
+		}
+	}
+
+	#Focus for A New Drug for the Chinese
+	focus = {
+		id = VIR_a_new_drug_for_the_chinese
+		icon = GFX_goal_unknown
+		x = 11
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_exporting_the_corporate_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.16 
+		}
+	}
+
+#End of focuses 
+ }
