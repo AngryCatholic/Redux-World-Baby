@@ -29,7 +29,7 @@ focus_tree = {
 	#Focus for Ally with the Black Bears
 	focus = {
 		id = VIR_ally_with_the_black_bears
-		icon = GFX_goal_unknown
+		icon = focus_VIR_black_bears
 		x = 8
 		y = 1
 		cost = 2
@@ -63,7 +63,7 @@ focus_tree = {
 	#Focus for Securing the State
 	focus = {
 		id = VIR_securing_the_state
-		icon = GFX_goal_unknown
+		icon = focus_VIR_secure_the_state
 		x = 9
 		y = 2
 		cost = 2
