@@ -361,6 +361,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_LEC_Cigarettes"
 		texturefile = "gfx/interface/goals/LEC_Cigarettes.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_COR_convict_leasing"
+		texturefile = "gfx/interface/goals/COR_convict_leasing.png"
 	}	
 }	
 	
