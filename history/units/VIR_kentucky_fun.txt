@@ -1,0 +1,57 @@
+division_template = {
+	name = "Infantry Division"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {# Army
+	division = {
+		name = "Louisville Defence Force"
+		location = 6696
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = Lexington Defence Force"
+		location = 12568
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Black Bear Miltia 'Cumberland Gap'"
+		location = 7547
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Black Bear Miltia 'Daniel Boone'"
+		location = 7547
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6th Black Bear Miltia 'Cherokee'"
+		location = 7547
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}
