@@ -329,6 +329,7 @@ country_event = {
 		ai_chance = { factor = 70 }
 		add_stability = -0.1
 		VIR = {
+			load_oob = VIR_rest_virginia		
 			add_state_core = 362
 			transfer_state = 362
 
@@ -363,6 +364,7 @@ country_event = {
 		ai_chance = { factor = 70 }
 		add_stability = -0.1
 		VIR = {
+			load_oob = VIR_kentucky_fun		
 			add_state_core = 369
 			add_state_core = 686
 			add_state_core = 880			
