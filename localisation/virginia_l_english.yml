@@ -4,11 +4,11 @@
  VIR_fascist_party_long:0 "Virginia Company - Tobaccoist Faction"
  VIR_nationalist_party:0 "Virginia Company"
  VIR_nationalist_party_long:0 "Virginia Company - Black Bear Faction"
- VIR_fascist:0 "State of Virginia"
- VIR_fascist_DEF:0 "State of Virginia"
+ VIR_fascist:0 "Commonwealth of Virginia"
+ VIR_fascist_DEF:0 "Commonwealth of Virginia"
  VIR_fascist_ADJ:0 "Virginian"
- VIR_tobacco_fascist:0 "Proprietary State of Virginia"
- VIR_tobacco_fascist_DEF:0 "Proprietary State of Virginia"
+ VIR_tobacco_fascist:0 "All-Virginia Tobacco Company"
+ VIR_tobacco_fascist_DEF:0 "All-Virginia Tobacco Company"
  VIR_tobacco_fascist_ADJ:0 "Virginian"
  
  ### ideas ###
