@@ -55,9 +55,16 @@ country_event = {
 	
 	option = {
 		name = virginia.4.o1
-		add_popularity = {
-		ideology = fascist
-		popularity = 0.01
+		create_country_leader = {
+	        name = "Proprietary Governor Pesh"
+		desc = "POLITICS_PESH_DESC"
+	        picture = "Portrait_VIR_Based_Pesh.dds"
+	        ideology = neoreactionary
+        }
+		add_stability = 0.05
+                add_political_power = 100
+		set_country_flag = VIRGINIABASEDTIME
+		set_cosmetic_tag = VIR_tobacco
 		}
 	}
 }
