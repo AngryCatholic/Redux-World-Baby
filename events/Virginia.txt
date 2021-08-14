@@ -364,7 +364,11 @@ country_event = {
 		add_stability = -0.1
 		VIR = {
 			add_state_core = 369
+			add_state_core = 686
+			add_state_core = 880			
 			transfer_state = 369
+			transfer_state = 686
+			transfer_state = 880			
 
 		}
 	}
@@ -375,6 +379,8 @@ country_event = {
 		add_stability = -0.1
 		VIR = {
 			add_state_core = 369
+			add_state_core = 686
+			add_state_core = 880
 		}
         create_wargoal = {
 		    type = annex_everything
