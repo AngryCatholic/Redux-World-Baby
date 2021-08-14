@@ -1,6 +1,6 @@
-﻿capital = 360
+capital = 902
 
-oob = "VIR_civil_war"
+oob = "VIR_based_shit"
 
 set_research_slots = 4
 set_convoys = 500
