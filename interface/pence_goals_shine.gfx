@@ -1652,10 +1652,10 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_goal_COR_warriors_of_elijah_shine"
-		texturefile = "gfx/interface/goals/COR_warriors_of_elijah.png"
+		texturefile = "gfx/interface/goals/GFX_tobuildcourage.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/COR_warriors_of_elijah.png"
+			animationmaskfile = "gfx/interface/goals/GFX_tobuildcourage.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
 			animationrotation = -90.0		
 			animationlooping = no			
@@ -1667,7 +1667,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/COR_warriors_of_elijah.png"
+			animationmaskfile = "gfx/interface/goals/GFX_tobuildcourage.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
 			animationrotation = 90.0		
 			animationlooping = no			
