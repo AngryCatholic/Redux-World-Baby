@@ -236,7 +236,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_COR_warriors_of_elijah"
-		texturefile = "gfx/interface/goals/COR_warriors_of_elijah.png"
+		texturefile = "gfx/interface/goals/GFX_tobuildcourage.png"
 	}
 	SpriteType = {
 		name = "focus_rural_peoples_party"
