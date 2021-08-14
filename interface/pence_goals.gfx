@@ -351,8 +351,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/COR_goods_of_cuba.png"
 	}	
 	SpriteType = {
-		name = "GFX_goal_COR_legacy_of_the_know_nothings"
-		texturefile = "gfx/interface/goals/COR_legacy_of_the_know_nothings.png"
+		name = "FSA_lee_cult"
+		texturefile = "gfx/interface/goals/FSA_lee_cult.png"
 	}
 	SpriteType = {
 		name = "focus_VIR_corporate_rev"
