@@ -277,7 +277,7 @@ focus_tree = {
 	#Focus for Monopolizing the Cigar Trade
 	focus = {
 		id = VIR_monopolizing_the_cigar_trade
-		icon = GFX_goal_unknown
+		icon = GFX_goal_COR_goods_of_cuba
 		x = 7
 		y = 7
 		cost = 8
