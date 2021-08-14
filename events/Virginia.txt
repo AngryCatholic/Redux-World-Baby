@@ -1,4 +1,4 @@
-﻿add_namespace = virginia
+add_namespace = virginia
 
 #SIC SEMPER TYRANNIS!!!!
 country_event = {
@@ -12,6 +12,7 @@ country_event = {
 	option = {
 		name = virginia.1.o1
 		add_political_power = 250
+		load_oob = VIR_based_shit		
 	}
 }
 
