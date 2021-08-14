@@ -47,4 +47,22 @@ units = {# Army
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
+	fleet = {
+		name = "Virginian Navy"
+		naval_base = 788
+		task_force = {
+			name = "Jefferson Carrier Group"
+			location = 788 # Norfolk
+			ship = {
+			name = "VS Thomas Jefferson" definition = carrier equipment = { carrier_1 = { amount = 1 owner = VIR version_name = "Carrier I" } }
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "VIR" amount = 20 }
+				cv_nav_bomber_equipment_1 =  { owner = "VIR" amount = 20 }
+				}
+			}	
+			ship = { name = "VS Longstreet" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIR version_name = "Destroyer I" } } }
+			ship = { name = "VS Lee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIR version_name = "Destroyer I" } } }
+		}
+	}
+}	
 }
