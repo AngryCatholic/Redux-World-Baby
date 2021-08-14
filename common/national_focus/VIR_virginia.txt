@@ -224,7 +224,7 @@ focus_tree = {
 	#Focus for Great Work Force
 	focus = {
 		id = VIR_great_work_force
-		icon = GFX_goal_unknown
+		icon = focus_cotton_picking
 		x = 11
 		y = 4
 		cost = 5
