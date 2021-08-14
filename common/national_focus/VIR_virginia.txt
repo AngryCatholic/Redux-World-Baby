@@ -103,7 +103,7 @@ focus_tree = {
 	#Focus for Greater Virginia Scheme
 	focus = {
 		id = VIR_greater_virginia_scheme
-		icon = GFX_goal_unknown
+		icon = FSA_mason_dixon_line
 		x = 7
 		y = 4
 		cost = 5
