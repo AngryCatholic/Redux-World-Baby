@@ -241,7 +241,7 @@ focus_tree = {
 	#Focus for Convict Leasing
 	focus = {
 		id = VIR_convict_leasing
-		icon = GFX_goal_unknown
+		icon = GFX_goal_COR_convict_leasing
 		x = 12
 		y = 5
 		cost = 5
@@ -259,7 +259,7 @@ focus_tree = {
 	#Focus for Beating them till the Work!
 	focus = {
 		id = VIR_beating_them_till_the_work
-		icon = GFX_goal_unknown
+		icon = FSA_lynching
 		x = 12
 		y = 6
 		cost = 5
@@ -322,7 +322,7 @@ focus_tree = {
 	#Focus for Neo-Plantations
 	focus = {
 		id = VIR_neoplantations
-		icon = GFX_goal_unknown
+		icon = GFX_thenegrolaboract
 		x = 11
 		y = 7
 		cost = 8
@@ -345,7 +345,7 @@ focus_tree = {
 	#Focus for Cavalier Business Culture
 	focus = {
 		id = VIR_cavalier_business_culture
-		icon = GFX_goal_unknown
+		icon = GFX_thesoutherncastesystem
 		x = 8
 		y = 8
 		cost = 10
