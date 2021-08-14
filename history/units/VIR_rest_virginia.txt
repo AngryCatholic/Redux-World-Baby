@@ -47,6 +47,13 @@ units = {# Army
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
+	division = {
+		name = "3rd Black Bear Militia 'Don's Boys'"
+		location = 11841
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}	
 	fleet = {
 		name = "Virginian Navy"
 		naval_base = 788
