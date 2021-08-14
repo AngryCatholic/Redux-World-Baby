@@ -381,6 +381,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "FSA_mason_dixon_line"
 		texturefile = "gfx/interface/goals/FSA_mason_dixon_line.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_sic_semper_tyrannis"
+		texturefile = "gfx/interface/goals/focus_VIR_sic_semper_tyrannis.png"
 	}	
 }	
 	
