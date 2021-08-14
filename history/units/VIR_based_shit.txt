@@ -55,7 +55,7 @@ units = {# Army
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Convict Legion 'John Smith'"
+		name = "1st Virginia Defence Force Divison 'John Smith'"
 		location = 873
 		division_template = "Infantry Division"
 		start_experience_factor = 1.0
