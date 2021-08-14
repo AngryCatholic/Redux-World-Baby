@@ -6,3 +6,12 @@ frameAnimatedSpriteType = {
 		looping = yes
 		play_on_show = yes
     }
+frameAnimatedSpriteType = {
+        name = "Portrait_VIR_Rush_Limbaugh_animated"
+        texturefile = "gfx/leaders/VIR/Portrait_VIR_Rush_Limbaugh_animated.tga"
+        noOfFrames = 60
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+    }	
+}
