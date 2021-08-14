@@ -22,6 +22,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power= 100
+			country_event = virginia.1 
 		}
 	}
 
