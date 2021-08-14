@@ -357,6 +357,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_VIR_corporate_rev"
 		texturefile = "gfx/interface/goals/focus_VIR_corporate_rev.png"
+	}
+	SpriteType = {
+		name = "GFX_LEC_Cigarettes"
+		texturefile = "gfx/interface/goals/LEC_Cigarettes.png"
 	}	
 }	
 	
