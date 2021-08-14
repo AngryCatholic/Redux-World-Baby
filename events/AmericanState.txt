@@ -353,7 +353,7 @@ country_event = {
 		create_country_leader = {
 	        name = "Peter III"
 	        picture = "Portrait_AMS_williamson.dds"
-	        ideology = falangist
+	        ideology = supercatholicism
         }
 		set_country_flag = peteriii_elected
 	}
@@ -989,7 +989,7 @@ country_event = { # crowning a emperor
 		create_country_leader = {
 	        name = "Charlemagne II"
 	        picture = "Portrait_AMS_charlemagne.dds"
-	        ideology = falangist
+	        ideology = supercatholicism
         }
 		set_country_flag = AMS_charles_in_power
 	}
