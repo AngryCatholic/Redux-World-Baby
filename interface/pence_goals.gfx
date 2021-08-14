@@ -385,7 +385,15 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_VIR_sic_semper_tyrannis"
 		texturefile = "gfx/interface/goals/focus_VIR_sic_semper_tyrannis.png"
-	}	
+	}
+	SpriteType = {
+		name = "focus_VIR_black_bears"
+		texturefile = "gfx/interface/goals/focus_VIR_black_bears.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_secure_the_state"
+		texturefile = "gfx/interface/goals/focus_VIR_secure_the_state.png"
+	}
 }	
 	
 }
