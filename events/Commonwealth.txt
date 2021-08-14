@@ -4978,14 +4978,6 @@ country_event = {
 
 		}
 		set_country_flag = virginia_freedom
-		hidden_effect = {
-			if = {
-				country_event = {
-					id = virginia.1
-					days = 9
-				}
-			}
-		}
 	}
 	
 	option = { #tag switch to virginia
@@ -5000,8 +4992,5 @@ country_event = {
 		}
 		set_country_flag = virginia_freedom
 		VIR = { change_tag_from = NEA }
-		hidden_effect = {
-			country_event = { id = virginia.1 days = 10 }
-		}
 	}
 }
