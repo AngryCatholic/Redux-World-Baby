@@ -96,8 +96,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Rush Limbaugh"
-	desc = "POLITICS_GARY_PESH_DESC"
-	picture = "Portrait_VIR_Rush_Limbaugh_animated"
+	desc = "POLITICS_RUSH_DESC"
+	picture = "Portrait_VIR_Rush_Limbaugh.png
 	ideology = neoreactionary
 }
 
