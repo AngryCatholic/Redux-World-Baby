@@ -42,13 +42,13 @@ units = {# Army
 	}
 	division = {
 		name = "2nd Black Bear Miltia 'Stonewall'"
-		location = 801
+		location = 3941
 		division_template = "Infantry Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Black Bear Miltia 'Mountaineer'"
+		name = "Morgantown Militia 'Mountaineer'"
 		location = 873
 		division_template = "Infantry Division"
 		start_experience_factor = 1.0
