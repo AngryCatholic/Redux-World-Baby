@@ -346,6 +346,10 @@ spriteTypes = {
 		name = "focus_tex_kill_commies"
 		texturefile = "gfx/interface/goals/focus_tex_kill_commies.png"
 	}
+	SpriteType = {
+		name = "GFX_goal_COR_goods_of_cuba"
+		texturefile = "gfx/interface/goals/COR_goods_of_cuba.png"
+	}	
 }	
 	
 }
