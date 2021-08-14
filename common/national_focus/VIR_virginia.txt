@@ -368,7 +368,7 @@ focus_tree = {
 	#Focus for Virginian Traditionalism
 	focus = {
 		id = VIR_virginian_traditionalism
-		icon = GFX_goal_COR_legacy_of_the_know_nothings
+		icon = FSA_lee_cult
 		x = 10
 		y = 8
 		cost = 10
