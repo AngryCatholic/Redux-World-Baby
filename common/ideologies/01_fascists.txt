@@ -29,7 +29,10 @@ ideologies = {
 			}
 
 			ecofascism = {				
-			}				
+			}
+			
+			supercatholicism = {				
+			}			
 			
 		}
 		
