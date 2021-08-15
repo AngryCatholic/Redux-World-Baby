@@ -231,10 +231,9 @@ country_event = {
 	
 	option = {
 		name = virginia.12.o1
-		add_popularity = {
-		ideology = fascist
-		popularity = 0.01
-		}
+		set_province_name = { id = 7622 name = "Leetown"}		
+		315 = { set_state_name = "Lee" }
+		add_state_core = 315		
 	}
 }
 
