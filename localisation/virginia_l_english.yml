@@ -12,7 +12,16 @@
  VIR_tobacco_fascist_ADJ:0 "Virginian"
  
  ### ideas ###
-
+ VIR_tobacco_1:0 "A Secure Virginia"
+ VIR_tobacco_2:0 "Solidification of the Tobacco Regime"
+ VIR_tobacco_3:0 "The American Singapore"
+ VIR_tobacco_4:0 "Joint Stock Virginia"
+ VIR_tobacco_5:0 "In the Hall of the Tobacco King"
+ VIR_slave_labor_1:0 "Native Virginian Workforce"
+ VIR_slave_labor_2:0 "Convict Leasing"
+ VIR_slave_labor_3:0 "Volunteer Convict Supervisors"
+ VIR_slave_labor_4:0 "De-Facto Slavery"
+ VIR_cavalier:0 "Cavalier Business Culture"
  ### events###
  commonwealth.300.t:0 "Virginia Secedes!"
  commonwealth.300.d:0 "Virginian Agricultural Council, Mining Council and Others have joined forces and have couped the Virginian Commonwealth Government and has seceded from the APC, It was long Feared that the Virginian and West Virginian Councils were more conservative and were subverse to Socialism but it was blown off as a rumor but now it appears if it were true"
