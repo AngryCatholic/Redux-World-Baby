@@ -516,7 +516,7 @@ focus_tree = {
 		    }
             create_wargoal = {
 			    type = annex_everything
-			    target = LIN
+			    target = NEA
 		    }
             create_wargoal = {
 			    type = annex_everything
