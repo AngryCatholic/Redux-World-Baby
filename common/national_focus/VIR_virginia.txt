@@ -493,6 +493,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		create_faction = VIR_DENVER_RICHMOND_AXIS	
 		country_event = virginia.18
 		}
 	}
