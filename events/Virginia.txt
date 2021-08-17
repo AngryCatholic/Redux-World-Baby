@@ -249,10 +249,7 @@ country_event = {
 	
 	option = {
 		name = virginia.13.o1
-		add_popularity = {
-		ideology = fascist
-		popularity = 0.01
-		}
+		set_country_flag = VIR_northeast_war
 	}
 }
 
