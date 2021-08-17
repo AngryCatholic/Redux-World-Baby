@@ -400,10 +400,12 @@ country_event = {
 			load_oob = VIR_kentucky_fun		
 			add_state_core = 369
 			add_state_core = 686
-			add_state_core = 880			
+			add_state_core = 880	
+			add_state_core = 901			
 			transfer_state = 369
 			transfer_state = 686
-			transfer_state = 880			
+			transfer_state = 880
+			transfer_state = 901			
 
 		}
 	}
@@ -416,6 +418,7 @@ country_event = {
 			add_state_core = 369
 			add_state_core = 686
 			add_state_core = 880
+			add_state_core = 901			
 		}
         create_wargoal = {
 		    type = annex_everything
