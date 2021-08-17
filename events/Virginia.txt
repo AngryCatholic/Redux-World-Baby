@@ -324,7 +324,7 @@ country_event = { # Puppet Presidency
 		create_country_leader = {
 	        name = "Lyon Gardiner Tyler Jr"
 	        picture = "Portrait_VIR_Tyler.png"
-	        ideology = fascist
+	        ideology = fascist_ideology
         }
 		set_country_flag = VIR_Tyler_Too
 	}
@@ -335,7 +335,7 @@ country_event = { # Puppet Presidency
 		create_country_leader = {
 	        name = "Patrick Henry Jolly"
 	        picture = "Portrait_VIR_Henry.png"
-	        ideology = fascist
+	        ideology = fascist_ideology
         }
 		set_country_flag = VIR_Liberty_or_death
 	}
