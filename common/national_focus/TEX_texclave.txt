@@ -59,6 +59,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = texas.5 
 			add_ideas= TEX_true_american
+			remove_ideas= idea_america_neutrality_statelet
 		}
 	}
 
