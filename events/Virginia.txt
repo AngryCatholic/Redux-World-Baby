@@ -332,6 +332,7 @@ country_event = { # Puppet Presidency
 	option = { #LIBERTY OR DEATH
 		name = virginia.17.o2
 		set_cosmetic_tag = VIR_fascist	
+		set_party_name = { ideology = fascist long_name = VIR_federalist_fascist_party_long name = VIR_federalist_fascist_party }
 		create_country_leader = {
 	        name = "Patrick Henry Jolly"
 	        picture = "Portrait_VIR_Henry.png"
