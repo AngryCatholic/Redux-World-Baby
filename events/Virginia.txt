@@ -378,6 +378,7 @@ country_event = {
 	option = {
 		name = virginia.19.o1
 		VIR = {	
+			load_oob = VIR_northeast_units		
 			add_state_core = 261
 			add_state_core = 396
 			add_state_core = 395	
