@@ -184,6 +184,7 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas= VIR_tobacco_2  
 			add_ideas= VIR_tobacco_3
+			country_event = virginia.17			
 		}
 	}
 
