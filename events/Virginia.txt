@@ -347,6 +347,116 @@ country_event = { # Puppet Presidency
 	}	
 }
 
+#Friends in Denver
+country_event = {
+	id = virginia.18
+	title = virginia.18.t
+	desc = virginia.18.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = virginia.18.o1
+		VIR = {
+		    add_to_faction = MWA
+		}
+	}
+}
+
+#Cores Time 
+country_event = {
+	id = virginia.19
+	title = virginia.19.t
+	desc = virginia.19.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = virginia.19.o1
+		VIR = {	
+			add_state_core = 261
+			add_state_core = 396
+			add_state_core = 395	
+			add_state_core = 393
+			add_state_core = 361
+			add_state_core = 394
+			add_state_core = 891	
+			add_state_core = 892			
+		}
+		MWA = {		
+			add_state_core = 392
+			add_state_core = 391
+			add_state_core = 373				
+			transfer_state = 392
+			transfer_state = 391
+			transfer_state = 373			
+
+		}		
+	}
+}
+
+#jAMES TOWN 
+country_event = {
+	id = virginia.20
+	title = virginia.20.t
+	desc = virginia.20.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = virginia.20.o1
+		set_province_name = { id = 9450 name = "New Jamestown"}
+	}
+}
+
+#caribbean 1
+country_event = {
+	id = virginia.21
+	title = virginia.21.t
+	desc = virginia.21.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = virginia.21.o1
+		set_province_name = { id = 12304 name = "Liberty City"}
+		set_province_name = { id = 4641 name = "Jefferson City"}
+		set_province_name = { id = 7660 name = "Byrdvile"}
+		689 = { set_state_name = "Madison" }
+		318 = { set_state_name = "West Jefferson" }
+		319 = { set_state_name = "East Jefferson" }		
+	}
+}
+
+#jAMES TOWN 
+country_event = {
+	id = virginia.22
+	title = virginia.22.t
+	desc = virginia.22.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = virginia.22.o1
+		VIR = {	
+			add_state_core = 689
+			add_state_core = 318
+			add_state_core = 319	
+			add_state_core = 690
+			add_state_core = 693			
+		}
+	}
+}
 
 #Giving up Virginia?
 country_event = {
