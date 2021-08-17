@@ -565,8 +565,8 @@ focus_tree = {
 	focus = {
 		id = VIR_a_white_caribbean
 		icon = GFX_goal_unknown
-		x = 0
-		y = 0
+		x = 19
+		y = 4
 		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = VIR_virginization_of_the_caribbean }
