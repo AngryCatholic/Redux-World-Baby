@@ -1,0 +1,196 @@
+division_template = {
+	name = "Infantry Division"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {# Army
+	division = {
+		name = "Baltimore Defence Force"
+		location = 6984
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Columbus Defence Force"
+		location = 6855
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Cincinnati Defence Force"
+		location = 5601
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Cleveland Defence Force"
+		location = 6890
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Indianapolis Defence Force"
+		location = 1595
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "New Jamestown Defence Force"
+		location = 9450
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Destroit Defence Force"
+		location = 6710
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Milwaukee Defence Force"
+		location = 12357
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "7th Virginia Defence Force 'Carroll'"
+		location = 6984
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "8th Virginia Defence Force 'Ohio Longhunters'"
+		location = 6890
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "9th Virginia Defence Force 'Toldeo Defenders'"
+		location = 6890
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "10th Virginia Defence Force 'Heart of America'"
+		location = 6890
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "11th Virginia Defence Force 'White Phoenix'"
+		location = 1595
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "12th Virginia Defence Force 'Tecumseh'"
+		location = 1595
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "13th Virginia Defence Force 'John Rolfe'"
+		location = 9450
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "14th Virginia Defence Force 'Springfield'"
+		location = 12697
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "15th Virginia Defence Force 'Redemption'"
+		location = 12697
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "16th Virginia Defence Force 'Detroit Boyz'"
+		location = 6710
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "17th Virginia Defence Force 'Michigan Milita'"
+		location = 6710
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "18th Virginia Defence Force 'Posse Comitatus'"
+		location = 6710
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "19th Virginia Defence Force 'Packers'"
+		location = 12357
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "20th Virginia Defence Force 'Cheeseheads'"
+		location = 12357
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}
