@@ -511,17 +511,19 @@ focus_tree = {
 		}
 		completion_reward = {
             create_wargoal = {
-                type = annex_everything
-                target = LIN
-            }
+			    type = annex_everything
+			    target = ILL
+		    }
             create_wargoal = {
-                type = annex_everything
-                target = NEA
-            }
+			    type = annex_everything
+			    target = LIN
+		    }
             create_wargoal = {
-                type = annex_everything
-                target = GRL
-            }
+			    type = annex_everything
+			    target = GRL
+		    }
+		}
+
 	}
 	#Focus for Liberating the Northeast
 	focus = {
