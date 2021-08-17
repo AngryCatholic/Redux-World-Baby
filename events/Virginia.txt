@@ -313,6 +313,41 @@ country_event = {
 	}
 }
 
+country_event = { # Puppet Presidency
+	id = virginia.17
+	title = virginia.17.t
+	desc = virginia.17.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #Tyler 2
+		name = virginia.17.o1
+		create_country_leader = {
+	        name = "Lyon Gardiner Tyler Jr"
+	        picture = "Portrait_VIR_Tyler.png"
+	        ideology = neoreactionry
+        }
+		set_country_flag = VIR_Tyler_Too
+	}
+	
+	option = { #LIBERTY OR DEATH
+		name = virginia.17.o2
+		create_country_leader = {
+	        name = "Patrick Henry Jolly"
+	        picture = "Portrait_VIR_Henry.png"
+	        ideology = neoreactionry
+        }
+		set_country_flag = VIR_Liberty_or_death
+	}
+	
+	option = { #fuck that
+		name = virginia.17.o3
+		add_stability = 0.05
+		add_political_power = 100
+	}	
+}
+
 
 #Giving up Virginia?
 country_event = {
