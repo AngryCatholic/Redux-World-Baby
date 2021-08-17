@@ -2,6 +2,8 @@
 ### Misc stuff###
  VIR_fascist_party:0 "Virginia Company"
  VIR_fascist_party_long:0 "Virginia Company - Tobaccoist Faction"
+ VIR_federalist_fascist_party:0 "Southern Federalist"
+ VIR_federalist_fascist_party_long:0 "Southern Federalist Party"
  VIR_nationalist_party:0 "Virginia Company"
  VIR_nationalist_party_long:0 "Virginia Company - Black Bear Faction"
  VIR_fascist:0 "Commonwealth of Virginia"
