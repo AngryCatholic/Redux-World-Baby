@@ -93,9 +93,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Rush Limbaugh"
+	name = "Nathan Daniel Larson"
 	desc = "POLITICS_RUSH_DESC"
-	picture = "Portrait_VIR_Rush_Limbaugh.png"
+	picture = "Portrait_VIR_Nathan_Larson.png"
 	ideology = neoreactionary
 }
 
