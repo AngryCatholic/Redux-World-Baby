@@ -20,6 +20,9 @@
  VIR_Empire:0 "Empire of Virginia
  VIR_Empire_DEF:0 "Empire of Virginia
  VIR_Empire_ADJ:0 "Virginia"
+ VIR_Potentate:0 "Potentate of the Republic of Virginia"
+ VIR_Potentate_DEF:0 "Potentate of the Republic of Virginia"
+ VIR_Potentate_ADJ:0 "Virginia"
  VIR_northeast_war:0 "Virginia is Ready for War"
  VIR_DENVER_RICHMOND_AXIS:0 "Denver-Richmond Axis"
  
