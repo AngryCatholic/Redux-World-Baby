@@ -498,11 +498,6 @@ country_event = { # March from New Jameston
 	        elections_allowed = no
 	}	
 		set_country_flag = VIR_BASED
-	}
-		add_popularity = {
-			ideology = national_bolshevik
-			popularity = 0.35
-		}
 	}	
 }		
 
