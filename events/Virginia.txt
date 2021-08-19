@@ -483,7 +483,22 @@ country_event = { # March from New Jameston
 			ideology = monarchist
 			popularity = 0.35
 		}
-	}
+	}	
+	
+	option = { #rebels win
+		name = virginia.23.b
+		set_cosmetic_tag = VIR_Potentate		
+		create_country_leader = {
+	        name = "G.L.J Beauregard"
+	        picture = "Portrait_VIR_Emperor_Beauregard.png"
+	        ideology = absolute_monarchist
+        }
+		set_politics = {
+	        ruling_party = monarchist
+	        elections_allowed = no
+	}	
+		set_country_flag = VIR_BASED
+	}	
 }		
 
 #Giving up Virginia?
