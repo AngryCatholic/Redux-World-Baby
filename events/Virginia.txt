@@ -485,19 +485,18 @@ country_event = { # March from New Jameston
 	
 	option = { #GLJ Countercoups
 		name = virginia.23.b
+		add_stability = 0.05		
 		set_cosmetic_tag = VIR_Potentate		
-		create_country_leader = {
-	        name = "G.L.J Beauregard"
-	        picture = "Portrait_VIR_Emperor_Beauregard.png"
-	        ideology = national_bolshevik_ideology
-        }
 		set_politics = {
 	        ruling_party = national_bolshevik
 	        elections_allowed = no
-	}	
-		set_country_flag = VIR_BASED
-	}	
-}		
+	}
+		add_popularity = {
+			ideology = national_bolshevik
+			popularity = 0.35
+		}
+	}
+}	
 
 #Giving up Virginia?
 country_event = {
