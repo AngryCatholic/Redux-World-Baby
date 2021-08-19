@@ -106,6 +106,12 @@ create_country_leader = {
 	ideology = ultranationalist
 }
 
+create_country_leader = {
+	name = "Emperor Matthew"
+	picture = "Portrait_VIR_Emperor_Matthew.png"
+	ideology = absolute_monarchist
+}
+
 create_field_marshal = {
 	name = "Timothy P. Williams"
 	picture = "Portrait_VIR_Timothy_Williams.png"
