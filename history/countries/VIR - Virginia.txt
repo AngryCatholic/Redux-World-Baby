@@ -107,15 +107,15 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Emperor Matthew"
-	picture = "Portrait_VIR_Emperor_Matthew.png"
+	name = "Prince Harry
+	picture = "Portrait_VIR_Prince_harry
 	ideology = absolute_monarchist
 }
 
 create_country_leader = {
-	        name = "G.L.J Beauregard"
-	        picture = "Portrait_VIR_Emperor_Beauregard.png"
-	        ideology = national_bolshevik_ideology
+	name = "Dylann Roof"
+        picture = "Portrait_VIR_Dylann_Roof.png"
+	ideology = national_bolshevik_ideology
 }		
 
 create_field_marshal = {
