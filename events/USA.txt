@@ -5771,12 +5771,6 @@ country_event = {
 				id = usa.195
 				days = 30
 			}
-		}
-		hidden_effect = {
-			country_event = {
-				id = usa.305
-				days = 10
-			}
 		}		
 	}
 }
