@@ -70,3 +70,8 @@ VIR = {
     color = rgb { 149 56 56 }
     color_ui = rgb { 149 56 56 }
 }
+FRA_lys_noir = {
+ color = rgb { 12 29 53 }
+ color_ui = rgb { 12 29 53 }
+}
+

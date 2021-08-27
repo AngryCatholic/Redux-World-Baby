@@ -1,0 +1,99 @@
+﻿add_namespace = France
+
+#A traitor among us?
+country_event = {
+	id = france.1
+	title = france.1.t
+	desc = france.1.d
+	picture = red_square
+	
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    date = 2010.02.03
+	}
+	
+	option = {  #Those are just rumors
+		name = france.1.o1
+		add_popularity = {
+		    ideology = communist
+			popularity = -0.02
+			fascist = 0.05
+		}
+		add_political_power = 25
+		country_event = { days = 14 id = france.2 } 
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {  #Crackdown on them!
+		name = france.1.o2
+		add_popularity = {
+		    ideology = fascist
+			popularity = -0.05
+		}
+	}
+}
+#Unusual rally around Paris
+country_event = {
+	id = france.2
+	title = france.2.t
+	desc = france.2.d
+	picture = red_square
+	
+	is_triggered_only = yes
+	
+	option = {  #Let them operates...
+		name = france.2.o1
+		add_popularity = {
+		    ideology = fascist
+			popularity = 0.1
+		country_event = {id = france.3 } 
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+	
+	option = {  #Arrest them all at onces!
+		name = france.2.o2
+		add_popularity = {
+		    ideology = fascist
+			popularity = -0.05
+		}
+	}
+}
+#Rallies turn to a new revolutions!
+country_event = {
+	id = france.3
+	title = france.3.t
+	desc = france.3.d
+	picture = red_square
+	
+	is_triggered_only = yes
+	
+	option = {  #I...
+		name = france.3.o1
+		set_politics = {
+	        ruling_party = fascist
+	        elections_allowed = no
+		}
+		set_cosmetic_tag = FRA_lys_noir
+			set_party_name = { ideology = fascist long_name = FRA_lys_long name = FRA_lys }
+	    	create_country_leader = {
+	        name = "Lys Noir"
+	        picture = "Lys_Noir.dds"
+	        ideology = fascist
+	}
+}
+	option = {  #Call the armies!
+		name = france.3.o2
+		add_popularity = {
+		    ideology = fascist
+			popularity = -0.05
+		}
+	}
+}

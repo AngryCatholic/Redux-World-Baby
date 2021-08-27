@@ -1,0 +1,407 @@
+focus_tree = {
+	id = lys
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = FRA
+		}
+	}
+	#Focus for A broad rightist front
+	focus = {
+		id = FRA_a_broad_rightist_front
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_stabilise_our_nation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Le jour sanglant
+	focus = {
+		id = FRA_le_jour_sanglant
+		icon = GFX_goal_unknown
+		x = 9
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Spontaneous lynching
+	focus = {
+		id = FRA_spontaneous_lynching
+		icon = GFX_goal_unknown
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_stabilise_our_nation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Stabilise our nation
+	focus = {
+		id = FRA_stabilise_our_nation
+		icon = GFX_goal_unknown
+		x = 9
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_le_jour_sanglant }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purge the republican
+	focus = {
+		id = FRA_purge_the_republican
+		icon = GFX_goal_unknown
+		x = 11
+		y = 3
+		completion_reward = {
+		    add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = -0.15
+			}
+			add_popularity = {
+				ideology = communist
+				popularity = -0.15
+			}
+			add_popularity = {
+				ideology = new_democrat
+				popularity = -0.15
+			}
+			add_political_power = 100
+		}
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_stabilise_our_nation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Crown Louis XX
+	focus = {
+		id = FRA_crown_louis_xx
+		icon = GFX_goal_unknown
+		x = 9
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_stabilise_our_nation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Take inspiration from Nuremberg
+	focus = {
+		id = FRA_take_inspiration_from_nuremberg
+		icon = GFX_goal_unknown
+		x = 13
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_stabilise_our_nation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Entrench royalism
+	focus = {
+		id = FRA_entrench_royalism
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_crown_louis_xx 
+		}
+		prerequisite = { 
+			focus = FRA_purge_the_republican 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Une catharsis sociale
+	focus = {
+		id = FRA_une_catharsis_sociale
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_broad_rightist_front 
+		}
+		prerequisite = { 
+			focus = FRA_spontaneous_lynching 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Denounce others pretenders
+	focus = {
+		id = FRA_denounce_others_pretenders
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_crown_louis_xx 
+		}
+		prerequisite = { 
+			focus = FRA_spontaneous_lynching 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The consequence of modernity...
+	focus = {
+		id = FRA_the_consequence_of_modernity
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_purge_the_republican 
+		}
+		prerequisite = { 
+			focus = FRA_take_inspiration_from_nuremberg 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Poujadisme, roi et nation
+	focus = {
+		id = FRA_poujadisme_roi_et_nation
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_denounce_others_pretenders 
+		}
+		prerequisite = { 
+			focus = FRA_entrench_royalism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for De-socialisation
+	focus = {
+		id = FRA_desocialisation
+		icon = GFX_goal_unknown
+		x = 7
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_denounce_others_pretenders 
+		}
+		prerequisite = { 
+			focus = FRA_une_catharsis_sociale 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Contact in  America
+	focus = {
+		id = FRA_contact_in__america
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_entrench_royalism 
+		}
+		prerequisite = { 
+			focus = FRA_the_consequence_of_modernity 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Win the hearts of the people
+	focus = {
+		id = FRA_win_the_hearts_of_the_people
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_desocialisation 
+		}
+		prerequisite = { 
+			focus = FRA_poujadisme_roi_et_nation 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Decentralisation
+	focus = {
+		id = FRA_decentralisation
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_contact_in__america 
+		}
+		prerequisite = { 
+			focus = FRA_poujadisme_roi_et_nation 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ouverture to the world
+	focus = {
+		id = FRA_ouverture_to_the_world
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_decentralisation 
+		}
+		prerequisite = { 
+			focus = FRA_win_the_hearts_of_the_people 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Affaires étrangères
+	focus = {
+		id = FRA_affaires_trangres
+		icon = GFX_goal_unknown
+		x = 19
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Catalonia for protection
+	focus = {
+		id = FRA_catalonia_for_protection
+		icon = GFX_goal_unknown
+		x = 18
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_affaires_trangres }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Vengeance for Algeria
+	focus = {
+		id = FRA_vengeance_for_algeria
+		icon = GFX_goal_unknown
+		x = 16
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_affaires_trangres }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The natural boundaries of France
+	focus = {
+		id = FRA_the_natural_boundaries_of_france
+		icon = GFX_goal_unknown
+		x = 20
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_affaires_trangres }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for An old friendship?
+	focus = {
+		id = FRA_an_old_friendship
+		icon = GFX_goal_unknown
+		x = 22
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_affaires_trangres }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Challenge Moscow hegemony
+	focus = {
+		id = FRA_challenge_moscow_hegemony
+		icon = GFX_goal_unknown
+		x = 19
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_catalonia_for_protection 
+		}
+		prerequisite = { 
+			focus = FRA_vengeance_for_algeria 
+		}
+		prerequisite = { 
+			focus = FRA_the_natural_boundaries_of_france 
+		}
+		prerequisite = { 
+			focus = FRA_an_old_friendship 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }
