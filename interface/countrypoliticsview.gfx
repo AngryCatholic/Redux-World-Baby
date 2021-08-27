@@ -521,6 +521,11 @@ spriteTypes = {
 		name = "GFX_ideology_faucism"
 		texturefile = "gfx/interface/ideologies/faucism.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ideology_anarchomonarchism"
+		texturefile = "gfx/interface/ideologies/anarchomonarchism.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_ideology_revolutionary_socialist_group"

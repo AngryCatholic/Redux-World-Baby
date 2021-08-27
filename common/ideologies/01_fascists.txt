@@ -32,7 +32,10 @@ ideologies = {
 			}
 			
 			supercatholicism = {				
-			}			
+			}
+			
+			anarchomonarchism = {				
+			}				
 			
 		}
 		

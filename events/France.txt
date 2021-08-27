@@ -86,7 +86,7 @@ country_event = {
 	    	create_country_leader = {
 	        name = "Lys Noir"
 	        picture = "Lys_Noir.dds"
-	        ideology = fascist
+	        ideology = anarchomonarchism
 	}
 }
 	option = {  #Call the armies!
