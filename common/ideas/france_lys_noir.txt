@@ -1,0 +1,63 @@
+ideas = {
+
+    country = {
+		idea_action_francaise_alliance = {
+			allowed = {
+				always = no
+			}
+			
+			picture = actionfrancaise.dds
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_gain = 0.05
+				fascist_drift = 0.02
+				monarchist_drift = 0.01
+                
+			}
+		}
+		idea_loidelyon = {
+			allowed = {
+				always = no
+			}
+			
+			picture = loidelyon.dds
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				conscription = -0.05
+                
+			}
+		}
+		idea_ungabunga = {
+			allowed = {
+				always = no
+			}
+			
+			picture = antimodernity.dds
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				conscription = 0.06
+				local_resources_factor = -0.15
+				consumer_goods_factor = 0.25
+			
+                
+			}
+		}
+}

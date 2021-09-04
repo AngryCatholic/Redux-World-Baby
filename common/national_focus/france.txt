@@ -13,6 +13,9 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 5
 		y = 3
+		completion_reward = {
+	add_ideas= idea_action_francaise_alliance
+		}
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_stabilise_our_nation }
@@ -29,6 +32,9 @@ focus_tree = {
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
+		prerequisite = {
+		always = no
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -40,6 +46,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 7
 		y = 3
+		completion_reward = {
+		    add_popularity = {
+				ideology = fascist
+				popularity = 0.05
+			}
+			 add_manpower = -5000
+		}
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_stabilise_our_nation }
@@ -97,6 +110,9 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 9
 		y = 3
+		completion_reward = {
+		FRA = { country_event = { id = france.4  } }
+		}
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_stabilise_our_nation }
@@ -111,6 +127,9 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 13
 		y = 3
+		completion_reward = {
+		add_ideas= idea_loidelyon
+		}
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_stabilise_our_nation }
@@ -182,6 +201,9 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 12
 		y = 4
+		completion_reward = {
+		add_ideas= idea_ungabunga
+		}
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
