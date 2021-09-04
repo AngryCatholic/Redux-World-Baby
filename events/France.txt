@@ -97,3 +97,50 @@ country_event = {
 		}
 	}
 }
+
+#Choose the pretender
+country_event = {
+	id = france.4
+	title = france.4.t
+	desc = france.4.d
+	picture = red_square
+	
+	is_triggered_only = yes
+	
+	option = {  #I...
+		name = france.4.o1
+		set_politics = {
+	        ruling_party = fascist
+	        elections_allowed = no
+		}
+	    	create_country_leader = {
+	        name = "Napoleon VII"
+	        picture = "napoleon.dds"
+	        ideology = anarchomonarchism
+	}
+}
+	option = {  #sixte henry de bourbon parme
+		name = france.4.o2
+		set_politics = {
+	        ruling_party = fascist
+	        elections_allowed = no
+		}
+	    	create_country_leader = {
+	        name = "Sixte Henry de Bourbon Parme"
+	        picture = "6parme.dds"
+	        ideology = anarchomonarchism
+	}
+}
+
+	option = {  #Charles de bourbon Parme
+		name = france.4.o3
+		set_politics = {
+	        ruling_party = fascist
+	        elections_allowed = no
+		}
+	    	create_country_leader = {
+	        name = "Charles de bourbon Parme"
+	        picture = "CBP.dds"
+	        ideology = anarchomonarchism
+	}
+}
