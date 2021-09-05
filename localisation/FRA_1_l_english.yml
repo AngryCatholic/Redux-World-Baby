@@ -68,6 +68,19 @@ FRA_challenge_moscow_hegemony_desc:0 ""
  france.4.o2: "Sixte de Bourbon Parme is already our regent so..."
  france.4.o3: "The obvious choice! Charle de Bourbon Parme!"
 
+ france.6.t:0 "Seconde nuit de cristal"
+ france.6.d:0 "shit's about to go down"
+ france.6.o1: "Let impure blood waters our furrows."
+
+ france.7.t:0 "Spain accept"
+ france.7.d:0 "nice"
+ france.7.o1: "nice"
+
+ spain.1.t:0 "french want catolonia"
+ spain.1.d:0 "oh god oh fuck "
+ spain.1.o1: "why not"
+ spain.1.o2: "According to all known laws of aviation, there is no way that a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyways. Because bees don't care what humans think is impossible"
+
  ### Misc stuff###
  FRA_lys:0 "Lys Noir"
  FRA_lys_long:0 "Lys Noir"

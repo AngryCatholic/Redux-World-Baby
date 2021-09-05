@@ -16,7 +16,7 @@ focus_tree = {
 		completion_reward = {
 	add_ideas= idea_action_francaise_alliance
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_stabilise_our_nation }
 		ai_will_do = {
@@ -30,10 +30,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 9
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = {
-		always = no
+		has_government = fascist
 		}
 		ai_will_do = {
 			factor = 1
@@ -53,7 +53,7 @@ focus_tree = {
 			}
 			 add_manpower = -5000
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_stabilise_our_nation }
 		ai_will_do = {
@@ -67,7 +67,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 9
 		y = 2
-		cost = 10
+		completion_reward = {
+		remove_ideas = idea_eu_member
+		}
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_le_jour_sanglant }
 		ai_will_do = {
@@ -96,7 +99,7 @@ focus_tree = {
 			}
 			add_political_power = 100
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_stabilise_our_nation }
 		ai_will_do = {
@@ -113,7 +116,7 @@ focus_tree = {
 		completion_reward = {
 		FRA = { country_event = { id = france.4  } }
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_stabilise_our_nation }
 		ai_will_do = {
@@ -130,7 +133,7 @@ focus_tree = {
 		completion_reward = {
 		add_ideas= idea_loidelyon
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_stabilise_our_nation }
 		ai_will_do = {
@@ -154,7 +157,7 @@ focus_tree = {
 				popularity = 0.20
 			}
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = FRA_crown_louis_xx 
@@ -173,7 +176,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 6
 		y = 4
-		cost = 10
+		completion_reward = {
+		FRA = { country_event = { id = france.6  } }
+		}
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = FRA_a_broad_rightist_front 
@@ -192,7 +198,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 8
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = FRA_crown_louis_xx 
@@ -214,7 +220,7 @@ focus_tree = {
 		completion_reward = {
 		add_ideas= idea_ungabunga
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = FRA_purge_the_republican 
@@ -236,7 +242,7 @@ focus_tree = {
 		completion_reward = {
 		add_ideas= idea_poujadisme
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = FRA_denounce_others_pretenders 
@@ -292,7 +298,7 @@ focus_tree = {
 				}
 			}
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = FRA_denounce_others_pretenders 
@@ -314,7 +320,7 @@ focus_tree = {
 		completion_reward = {
 		add_opinion_modifier = { target = USA modifier = medium_increase }
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = FRA_entrench_royalism 
@@ -333,7 +339,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 8
 		y = 6
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = FRA_desocialisation 
@@ -355,7 +361,7 @@ focus_tree = {
 		completion_reward = {
 		add_ideas= idea_decentralisation
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = FRA_contact_in__america 
@@ -374,7 +380,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 9
 		y = 7
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = FRA_decentralisation 
@@ -393,7 +399,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 19
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -406,7 +412,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 18
 		y = 5
-		cost = 10
+		completion_reward = {
+		SPR = {country_event = {id = spain.1}}
+		}
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_affaires_trangres }
 		ai_will_do = {
@@ -423,7 +432,7 @@ focus_tree = {
 		completion_reward = {
 		create_wargoal = { type = annex_everything target = ALG }
 		}
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_affaires_trangres }
 		ai_will_do = {
@@ -437,7 +446,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 20
 		y = 5
-		cost = 10
+		completion_reward = {
+		create_wargoal = { type = annex_everything target = BEL }
+		}
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_affaires_trangres }
 		ai_will_do = {
@@ -451,7 +463,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 22
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_affaires_trangres }
 		ai_will_do = {
@@ -465,7 +477,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 19
 		y = 6
-		cost = 10
+		completion_reward = {
+		create_wargoal = { type = puppet_wargoal_focus target = SOV }
+		}
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = FRA_catalonia_for_protection 

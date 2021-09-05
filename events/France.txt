@@ -144,3 +144,47 @@ country_event = {
 	        ideology = anarchomonarchism
 	}
 }
+}
+
+
+#Seconde nuit de cristal
+country_event = {
+	id = france.6
+	title = france.6.t
+	desc = france.6.d
+	picture = red_square
+	}
+	is_triggered_only = yes
+	
+	option = {  #Let impure blood water our furrows...
+		name = france.5.o1
+		add_popularity = {
+		    ideology = fascist
+			popularity = 0.1
+			}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+}
+
+#Spain accept
+country_event = {
+	id = france.7
+	title = france.7.t
+	desc = france.7.d
+	picture = red_square
+	}
+	is_triggered_only = yes
+	
+	option = {  #Spain accept!
+		name = france.5.o1
+		transfer_state = 165
+		transfer_state = 852
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+}
