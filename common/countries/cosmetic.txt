@@ -75,3 +75,8 @@ FRA_lys_noir = {
  color_ui = rgb { 12 29 53 }
 }
 
+VIR_mothman = {
+ color = rgb { 12 29 53 }
+ color_ui = rgb { 12 29 53 }
+}
+
