@@ -593,6 +593,7 @@ country_event = { # Mothman
 		create_country_leader = {
 	        name = "Alban Corinis"
 	        picture = "Portrait_VIR_Moth_Cultist.png"
+		desc = "POLITICS_TODD_HOWARD_DESC"		
 	        ideology = fascist_ideology
         }
 		set_country_flag = VIR_mothman_cult
