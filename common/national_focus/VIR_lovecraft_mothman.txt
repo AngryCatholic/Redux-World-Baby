@@ -1,0 +1,440 @@
+focus_tree = {
+	id = VIR_lovecraft_mothman
+	country = {
+		factor = 0
+	}
+
+	default = no
+	continuous_focus_position = { x = 0 y = 1600 }
+
+	#Focus for Unblinking Red Eyes
+	focus = {
+		id = VIR_unblinking_red_eyes
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_following_lovecraft 
+		}
+		prerequisite = { 
+			focus = VIR_light_of_the_moth 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= VIR_moth_eyes  				
+			country_event = virginia.1004
+		}
+	}
+	#Focus for Non-Euclidan Cities
+	focus = {
+		id = VIR_noneuclidan_cities
+		icon = GFX_goal_unknown
+		x = 7
+		y = 5
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_unblinking_red_eyes }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= VIR_moth_econ  
+			country_event = virginia.1005
+		}
+	}
+	#Focus for The Old Gods of the Mountains...
+	focus = {
+		id = VIR_the_old_gods_of_the_mountains
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_the_thing_that_should_not_be }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= VIR_old_gods
+		}
+	}
+	#Focus for Blood for Ug-Qualtoth
+	focus = {
+		id = VIR_blood_for_ugqualtoth
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_the_old_gods_of_the_mountains }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+ 				remove_idea = VIR_old_gods
+				add_idea = VIR_old_gods_2
+			}
+		}
+	}
+	#Focus for Locating the Interloper
+	focus = {
+		id = VIR_locating_the_interloper
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_blood_for_ugqualtoth }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+ 				remove_idea = VIR_old_gods_2 
+				add_idea = VIR_old_gods_3
+			}
+		}
+	}
+	#Focus for The Mothman Prophecies
+	focus = {
+		id = VIR_the_mothman_prophecies
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_deals_with_nyarlathotep 
+		}
+		prerequisite = { 
+			focus = VIR_noneuclidan_cities 
+		}
+		prerequisite = { 
+			focus = VIR_new_rites_and_rituals 
+		}
+		prerequisite = { 
+			focus = VIR_locating_the_interloper 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+ 				remove_idea = VIR_moth_cult_2
+				add_idea = VIR_moth_cult_3
+			}
+		}
+	}
+	#Focus for Creation of the Dunwich Foundation
+	focus = {
+		id = VIR_creation_of_the_dunwich_foundation
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_locating_the_interloper 
+		}
+		prerequisite = { 
+			focus = VIR_new_rites_and_rituals 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.1009 
+  			swap_ideas= {
+ 				remove_idea = VIR_old_gods_3
+				add_idea = VIR_old_gods_4
+			}
+		}
+	}
+	#Focus for Strange Aeons
+	focus = {
+		id = VIR_strange_aeons
+		icon = GFX_goal_unknown
+		x = 7
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_the_mothman_prophecies }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= VIR_strange_aeons
+		    enable_unification_decisions = yes
+            core_USA = yes
+            core_ILL = yes
+            core_GRL = yes
+            core_MWA = yes
+            core_MOT = yes
+            core_LIN = yes
+            core_UTA = yes
+            core_ARI = yes
+            core_PCA = yes
+	    core_TEX = yes
+		}
+
+	}
+	#Focus for Death may Die
+	focus = {
+		id = VIR_death_may_die
+		icon = GFX_goal_unknown
+		x = 9
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_the_mothman_prophecies }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= VIR_death_may_die_idea
+		}
+	}
+	#Focus for Expanding the Pantheon
+	focus = {
+		id = VIR_expanding_the_pantheon
+		icon = GFX_goal_unknown
+		x = 6
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_strange_aeons }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.1010 
+		}
+	}
+	#Focus for Sacrifices for the Black Goat
+	focus = {
+		id = VIR_sacrifices_for_the_black_goat
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_following_lovecraft }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+ 				remove_idea = VIR_lovecraft_1 
+				add_idea = VIR_lovecraft_2
+			}
+		}
+	}
+	#Focus for Deals with Nyarlathotep
+	focus = {
+		id = VIR_deals_with_nyarlathotep
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_sacrifices_for_the_black_goat }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+ 				remove_idea = VIR_lovecraft_2 
+				add_idea = VIR_lovecraft_3
+			}
+		}
+	}
+	#Focus for Light of the Moth
+	focus = {
+		id = VIR_light_of_the_moth
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_the_thing_that_should_not_be }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= VIR_moth_cult
+		}
+	}
+	#Focus for Following Lovecraft
+	focus = {
+		id = VIR_following_lovecraft
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_the_thing_that_should_not_be }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= VIR_lovecraft_1
+		}
+	}
+	#Focus for The Thing That Should Not Be
+	focus = {
+		id = VIR_the_thing_that_should_not_be
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_days_of_sodom }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.1003
+  			add_ideas= VIR_unending_nightmare
+		}
+	}
+	#Focus for Shadow over Point Pleasant
+	focus = {
+		id = VIR_shadow_over_point_pleasant
+		icon = GFX_goal_unknown
+		x = 8
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		country_event = virginia.1001
+		}
+	}
+	#Focus for Days of Sodom
+	focus = {
+		id = VIR_days_of_sodom
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_shadow_over_point_pleasant }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.1002
+		}
+	}
+	#Focus for Black Spot of the World
+	focus = {
+		id = VIR_black_spot_of_the_world
+		icon = GFX_goal_unknown
+		x = 8
+		y = 8
+		cost = 15
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_strange_aeons 
+		}
+		prerequisite = { 
+			focus = VIR_death_may_die 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.1011 
+		}
+	}
+	#Focus for Securing the Necronomicon
+	focus = {
+		id = VIR_securing_the_necronomicon
+		icon = GFX_goal_unknown
+		x = 10
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_death_may_die }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.1012 
+		}
+	}
+	#Focus for Messiah for our People
+	focus = {
+		id = VIR_messiah_for_our_people
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_the_old_gods_of_the_mountains 
+		}
+		prerequisite = { 
+			focus = VIR_light_of_the_moth 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.1006 
+			swap_ideas= {
+ 				remove_idea = VIR_moth_cult
+				add_idea = VIR_moth_cult_2
+			
+			}
+		}
+	}
+	#Focus for New Rites and Rituals
+	focus = {
+		id = VIR_new_rites_and_rituals
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = VIR_messiah_for_our_people }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.1007 
+		}
+	}
+	#Focus for Call of Cthulhu
+	focus = {
+		id = VIR_call_of_cthulhu
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = VIR_deals_with_nyarlathotep 
+		}
+		prerequisite = { 
+			focus = VIR_noneuclidan_cities 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = virginia.1008 
+  			swap_ideas= {
+ 				remove_idea = VIR_lovecraft_3
+				add_idea = VIR_lovecraft_4
+			}
+		}
+	} 
+ }
