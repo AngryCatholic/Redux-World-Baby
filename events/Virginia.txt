@@ -588,7 +588,8 @@ country_event = { # Mothman
 
 	option = { #LIBERTY OR DEATH
 		name = virginia.1000.o1
-		set_cosmetic_tag = VIR_mothman	
+		set_cosmetic_tag = VIR_mothman
+		load_focus_tree = VIR_lovecraft_mothman
 		set_party_name = { ideology = fascist long_name = VIR_mothman_fascist_party_long name = VIR_mothman_fascist_party }
 		create_country_leader = {
 	        name = "Alban Corinis"
