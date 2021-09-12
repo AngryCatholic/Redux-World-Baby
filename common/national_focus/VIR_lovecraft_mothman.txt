@@ -10,7 +10,7 @@ focus_tree = {
 	#Focus for Unblinking Red Eyes
 	focus = {
 		id = VIR_unblinking_red_eyes
-		icon = GFX_goal_unknown
+		icon = focus_VIR_motheyes
 		x = 7
 		y = 4
 		cost = 8
@@ -84,7 +84,7 @@ focus_tree = {
 	#Focus for Locating the Interloper
 	focus = {
 		id = VIR_locating_the_interloper
-		icon = GFX_goal_unknown
+		icon = focus_VIR_interloper
 		x = 11
 		y = 5
 		cost = 8
@@ -218,7 +218,7 @@ focus_tree = {
 	#Focus for Sacrifices for the Black Goat
 	focus = {
 		id = VIR_sacrifices_for_the_black_goat
-		icon = GFX_goal_unknown
+		icon = focus_VIR_shub_niggurath
 		x = 5
 		y = 4
 		cost = 8
@@ -237,7 +237,7 @@ focus_tree = {
 	#Focus for Deals with Nyarlathotep
 	focus = {
 		id = VIR_deals_with_nyarlathotep
-		icon = GFX_goal_unknown
+		icon = focus_VIR_nyarlathotep
 		x = 5
 		y = 5
 		cost = 8
@@ -272,7 +272,7 @@ focus_tree = {
 	#Focus for Following Lovecraft
 	focus = {
 		id = VIR_following_lovecraft
-		icon = GFX_goal_unknown
+		icon = focus_VIR_lovecraft
 		x = 6
 		y = 3
 		cost = 8
@@ -399,7 +399,7 @@ focus_tree = {
 	#Focus for New Rites and Rituals
 	focus = {
 		id = VIR_new_rites_and_rituals
-		icon = GFX_goal_unknown
+		icon = focus_VIR_new_rites
 		x = 9
 		y = 5
 		cost = 8
@@ -415,7 +415,7 @@ focus_tree = {
 	#Focus for Call of Cthulhu
 	focus = {
 		id = VIR_call_of_cthulhu
-		icon = GFX_goal_unknown
+		icon = focus_VIR_cthulhu
 		x = 6
 		y = 6
 		cost = 10
