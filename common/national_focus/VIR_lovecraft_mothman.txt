@@ -158,7 +158,7 @@ focus_tree = {
 	#Focus for Strange Aeons
 	focus = {
 		id = VIR_strange_aeons
-		icon = GFX_goal_unknown
+		icon = NEE_nation_of_madness
 		x = 7
 		y = 7
 		cost = 10
@@ -288,7 +288,7 @@ focus_tree = {
 	#Focus for The Thing That Should Not Be
 	focus = {
 		id = VIR_the_thing_that_should_not_be
-		icon = GFX_goal_unknown
+		icon = GFX_NEE_old_gods
 		x = 8
 		y = 2
 		cost = 5
