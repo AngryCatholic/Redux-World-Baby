@@ -422,6 +422,14 @@ spriteTypes = {
 		name = "focus_VIR_interloper"
 		texturefile = "gfx/interface/goals/focus_VIR_interloper.png"
 	}	
+	SpriteType = {
+		name = "NEE_nation_of_madness"
+		texturefile = "gfx/interface/goals/NEE_nation_of_madness.png"
+	}
+	SpriteType = {
+		name = "GFX_NEE_old_gods"
+		texturefile = "gfx/interface/goals/GFX_NEE_old_gods.png"
+	}		
 }	
 	
 }
