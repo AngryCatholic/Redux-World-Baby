@@ -394,6 +394,34 @@ spriteTypes = {
 		name = "focus_VIR_secure_the_state"
 		texturefile = "gfx/interface/goals/focus_VIR_secure_the_state.png"
 	}
+	SpriteType = {
+		name = "focus_VIR_nyarlathotep"
+		texturefile = "gfx/interface/goals/focus_VIR_nyarlathotep.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_lovecraft"
+		texturefile = "gfx/interface/goals/focus_VIR_lovecraft.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_shub_niggurath"
+		texturefile = "gfx/interface/goals/focus_VIR_shub_niggurath.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_motheyes"
+		texturefile = "gfx/interface/goals/focus_VIR_motheyes.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_cthulhu"
+		texturefile = "gfx/interface/goals/focus_VIR_cthulhu.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_new_rites"
+		texturefile = "gfx/interface/goals/focus_VIR_new_rites.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_interloper"
+		texturefile = "gfx/interface/goals/focus_VIR_interloper.png"
+	}	
 }	
 	
 }
