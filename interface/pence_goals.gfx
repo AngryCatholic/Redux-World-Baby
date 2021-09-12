@@ -429,6 +429,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_NEE_old_gods"
 		texturefile = "gfx/interface/goals/GFX_NEE_old_gods.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_Strange_Aeons"
+		texturefile = "gfx/interface/goals/focus_VIR_Strange_Aeons.png"
 	}		
 }	
 	
