@@ -458,6 +458,10 @@ spriteTypes = {
 		name = "focus_VIR_messiah"
 		texturefile = "gfx/interface/goals/focus_VIR_messiah.png"
 	}	
+	SpriteType = {
+		name = "focus_VIR_weird_cities"
+		texturefile = "gfx/interface/goals/focus_VIR_weird_cities.png"
+	}	
 }	
 	
 }
