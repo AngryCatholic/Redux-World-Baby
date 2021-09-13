@@ -445,6 +445,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_VIR_death_may_die"
 		texturefile = "gfx/interface/goals/focus_VIR_death_may_die.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_necronomicon"
+		texturefile = "gfx/interface/goals/focus_VIR_necronomicon.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_black_spot"
+		texturefile = "gfx/interface/goals/focus_VIR_black_spot.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_messiah"
+		texturefile = "gfx/interface/goals/focus_VIR_messiah.png"
 	}	
 }	
 	
