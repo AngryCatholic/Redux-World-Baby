@@ -462,6 +462,14 @@ spriteTypes = {
 		name = "focus_VIR_weird_cities"
 		texturefile = "gfx/interface/goals/focus_VIR_weird_cities.png"
 	}	
+	SpriteType = {
+		name = "focus_VIR_mothman_book"
+		texturefile = "gfx/interface/goals/focus_VIR_mothman_book.png"
+	}	
+	SpriteType = {
+		name = "focus_VIR_light_of_Moth"
+		texturefile = "gfx/interface/goals/focus_VIR_light_of_Moth.png"
+	}	
 }	
 	
 }
