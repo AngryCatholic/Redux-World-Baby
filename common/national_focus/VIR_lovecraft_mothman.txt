@@ -49,7 +49,7 @@ focus_tree = {
 	#Focus for The Old Gods of the Mountains...
 	focus = {
 		id = VIR_the_old_gods_of_the_mountains
-		icon = GFX_goal_unknown
+		icon = focus_VIR_blood_for_blood_god
 		x = 10
 		y = 3
 		cost = 8
@@ -133,7 +133,7 @@ focus_tree = {
 	#Focus for Creation of the Dunwich Foundation
 	focus = {
 		id = VIR_creation_of_the_dunwich_foundation
-		icon = GFX_goal_unknown
+		icon = focus_VIR_dunwich_foundation
 		x = 10
 		y = 6
 		cost = 10
@@ -186,7 +186,7 @@ focus_tree = {
 	#Focus for Death may Die
 	focus = {
 		id = VIR_death_may_die
-		icon = GFX_goal_unknown
+		icon = focus_VIR_death_may_die
 		x = 9
 		y = 7
 		cost = 10
@@ -336,7 +336,7 @@ focus_tree = {
 	#Focus for Black Spot of the World
 	focus = {
 		id = VIR_black_spot_of_the_world
-		icon = GFX_goal_unknown
+		icon = focus_VIR_black_spot
 		x = 8
 		y = 8
 		cost = 15
@@ -357,7 +357,7 @@ focus_tree = {
 	#Focus for Securing the Necronomicon
 	focus = {
 		id = VIR_securing_the_necronomicon
-		icon = GFX_goal_unknown
+		icon = focus_VIR_necronomicon
 		x = 10
 		y = 8
 		cost = 10
@@ -373,7 +373,7 @@ focus_tree = {
 	#Focus for Messiah for our People
 	focus = {
 		id = VIR_messiah_for_our_people
-		icon = GFX_goal_unknown
+		icon = focus_VIR_messiah
 		x = 9
 		y = 4
 		cost = 8
