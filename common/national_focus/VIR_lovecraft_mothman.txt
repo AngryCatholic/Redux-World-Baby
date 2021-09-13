@@ -103,7 +103,7 @@ focus_tree = {
 	#Focus for The Mothman Prophecies
 	focus = {
 		id = VIR_the_mothman_prophecies
-		icon = GFX_goal_unknown
+		icon = focus_VIR_mothman_book
 		x = 8
 		y = 6
 		cost = 10
@@ -256,7 +256,7 @@ focus_tree = {
 	#Focus for Light of the Moth
 	focus = {
 		id = VIR_light_of_the_moth
-		icon = GFX_goal_unknown
+		icon = focus_VIR_light_of_Moth
 		x = 8
 		y = 3
 		cost = 8
