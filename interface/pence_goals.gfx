@@ -433,7 +433,19 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_VIR_Strange_Aeons"
 		texturefile = "gfx/interface/goals/focus_VIR_Strange_Aeons.png"
-	}		
+	}
+	SpriteType = {
+		name = "focus_VIR_blood_for_blood_god"
+		texturefile = "gfx/interface/goals/focus_VIR_blood_for_blood_god.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_dunwich_foundation"
+		texturefile = "gfx/interface/goals/focus_VIR_dunwich_foundation.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_death_may_die"
+		texturefile = "gfx/interface/goals/focus_VIR_death_may_die.png"
+	}	
 }	
 	
 }
