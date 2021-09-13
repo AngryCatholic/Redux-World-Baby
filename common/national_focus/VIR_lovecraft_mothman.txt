@@ -202,7 +202,7 @@ focus_tree = {
 	#Focus for Expanding the Pantheon
 	focus = {
 		id = VIR_expanding_the_pantheon
-		icon = GFX_goal_unknown
+		icon = focus_VIR_flatwoods
 		x = 6
 		y = 8
 		cost = 10
@@ -320,7 +320,7 @@ focus_tree = {
 	#Focus for Days of Sodom
 	focus = {
 		id = VIR_days_of_sodom
-		icon = GFX_goal_unknown
+		icon = focus_VIR_sodom
 		x = 8
 		y = 1
 		cost = 5
