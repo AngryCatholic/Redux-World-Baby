@@ -49,7 +49,7 @@ focus_tree = {
 	#Focus for The Old Gods of the Mountains...
 	focus = {
 		id = VIR_the_old_gods_of_the_mountains
-		icon = GFX_goal_unknown
+		icon = focus_VIR_old_gods
 		x = 10
 		y = 3
 		cost = 8
@@ -305,7 +305,7 @@ focus_tree = {
 	#Focus for Shadow over Point Pleasant
 	focus = {
 		id = VIR_shadow_over_point_pleasant
-		icon = GFX_goal_unknown
+		icon = focus_VIR_point_pleasant
 		x = 8
 		y = 0
 		cost = 1
