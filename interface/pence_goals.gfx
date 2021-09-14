@@ -477,6 +477,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "focus_VIR_flatwoods"
 		texturefile = "gfx/interface/goals/focus_VIR_flatwoods.png"
+	}
+	SpriteType = {
+		name = "focus_VIR_point_pleasant"
+		texturefile = "gfx/interface/goals/focus_VIR_point_pleasant.png"
+	}	
+	SpriteType = {
+		name = "focus_VIR_old_gods"
+		texturefile = "gfx/interface/goals/focus_VIR_old_gods.png"
 	}	
 }	
 	
