@@ -1,0 +1,22 @@
+add_namespace = wildmontana
+
+#montana debug 1
+country_event = {
+	id = wildmontana.1
+	title = wildmontana.1.t
+	desc = wildmontana.1.d
+	
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	option = {  #ecofash
+		name = wildmontana.1.o1
+		set_cosmetic_tag = WMN_ecofash
+		}
+	
+	option = {  #wholesome ted
+		name = wildmontana.1.o2
+		set_cosmetic_tag = WMN_ted
+	}
+}

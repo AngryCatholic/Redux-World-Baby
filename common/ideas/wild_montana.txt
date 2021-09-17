@@ -37,5 +37,42 @@ ideas = {
                 war_support_factor = 0.20
 			}
 		}
-	}
+		idea_preserve_our_lands = {
+			allowed = {
+				always = no
+			}
+			
+			picture = fatfuck.dds
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_gain = 0.1
+				consumer_goods_factor = 0.1
+				conscription = 0.03
+			}
+		}
+		idea_segregation = {
+			allowed = {
+				always = no
+			}
+			
+			picture = neolud
+
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				conscription = -0.2
+				monthly_population = -0.05
+				war_support_factor = 0.05
+			}
+		}
 }

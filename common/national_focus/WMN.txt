@@ -66,6 +66,9 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 20
 		y = 5
+		completion_reward = {
+		add_ideas= idea_preserve_our_lands
+		}
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = WMN_preserve_segregation }
@@ -169,6 +172,43 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 38
 		y = 2
+		completion_reward = {
+		random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = WMN_the_green_army }
@@ -176,7 +216,6 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
 	#Focus for Focus on militias
 	focus = {
 		id = WMN_focus_on_militias
@@ -240,6 +279,9 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 20
 		y = 4
+		completion_reward = {
+		add_ideas = idea_segregation
+		}
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = WMN_support_the_militias }

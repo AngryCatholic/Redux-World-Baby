@@ -1,8 +1,5 @@
 ﻿l_english:
 ### Misc stuff###
- WMN_ecofascistm:0 "Wilderness Resistance"
- WMN_ecofascistm_long:0 "the Wilderness Resistance"
- WMN_fascist:0 "Wild Montana Resistance Front"
  WMN_fascist_ADJ:0 "Montanan"
  
  ### ideas ###
@@ -27,7 +24,7 @@
  montana.5.o1: "This is probably nothing, right?"
  
  montana.6.t:0 "Wild Resistance Front Launch Attacks On Us!"
- montana.6.d:0 "In the early hours of the morning the drums of war began, a flood of fury is now sweeping across West Montana as militants are setting a blaze everything in their way! Previous reports of the Resistance Front increasing in size and strength were severely underestimated and it is now clear that the teachings of the Wild Warbringer, Theodore Kaczynski, have truly struck at the hearts of our people.\nWill we sit by and watch everything we built turn to ash? Or will we take the fight back to these devils and secure the existence of our people?"
+ montana.6.d:0 "In the early hours of the morning the drums of war began, a flood of fury is now sweeping across West Montana as militants are setting a blaze everything in their way! Previous reports of the Resistance Front increasing in size and strength were severely underestimated and it is now clear that the teachings of the Wild Warbringer, Theodore Kaczynski, have truly struck at the hearts of our people.\nWill we sit by and watch everything we built WMNn to ash? Or will we take the fight back to these devils and secure the existence of our people?"
  montana.6.o1: "§RRally our troops in defence of our glorious ethnostate!§!"
  montana.6.o2: "§GIt is time brothers to hurl our flag over the industrial oppressor!§!"
 
@@ -100,3 +97,22 @@ WMN_a_deal_with_the_devil_desc:0 ""
  WMN_arm_our_supporter_desc:0 ""
  WMN_centralise_power_around_kaczynski:0 ""Centralise" power around Kaczynski"
  WMN_centralise_power_around_kaczynski_desc:0 ""
+
+ ### Misc stuff###
+ WMN_ecofascistm:0 "Wilderness Resistance"
+ WMN_ecofascistm_long:0 "the Wilderness Resistance"
+ WMN_fascist:0 "Wild Montana Resistance Front"
+ WMN_nationalist_party:0 "Kaczynskist Party"
+ WMN_nationalist_party_long:0 "-"
+ WMN_monarchist_party:0 "-"
+ WMN_national_bolshevik_custom:0 "Spencerite Resistance"
+ WMN_national_conservative_party:0 "-"
+ WMN_centrist_party:0 "-"
+ WMN_liberal_party:0 "-"
+ WMN_new_democrat_party:0 "-"
+ WMN_moderate_socialist_party:0 "-"
+ WMN_revolutionary_socialist_party:0 "-"
+ WMN_communist_party:0 "-"
+
+
+ WMN_ecofash_fascist:0 "idk something something green american empire i guess"
