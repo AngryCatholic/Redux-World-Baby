@@ -1,0 +1,515 @@
+focus_tree = {
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = WMN
+		}
+	}
+	#Focus for The Great Liberation War
+	focus = {
+		id = WMN_the_great_liberation_war
+		icon = GFX_goal_unknown
+		x = 15
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = WMN_the_announcement
+			focus = WMN_getting_ready_for_war
+		}
+		prerequisite = { 
+			focus = WMN_a_powerless_leader
+			focus = WMN_getting_ready_for_war
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Retvrn to tradition
+	focus = {
+		id = WMN_retvrn_to_tradition
+		icon = GFX_goal_unknown
+		x = 20
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_new_blood_old_soil }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A powerless leader
+	focus = {
+		id = WMN_a_powerless_leader
+		icon = GFX_goal_unknown
+		x = 19
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = WMN_a_totalitarian_state 
+		}
+		prerequisite = { 
+			focus = WMN_retvrn_to_tradition 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New blood, old soil
+	focus = {
+		id = WMN_new_blood_old_soil
+		icon = GFX_goal_unknown
+		x = 20
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_preserve_segregation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The announcement
+	focus = {
+		id = WMN_the_announcement
+		icon = GFX_goal_unknown
+		x = 11
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = WMN_start_nation_decentralisation 
+		}
+		prerequisite = { 
+			focus = WMN_denounce_extremists 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Getting ready for war
+	focus = {
+		id = WMN_getting_ready_for_war
+		icon = GFX_goal_unknown
+		x = 15
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_unify_the_rockies }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A totalitarian state
+	focus = {
+		id = WMN_a_totalitarian_state
+		icon = GFX_goal_unknown
+		x = 18
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_centralise_power_around_kaczynski }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A silent purge
+	focus = {
+		id = WMN_a_silent_purge
+		icon = GFX_goal_unknown
+		x = 10
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_start_nation_decentralisation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Start nation decentralisation
+	focus = {
+		id = WMN_start_nation_decentralisation
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_sway_loyal_militias }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Denounce extremists
+	focus = {
+		id = WMN_denounce_extremists
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_convince_leftists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Encourage backyard workshop
+	focus = {
+		id = WMN_encourage_backyard_workshop
+		icon = GFX_goal_unknown
+		x = 38
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_the_green_army }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Focus on militias
+	focus = {
+		id = WMN_focus_on_militias
+		icon = GFX_goal_unknown
+		x = 31
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_the_green_army }
+		mutually_exclusive = { focus = WMN_light_centralisation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Light centralisation
+	focus = {
+		id = WMN_light_centralisation
+		icon = GFX_goal_unknown
+		x = 26
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_the_green_army }
+		mutually_exclusive = { focus = WMN_focus_on_militias }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Green Army
+	focus = {
+		id = WMN_the_green_army
+		icon = GFX_goal_unknown
+		x = 33
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Convince leftists
+	focus = {
+		id = WMN_convince_leftists
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_relax_minorities_law }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Preserve segregation
+	focus = {
+		id = WMN_preserve_segregation
+		icon = GFX_goal_unknown
+		x = 20
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_support_the_militias }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Unify the rockies
+	focus = {
+		id = WMN_unify_the_rockies
+		icon = GFX_goal_unknown
+		x = 15
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_invade_lincoln }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Invade Lincoln
+	focus = {
+		id = WMN_invade_lincoln
+		icon = GFX_goal_unknown
+		x = 15
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = WMN_support_ted 
+			focus = WMN_support_the_militias 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Relax minorities law
+	focus = {
+		id = WMN_relax_minorities_law
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_support_ted }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Anything is a weapon
+	focus = {
+		id = WMN_anything_is_a_weapon
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_a_deal_with_the_devil }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A final push
+	focus = {
+		id = WMN_a_final_push
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = WMN_the_bomber_manifesto 
+		}
+		prerequisite = { 
+			focus = WMN_nonstop_raid 
+		}
+		prerequisite = { 
+			focus = WMN_anything_is_a_weapon 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Bomber Manifesto
+	focus = {
+		id = WMN_the_bomber_manifesto
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_propaganda_warfare }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Non-stop raid
+	focus = {
+		id = WMN_nonstop_raid
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_intensify_guerilla_warfare }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The War Of Liberation!
+	focus = {
+		id = WMN_the_war_of_liberation
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Intensify guerilla warfare
+	focus = {
+		id = WMN_intensify_guerilla_warfare
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_the_war_of_liberation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Propaganda warfare
+	focus = {
+		id = WMN_propaganda_warfare
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_the_war_of_liberation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A deal with the devil
+	focus = {
+		id = WMN_a_deal_with_the_devil
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_the_war_of_liberation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Montana is ours!
+	focus = {
+		id = WMN_montana_is_ours
+		icon = GFX_goal_unknown
+		x = 15
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Commence the internal war
+	focus = {
+		id = WMN_commence_the_internal_war
+		icon = GFX_goal_unknown
+		x = 15
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_montana_is_ours }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support Ted
+	focus = {
+		id = WMN_support_ted
+		icon = GFX_goal_unknown
+		x = 12
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_commence_the_internal_war }
+		mutually_exclusive = { focus = WMN_support_the_militias }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support the militias
+	focus = {
+		id = WMN_support_the_militias
+		icon = GFX_goal_unknown
+		x = 18
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_commence_the_internal_war }
+		mutually_exclusive = { focus = WMN_support_ted }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sway loyal militias
+	focus = {
+		id = WMN_sway_loyal_militias
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_support_ted }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Arm our supporter
+	focus = {
+		id = WMN_arm_our_supporter
+		icon = GFX_goal_unknown
+		x = 18
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_support_the_militias }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for "Centralise" power around Kaczynski
+	focus = {
+		id = WMN_centralise_power_around_kaczynski
+		icon = GFX_goal_unknown
+		x = 18
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = WMN_arm_our_supporter }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }
