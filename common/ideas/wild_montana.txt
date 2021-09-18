@@ -42,7 +42,7 @@ ideas = {
 				always = no
 			}
 			
-			picture = fatfuck.dds
+			picture = neolud
 			
 			removal_cost = -1
 			
@@ -70,9 +70,28 @@ ideas = {
 			}
 			
 			modifier = {
-				conscription = -0.2
+				conscription = -0.02
 				monthly_population = -0.05
 				war_support_factor = 0.05
+			}
+		}
+		idea_final_push = {
+			allowed = {
+				always = no
+			}
+			
+			picture = neolud
+
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			targeted_modifier = {
+			tag = MOT attack_bonus_against = 0.15 	
+			}
 			}
 		}
 }
